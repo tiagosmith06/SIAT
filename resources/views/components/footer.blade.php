@@ -1,13 +1,8 @@
 <div class="bg-white">
 
-
-
-
-
     <hr>
 
     <footer class="flex  flex-col gap-8 w-full bottom-0 mt-4 ">
-
 
 
         <div class="flex justify-around gap-3">
@@ -28,17 +23,17 @@
 
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal 270001
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal #### 
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
-                            Teléfono:3102803551- 3146960686.
+                            Teléfono:3116421654
                         </p>
                         <p>
                             <i class="fa-solid fa-blender-phone mr-1 text-my_blue"></i>
                             Línea gratuita: Próximamente
                         </p>
-                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: uniontemporal2023@gmail.com
+                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: siatpc@gmail.com
                         </p>
 
 
@@ -106,18 +101,17 @@
         </div>
         <div class="flex justify-center gap-8 items-center flex-wrap py-3">
 
-
-            <a href="https://www.youtube.com/channel/UCScgBjdHinCJ3QE9TRG11Gg" target="_blank"
+            <a href="https://www.youtube.com/@iiapcolombia3631" target="_blank"
                 class="flex flex-col gap-2 rounded-[50%] items-center bg-my_blue p-4 hover:bg-my_red">
                 <i class="fa-brands fa-youtube text-white text-[18px]"></i>
 
             </a>
-            <a href="https://web.facebook.com/AlcaldiaQuibdo/?_rdc=1&_rdr/" target="_blank"
+            <a href="https://web.facebook.com/IIAPCO" target="_blank"
                 class="flex flex-col rounded-[50%] gap-2 items-center bg-my_blue p-4 hover:bg-[#3B5998]">
                 <i class="fa-brands fa-facebook text-[18px]  text-white"></i>
 
             </a>
-            <a href="https://twitter.com/AlcaldiaQuibdo" target="_blank"
+            <a href="https://twitter.com/IIAP_CO" target="_blank"
                 class="flex flex-col rounded-[50%] gap-2 items-center bg-my_blue p-4 hover:bg-[#00ACEE]">
                 <i class="fa-brands fa-twitter text-[18px]  text-white"></i>
 
