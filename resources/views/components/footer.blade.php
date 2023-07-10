@@ -54,6 +54,10 @@
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Contactanos
                         </a>
+                        <a href="{{route('pages.contactanos')}}" target="_blank"><i
+                            class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
+                        Noticias
+                    </a>
                         <a href="{{route('pages.educacion')}}"><i target="_blank"
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Nuestros programas
@@ -128,9 +132,8 @@
 
                     Copyright © 2023
                 </span>
-                <a href="https://henner-rivas.vercel.app/" target="_blank" rel="noopener noreferrer"
-                    class="ml-2 font-bold">Henner
-                    Rivas</a>
+                <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
+                    class="ml-2 font-bold">Santiago Perea Murillo</a>
                 -
                 <span> Desarrollador web. All Rights Reserved. </span>
 

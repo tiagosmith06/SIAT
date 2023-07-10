@@ -36,7 +36,7 @@
 
                             <li>
                                 <a href="{{route('profile.show')}}"
-                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Configuración</a>
+                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Ajustes</a>
                             </li>
 
                             <li>
@@ -48,7 +48,7 @@
 
                                     <a href="{{ route('logout') }}"
                                         class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_red  hover:text-white font-medium "
-                                        @click.prevent="$root.submit();">Cerrar session</a>
+                                        @click.prevent="$root.submit();">Cerrar sesion</a>
                                 </form>
 
                             </li>
@@ -61,7 +61,7 @@
 
 
             <div class="flex gap-2  order-3 items-center cursor-pointer text-white text-[14px] flex-col md:flex-row">
-                <a href="{{route('login')}}" class="text-white">Inicia sessión</a>
+                <a href="{{route('login')}}" class="text-white">Iniciar Sesión</a>
                 <span class="hidden md:block">| </span>
 
                 <a href="{{route('register')}}" class="text-white">
@@ -342,13 +342,13 @@
                 class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0 max-w-7xl ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/logo.jpeg') }} " class=" w-[60px]">
+                        <img src=" {{ asset('images/siat.png') }} " class=" w-[60px]">
                         <div class="flex flex-col text-black">
 
                     </a>
                     <a href="/" class="flex flex-col">
-                        <strong class="text-[15x]">Consejo Terriorial de</strong>
-                        <strong class="text-[15px]">Autoridades indigenas del Chocó</strong>
+                        <strong class="text-[15x]">SIAT-PC</strong>
+                        
                     </a>
 
                 </div>
@@ -400,13 +400,11 @@
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown"
                             class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-gray-700 rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
-                            Institucional
+                            ¿Quienes somos?
 
                             <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                             </svg>
                         </div>
                         <div x-show="openDesple" id="mega-menu-icons-dropdown"
@@ -425,19 +423,26 @@
                                     </a>
                                 </li>
 
+                                <li>
+                                    <a href="{{route('pages.objetivo')}}"
+                                        class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">
+                                        Objetivos
+                                    </a>
+                                </li>
+
                             </ul>
                         </div>
                     </li>
 
                     <li>
                         <a href="{{route('pages.educacion')}}"
-                            class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Programas</a>
+                            class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Chocó Biográfico</a>
                     </li>
 
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
                             class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-gray-700 rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
-                            Administrativos
+                            ""..""
 
                             <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -464,24 +469,24 @@
                                 </li>
 
 
-
                             </ul>
                         </div>
-
 
 
                     </li>
 
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Comunicación</a>
+                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Atención Integral</a>
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Contactanos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Servicios</a>
                     </li>
-
-
+                    <li>
+                        <a href="{{route('pages.contactanos')}}"
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
+                    </li>
 
                 </ul>
             </div>

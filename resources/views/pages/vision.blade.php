@@ -5,7 +5,7 @@
         <div class="imagen-title"
             style="background-image:url(https://www.eltiempo.com/files/article_main/uploads/2021/02/24/60368f9cc9bda.jpeg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
+                <h1 class="font-extrabold text-my_blue text-3xl ">VISIÓN
                 </h1>
                 <h1 class="text-my_blue text-xl">Visión</h1>
 
@@ -53,12 +53,10 @@
         <div class="container py-8  mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
-                El Consejo Territorial de Autoridades Indígenas - UT, a 2030, será reconocida por su liderazgo
-                y compromiso en la implementación de acciones estratégicas conducentes al rescate de la identidad étnica
-                y cultural de las comunidades indígenas, en su ancestralidad y territorialidad, en coherencia con los
-                derechos fundamentales de los Pueblos Indígenas y las dinámicas de desarrollo propias del territorio,
-                conducentes al mejoramiento de la calidad de vida de los habitantes de las comunidades en cada
-                territorio.
+                El SIAT-PC será una red de gestión de información ambiental posicionada y reconocida nacional e internacionalmente 
+                por la calidad y confiabilidad de los servicios que provee, por la participación activa de sus diferentes actores y 
+                por el respeto y reconocimiento de la diversidad ambiental y sociocultural del Pacífico colombiano.
+                
             </p>
 
             <div>
@@ -73,8 +71,7 @@
         </div>
 
 
-
-        <div class="flex justify-center my-12 flex-col gap-3 items-center">
+<!--   <div class="flex justify-center my-12 flex-col gap-3 items-center">
             <h1 class="t text-my_green text-4xl font-semibold"> CONSEJO TERRITORIAL DE AUTORIDADES INDIGENAS DEL CHOCO
                 UT
 
@@ -86,6 +83,7 @@
             </h2>
 
         </div>
+        -->
     </div>
 
 </x-app-layout>

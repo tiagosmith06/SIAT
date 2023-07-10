@@ -47,8 +47,8 @@
 
     </div>
     <div>
-        <p class="p-0 m-0">Por: Alcaldia de Quibdió</p>
-        <span class="text-sm text-gray-500  text-right"> 30 nov 2022</span>
+        <p class="p-0 m-0">Por: Instituto de Investigación Ambiental</p>
+        <span class="text-sm text-gray-500  text-right"> 12 de abril 2023</span>
     </div>
 
 

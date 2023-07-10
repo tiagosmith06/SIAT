@@ -5,9 +5,9 @@
         <div class="imagen-title"
             style="background-image:url(https://www.telesurtv.net/__export/1434767427292/sites/telesur/img/news/2015/06/19/indigenas_colombianos.jpg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
+                <h1 class="font-extrabold text-my_blue text-3xl">OBJETIVOS
                 </h1>
-                <h1 class="text-my_blue text-xl">Objetivos</h1>
+                <h1 class="text-my_blue text-xl">Objetivos generales y especificos</h1>
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2 text-my_green">
@@ -53,20 +53,23 @@
         <div class="container py-8  mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
-                El objetivo esencial de la Federación de asociaciones de cabildos indígenas del departamento del chocó,
-                es luchar por los derechos e intereses de los pueblos indígenas del chocó, bajo los principios de
-                Unidad, territorio, cultura y autonomía los cuales se desarrollan mediante los siguientes fines.
-
-
-                El objetivo esencial de la Federación de asociaciones de cabildos indígenas del departamento del chocó,
-                es luchar por los derechos e intereses de los pueblos indígenas del chocó, bajo los principios de
-                Unidad, territorio, cultura y autonomía los cuales se desarrollan mediante los siguientes fines.
-
-                El objetivo esencial de la Federación de asociaciones de cabildos indígenas del departamento del chocó,
-                es luchar por los derechos e intereses de los pueblos indígenas del chocó, bajo los principios de
-                Unidad, territorio, cultura y autonomía los cuales se desarrollan mediante los siguientes fines.
-
-
+               <strong> Objetivos Generales</strong>
+               <br><br>
+               Integrar la información ambiental del Pacífico colombiano y facilitar su uso y acceso, con el fin de apoyar los diferentes procesos regionales y nacionales que conduzcan al desarrollo sostenible, en beneficio de la región y de la población que la habita.
+               <br><br>
+                              
+               <strong>Objetivos Específicos </strong>
+               <br><br>
+               
+               •	Conformar una red de entidades y personas que hagan posible, y de manera eficaz y eficiente, la gestión de la información ambiental de la región del pacífico colombiano.
+               <br><br>
+               •	Definir, establecer y difundir políticas internas del SIAT-PC en torno a la gestión de información ambiental.
+               <br><br>
+               •Contribuir al acceso y uso apropiado de Tecnologías de la Información y Comunicaciones (TIC) que permitan y faciliten la gestión de información ambiental de la región.
+               <br><br>
+               •	Generar alternativas de difusión y capacitación para ampliar el acceso a la información ambiental de la región.
+               <br><br>
+               •	Concretar los recursos económicos e institucionales para darle alcance al objetivo general.
             </p>
 
             <div>
