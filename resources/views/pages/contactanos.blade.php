@@ -65,8 +65,7 @@
                 </h1>
 
                 <p>Simplemente comunícate a través de un email o déjanos tu mensaje, cuando tengas una petición, quejas
-                    o reclamo.
-                </p>
+                    o reclamo.</p>
 
 
                 @if (session('mensaje'))

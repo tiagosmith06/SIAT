@@ -23,7 +23,7 @@
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                fedeurema /
+                                Inicio /
                             </a>
                         </li>
 
@@ -32,7 +32,7 @@
                             <a href="/nuestros-planes"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                institucional /
+                                ¿Quienes somos? /
                             </a>
                         </li>
                         <li class="inline-flex items-center">
