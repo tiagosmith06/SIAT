@@ -19,7 +19,7 @@
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Carrera 7 #25 – 80 ALAMEDA REYES
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Dirección: ******
 
                         </p>
                         <p>
@@ -33,7 +33,7 @@
                             <i class="fa-solid fa-blender-phone mr-1 text-my_blue"></i>
                             Línea gratuita: Próximamente
                         </p>
-                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: siatpc@gmail.com
+                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: siatpc@****.com
                         </p>
 
 
@@ -75,8 +75,7 @@
 
                     <div class="flex flex-col gap-3 ">
                         <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
-                            Horario atención: <span> Lunes a Viernes de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p.
-                                m
+                            Horario atención: <span> Lunes a Viernes de 09:00 a. m. a 04:00 pm.
                             </span>
                         </p>
 
