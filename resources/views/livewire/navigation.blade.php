@@ -36,7 +36,7 @@
 
                             <li>
                                 <a href="{{route('profile.show')}}"
-                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Ajustes</a>
+                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Ajuste de cuenta</a>
                             </li>
 
                             <li>
@@ -48,7 +48,7 @@
 
                                     <a href="{{ route('logout') }}"
                                         class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_red  hover:text-white font-medium "
-                                        @click.prevent="$root.submit();">Cerrar sesion</a>
+                                        @click.prevent="$root.submit();">Cerrar sesión</a>
                                 </form>
 
                             </li>
@@ -342,7 +342,7 @@
                 class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0 max-w-7xl ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/siat.png') }} " class=" w-[60px]">
+                        <img src=" {{ asset('images/logo-siat_pc.png') }} " class=" w-[80px]">
                         <div class="flex flex-col text-black">
 
                     </a>
@@ -484,8 +484,8 @@
                             class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Servicios</a>
                     </li>
                     <li>
-                        <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
+                        <a href="{{route('pages.comunicacion')}}"
+                            class="{{request()->routeIs('pages.noticias') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
                     </li>
 
                 </ul>

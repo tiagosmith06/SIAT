@@ -2,12 +2,11 @@
 
     <div class="w-full">
 
-        <div class="imagen-title"
-            style="background-image:url(https://www.telesurtv.net/__export/1434767427292/sites/telesur/img/news/2015/06/19/indigenas_colombianos.jpg)">
+        <div class="imagen-title" style="background-image:url(https://2.bp.blogspot.com/-O_B8l1zE4IE/WEub5M5_kwI/AAAAAAAAa6M/hDt49cvYWHwEhylWfPzFFrZvV4YYZikqwCLcB/s1600/objetivo%2Bespecifico.jpg)">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">OBJETIVOS
                 </h1>
-                <h1 class="text-my_blue text-xl">Objetivos generales y especificos</h1>
+                <h1 class="text-my_blue text-xl">Objetivos: general y especificos</h1>
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2 text-my_green">
@@ -37,7 +36,7 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href="/nuestros-planes"
+                            <a href="/objetivos"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
                                 Objetivos
@@ -77,13 +76,13 @@
             </div>
 
             <div class="w-full md:w-[40%] flex justify-center">
-                <img class="w-full object-cover " src="{{asset('resources/images/mision.jpg') }}" alt="foto">
+                <img class="w-full object-cover " src="{{asset('images/logotipo.jpg') }}" alt="foto">
 
             </div>
 
         </div>
 
-
+<!--
         <div class="flex justify-center my-12 flex-col gap-3 items-center">
             <h1 class="t text-my_green text-4xl font-semibold"> CONSEJO TERRITORIAL DE AUTORIDADES INDIGENAS DEL CHOCO
                 UT
@@ -95,7 +94,7 @@
 
             </h2>
 
-        </div>
+        </div> -->
 
     </div>
 

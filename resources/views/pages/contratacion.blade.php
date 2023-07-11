@@ -2,8 +2,7 @@
 
     <div class="w-full">
 
-        <div class="imagen-title"
-            style="background-image:url(https://www.eltiempo.com/files/article_main/uploads/2021/02/24/60368f9cc9bda.jpeg)">
+        <div class="imagen-title" style="background-image:url(https://www.eltiempo.com/files/article_main/uploads/2021/02/24/60368f9cc9bda.jpeg)">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
                 </h1>
@@ -44,12 +43,11 @@
                             </a>
                         </li>
 
-
-
                     </ol>
                 </nav>
             </div>
         </div>
+        
 
         <div class=" py-8  mx-7 max max-w-8xl ">
             <div class=" max-w-3xl">
