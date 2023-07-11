@@ -29,14 +29,14 @@ class ContactController extends Controller
         $subject = $request->subject;
         $mensaje = $request->message;
         $correo = new ContactanosMailable($name, $email, $mensaje, $subject);
-        $correo->to('uniontemporal2023@gmail.com');
+        $correo->to('santiagopereamurillo@gmail.com');
         $correo->from($request->email, $request->name);
         $correo->subject($request->subject);
         $correo->with('message', $request->message);
 
         Mail::send($correo);
 
-        return redirect()->back()->with('mensaje', 'El correo electrónico ha sido enviado correctamente.');
+        return redirect()->back()->with('mensaje', 'Su correo electrónico ha sido enviado correctamente.');
     }
 
 
