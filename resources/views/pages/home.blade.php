@@ -34,15 +34,13 @@
             <div class="flex  flex-col items-center">
 
                 <p class="text-4xl  text-justify">
-                    <strong>Bienvenidos </strong> , El Consejo Territorial de Autoridades Indígenas - UT, es una
-                    asociación que participa en el
-                    proceso de administración de los sistemas propios de los pueblos indígenas.
+                    <strong>Bienvenidos </strong> 
                 </p>
-
+<!-- 
                 <div>
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
-
+-->
                 <p>Que se constituyó de conformidad con las
                     disposiciones establecidas en el decreto 1953 de 2014,; con la finalidad de garantizar el
                     reconocimiento, la

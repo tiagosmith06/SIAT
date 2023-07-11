@@ -96,7 +96,6 @@
 
                         @endcan
                     </td>
-                </div>
             </tr>
             @endforeach
 

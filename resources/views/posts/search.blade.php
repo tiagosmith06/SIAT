@@ -5,7 +5,7 @@
         <div>
             @if ($posts->count() >= 1)
 
-            <h1 class="uppercase text-2xl py-3 text center font-bold">Articulos relacionados con tu busqueda
+            <h1 class="uppercase text-2xl py-3 text center font-bold">Contenido  relacionados con tu búsqueda
                 :{{$search}}
             </h1>
             <div class="flex flex-col gap-5">
@@ -18,7 +18,7 @@
             </div>
             @else
             <div class="flex justify-center items-center h-[300px]">
-                <h2 class="text-4xl font-semibold"> No hay articulos con con tu busqueda : {{$search}} </h2>
+                <h2 class="text-4xl font-semibold"> No hay registro de tu búsqueda : {{$search}} </h2>
             </div>
             @endif
 

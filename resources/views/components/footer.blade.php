@@ -1,13 +1,8 @@
 <div class="bg-white">
 
-
-
-
-
     <hr>
 
     <footer class="flex  flex-col gap-8 w-full bottom-0 mt-4 ">
-
 
 
         <div class="flex justify-around gap-3">
@@ -24,21 +19,21 @@
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Carrera 7 #25 – 80 ALAMEDA REYES
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Dirección: ******
 
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal 270001
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal #### 
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
-                            Teléfono:3102803551- 3146960686.
+                            Teléfono:3116421654
                         </p>
                         <p>
                             <i class="fa-solid fa-blender-phone mr-1 text-my_blue"></i>
                             Línea gratuita: Próximamente
                         </p>
-                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: uniontemporal2023@gmail.com
+                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: siatpc@****.com
                         </p>
 
 
@@ -54,6 +49,10 @@
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Contactanos
                         </a>
+                        <a href="{{route('pages.contactanos')}}" target="_blank"><i
+                            class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
+                        Noticias
+                    </a>
                         <a href="{{route('pages.educacion')}}"><i target="_blank"
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Nuestros programas
@@ -76,8 +75,7 @@
 
                     <div class="flex flex-col gap-3 ">
                         <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
-                            Horario atención: <span> Lunes a Viernes de 8:00 a. m. a 12:00 m. y de 2:00 p. m. a 6:00 p.
-                                m
+                            Horario atención: <span> Lunes a Viernes de 09:00 a. m. a 04:00 pm.
                             </span>
                         </p>
 
@@ -102,18 +100,17 @@
         </div>
         <div class="flex justify-center gap-8 items-center flex-wrap py-3">
 
-
-            <a href="https://www.youtube.com/channel/UCScgBjdHinCJ3QE9TRG11Gg" target="_blank"
+            <a href="https://www.youtube.com/@iiapcolombia3631" target="_blank"
                 class="flex flex-col gap-2 rounded-[50%] items-center bg-my_blue p-4 hover:bg-my_red">
                 <i class="fa-brands fa-youtube text-white text-[18px]"></i>
 
             </a>
-            <a href="https://web.facebook.com/AlcaldiaQuibdo/?_rdc=1&_rdr/" target="_blank"
+            <a href="https://web.facebook.com/IIAPCO" target="_blank"
                 class="flex flex-col rounded-[50%] gap-2 items-center bg-my_blue p-4 hover:bg-[#3B5998]">
                 <i class="fa-brands fa-facebook text-[18px]  text-white"></i>
 
             </a>
-            <a href="https://twitter.com/AlcaldiaQuibdo" target="_blank"
+            <a href="https://twitter.com/IIAP_CO" target="_blank"
                 class="flex flex-col rounded-[50%] gap-2 items-center bg-my_blue p-4 hover:bg-[#00ACEE]">
                 <i class="fa-brands fa-twitter text-[18px]  text-white"></i>
 
@@ -128,9 +125,8 @@
 
                     Copyright © 2023
                 </span>
-                <a href="https://henner-rivas.vercel.app/" target="_blank" rel="noopener noreferrer"
-                    class="ml-2 font-bold">Henner
-                    Rivas</a>
+                <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
+                    class="ml-2 font-bold">Santiago Perea Murillo</a>
                 -
                 <span> Desarrollador web. All Rights Reserved. </span>
 
