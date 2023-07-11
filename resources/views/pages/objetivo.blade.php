@@ -76,7 +76,7 @@
             </div>
 
             <div class="w-full md:w-[40%] flex justify-center">
-                <img class="w-full object-cover " src="{{asset('images/logotipo.jpg') }}" alt="foto">
+                <img class="w-full object-cover " src="{{asset('images/ambiental.png') }}" alt="foto">
 
             </div>
 
