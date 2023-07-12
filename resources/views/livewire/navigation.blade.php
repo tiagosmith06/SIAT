@@ -442,7 +442,7 @@
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
                             class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-gray-700 rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
-                            ""..""
+                            Servicios
 
                             <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -479,13 +479,14 @@
                         <a href="{{route('pages.comunicacion')}}"
                             class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Atención Integral</a>
                     </li>
-                    <li>
-                        <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Servicios</a>
-                    </li>
+                   
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
                             class="{{request()->routeIs('pages.noticias') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
+                    </li> 
+                    <li>
+                        <a href="{{route('pages.contactanos')}}"
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Contactanos</a>
                     </li>
 
                 </ul>

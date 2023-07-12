@@ -23,7 +23,7 @@
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                fedeurema /
+                                Inicio /
                             </a>
                         </li>
 
@@ -32,7 +32,7 @@
                             <a href="/nuestros-planes"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                institucional /
+                                Quienes somos /
                             </a>
                         </li>
                         <li class="inline-flex items-center">
@@ -53,14 +53,9 @@
         <div class="container py-8  mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
-                El Consejo Territorial de Autoridades Indígenas - UT, es una asociación que participa en el
-                proceso de administración de los sistemas propios de los pueblos indígenas, de conformidad con las
-                disposiciones establecidas en el decreto 1953 de 2014; con la finalidad de garantizar el reconocimiento,
-                la
-                proteccion, ejercicio y goce de los derechos fundamentales de los Pueblos Indígenas, al territorio,
-                autonomía, a la educación indígena propia, salud propia, al agua potable y saneamiento básico, entre
-                otros,
-                en el marco constitucional de respeto y protección a la diversidad étnica y cultural.
+                La misión del SIAT-PC es integrar y fortalecer saberes, capacidades de entidades, grupos y personas mediante una red que promueva la producción, 
+                intercambio mantenimiento y acceso a la información ambiental pertinente, confiable y oportuna que contribuya a la generación de conocimiento para el ordenamiento ambiental territorial, el mejoramiento de la calidad de vida y el desarrollo sostenible del Pacífico colombiano.               
+               
             </p>
 
             <div>
