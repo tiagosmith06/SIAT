@@ -3,10 +3,10 @@
         <div class="imagen-title2 "
             style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
+                <h1 class="font-extrabold text-my_blue text-3xl">CATÁLOGO
                 </h1>
 
-                <h1 class="text-my_blue text-bold text-1xl font-medium">Convocatoria</h1>
+                <h1 class="text-my_blue text-bold text-1xl font-medium">Catálogo</h1>
 
 
                 <nav class="flex my-4" aria-label="Breadcrumb">
@@ -23,7 +23,7 @@
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
-                                fedeurema /
+                                Inicio /
                             </a>
                         </li>
 
@@ -32,24 +32,24 @@
                             <a href="/educacion"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
-                                Convocatoria /
+                                Catálogo /
                             </a>
                         </li>
-
-
 
 
                     </ol>
 
 
                 </nav>
+              
+                  
             </div>
 
 
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">Convocatoria</h1>
+            <h1 class="text-2xl font-medium mb-4">Catálogo</h1>
 
 
             <div class="flex  flex-col gap-4">

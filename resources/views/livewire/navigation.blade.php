@@ -459,12 +459,12 @@
                                 <li>
                                     <a href="{{route('pages.contratacion')}}"
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">
-                                        Contratación
+                                        Geovisor
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.convocatoria')}}
-                                        class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Convocatoria
+                                        class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Catálogo
                                     </a>
                                 </li>
 
