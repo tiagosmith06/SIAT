@@ -31,14 +31,14 @@ class DatabaseSeeder extends Seeder
 
         $this->call(Rolseeder::class);
         User::create([
-            'name' => 'Jose Rivas Berrio',
-            'email' => 'berrio320683@gmail.com',
+            'name' => 'Santiago Pera Murillo',
+            'email' => 'santiagopereamurillo@gmail.com',
             'password' => bcrypt("12345678")
         ])->assignRole('Admin');
 
         User::create([
-            'name' => 'Henner Rivas Berrio',
-            'email' => 'alvah35@example.com',
+            'name' => 'IIAP',
+            'email' => 'iiap.org.com',
             'password' => bcrypt("12345678")
         ])->assignRole('Blogger');
 

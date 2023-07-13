@@ -6,7 +6,7 @@
                 <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
                 </h1>
 
-                <h1 class="text-my_blue text-bold text-1xl font-medium">Comunicación</h1>
+                <h1 class="text-my_blue text-bold text-1xl font-medium">NOTICIAS</h1>
 
 
                 <nav class="flex my-4" aria-label="Breadcrumb">
@@ -32,10 +32,15 @@
                             <a href="/comunicacion"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
-                                Comuniciación
+                                Noticias
                             </a>
                         </li>
+
+
+
+
                     </ol>
+
 
                 </nav>
             </div>
