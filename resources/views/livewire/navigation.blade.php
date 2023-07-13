@@ -334,6 +334,15 @@
     </nav> --}}
 
     {{-- otro --}}
+  <!--  <div class="card">
+        <img class="card-img-top" src="" alt="">
+        <div class="card-body">
+            <h5 class="card-title">SIAT-PC</h5>
+            <p class="card-text">Sistema de informacion ambiental  territorial del pacifico </p>
+        </div>
+        <img class="card-img-bottom" src="{{ asset('images/escudo.png') }}" alt="">
+    </div>
+-->
 
 
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-1 rounded text-white ">
@@ -467,11 +476,8 @@
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Catálogo
                                     </a>
                                 </li>
-
-
                             </ul>
                         </div>
-
 
                     </li>
 
@@ -493,6 +499,5 @@
             </div>
         </div>
     </nav>
-
 
 </header>

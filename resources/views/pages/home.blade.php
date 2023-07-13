@@ -41,8 +41,7 @@
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
 -->
-                <p>Que se constituyó de conformidad con las
-                    disposiciones establecidas en el decreto 1953 de 2014,; con la finalidad de garantizar el
+                <p>Que se constituyó de conformidad con las   disposiciones establecidas en el decreto 1953 de 2014,; con la finalidad de garantizar el
                     reconocimiento, la
                     proteccion, ejercicio y goce de los derechos fundamentales de los Pueblos Indígenas
 
