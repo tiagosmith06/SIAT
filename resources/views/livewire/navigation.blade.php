@@ -351,13 +351,13 @@
                 class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0 max-w-7xl ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/logo-siat_pc.png') }} " class=" w-[80px]">
+                        <img src=" {{ asset('images/logosiat.png') }} " class=" w-[80px]">
                         <div class="flex flex-col text-black">
 
                     </a>
                     <a href="/" class="flex flex-col">
                         <strong class="text-[15x]">SIAT-PC</strong>
-                        
+
                     </a>
 
                 </div>
@@ -381,9 +381,6 @@
                             class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-light_green focus:border-light_green   dark:placeholder-gray-400 "
                             placeholder="Buscar..." value="{{request('search')}}">
                     </form>
-
-
-
 
                 </div>
                 <button data-collapse-toggle="mega-menu-icons" type="button"
@@ -485,11 +482,11 @@
                         <a href="{{route('pages.comunicacion')}}"
                             class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Atención Integral</a>
                     </li>
-                   
+
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
                             class="{{request()->routeIs('pages.noticias') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
-                    </li> 
+                    </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
                             class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Contactanos</a>
