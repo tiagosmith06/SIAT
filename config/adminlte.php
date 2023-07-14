@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Consejo Terriorial de Autoridades indigenas del Chocó',
+    'title' => 'Sistema de Información Ambiental Territorial del Pacifico',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>C.T.A.I del Chocó</b>',
+    'logo' => '<b>SIAT-PC</b>',
     'logo_img' => 'vendor/adminlte/dist/img/logo-escudo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
