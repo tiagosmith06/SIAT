@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>editar articulo</h1>
+<h1>Editar artículo</h1>
 @stop
 
 @section('content')
@@ -59,7 +59,7 @@
 
             <label>
                 {!! Form::radio('status', 2) !!}
-                Publicado
+                Público
             </label>
             @error('status')
             <span class="text-danger">{{$message}}</span>
@@ -81,7 +81,7 @@
             </div>
             <div class="col">
                 <div class="form-group">
-                    {!! Form::label('file', 'imagen que se mostrara en el artitulo') !!}
+                    {!! Form::label('file', 'imagen que se mostrara en el artítulo') !!}
                     {!! Form::file('file', ['class'=> 'form-control-file','accept'=> 'image/*']) !!}
                 </div>
 
@@ -129,7 +129,7 @@
 
 
 
-        {!! Form::submit('editar artitulo', ['class'=> 'btn btn-primary']) !!}
+        {!! Form::submit('editar artítulo', ['class'=> 'btn btn-primary']) !!}
         {!! Form::close() !!}
     </div>
 </div>

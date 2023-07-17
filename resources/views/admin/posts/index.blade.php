@@ -5,10 +5,10 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista articulo</h1>
+    <h1>Lista artículo</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.posts.create')}}">Crear
-        articulo</a>
+        un artículo</a>
 
     @endcan
 
@@ -59,7 +59,7 @@
                     <td width="10px">
                         @can('admin.posts.edit')
                         <a class="btn btn-primary btn-sm" href="{{route('admin.posts.edit',$post)}}">
-                            Editar
+                            Editar artículo
                         </a>
 
                         @endcan
@@ -74,7 +74,7 @@
                             @method('delete')
 
                             <button type="submit" class="btn btn-danger btn-sm">
-                                Eliminar
+                                Eliminar artículo
                             </button>
 
 
@@ -92,7 +92,7 @@
     @else
 
     <div class="card-body">
-        <h4>No hay registros</h4>
+        <h4>No hay registros de ningun artículo</h4>
     </div>
 
     @endif

@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>editar categoria</h1>
+<h1>Editar categoria</h1>
 @stop
 
 @section('content')

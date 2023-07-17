@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>crear artitulo</h1>
+<h1>Crear un artículo</h1>
 @stop
 
 @section('content')
@@ -58,7 +58,7 @@
 
             <label>
                 {!! Form::radio('status', 2) !!}
-                Publicado
+                Público
             </label>
             @error('status')
             <span class="text-danger">{{$message}}</span>
@@ -77,7 +77,7 @@
             </div>
             <div class="col">
                 <div class="form-group">
-                    {!! Form::label('file', 'imagen que se mostrara en el artitulo') !!}
+                    {!! Form::label('file', 'imagen que se mostrara en el artítulo') !!}
                     {!! Form::file('file', ['class'=> 'form-control-file','accept'=> 'image/*']) !!}
                 </div>
 
@@ -110,7 +110,7 @@
             <div class="col">
                 <div class="form-group">
                     {!! Form::label('file2', 'Archivo') !!} <span>(Opcional)</span>
-                    {!! Form::file('file2', ['class'=> 'form-control-file','accept'=> 'pdf']) !!}
+                    {!! Form::file('file2', ['class'=> 'form-control-file','accept'=> 'pdf', 'docx', 'xlsx', 'pptx']) !!}
                 </div>
 
                 @error('file')
@@ -122,7 +122,7 @@
 
 
 
-        {!! Form::submit('crear artitulo', ['class'=> 'btn btn-primary']) !!}
+        {!! Form::submit('Crear artículo', ['class'=> 'btn btn-primary']) !!}
         {!! Form::close() !!}
     </div>
 </div>
