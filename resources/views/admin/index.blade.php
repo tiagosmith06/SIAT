@@ -31,7 +31,7 @@
             <i class="fas fa-regular fa-newspaper"></i>
         </div>
         <a href="{{route('admin.posts.index')}}" class="small-box-footer">
-            ver articulos <i class="fas fa-arrow-circle-right"></i>
+            Visualizar articulos <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 

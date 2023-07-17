@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Lista users</h1>
+<h1>Lista de usuarios</h1>
 @stop
 
 @section('content')
@@ -74,7 +74,7 @@
     @else
 
     <div class="card-body">
-        <h4>No hay registros</h4>
+        <h4>No hay registros de usuario</h4>
     </div>
 
     @endif

@@ -19,21 +19,21 @@
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Dirección: ******
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Dirección: Doña Josefa, Atrato - Chocó
 
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal #### 
+                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal 111321
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
-                            Teléfono:3116421654
+                            Teléfono: 3116421654
                         </p>
                         <p>
                             <i class="fa-solid fa-blender-phone mr-1 text-my_blue"></i>
                             Línea gratuita: Próximamente
                         </p>
-                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i>Email: siatpc@****.com
+                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
 
 
@@ -53,11 +53,11 @@
                             class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                         Noticias
                     </a>
-                        <a href="{{route('pages.educacion')}}"><i target="_blank"
+                      <!--  <a href="{{route('pages.educacion')}}"><i target="_blank"
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Nuestros programas
-                            .
-                        </a> <a href="{{route('pages.comunicacion')}}"><i
+                        </a> -->
+                        <a href="{{route('pages.comunicacion')}}"><i
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>Ultimas noticias
 
                         </a>
@@ -128,7 +128,7 @@
                 <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
                     class="ml-2 font-bold">Santiago Perea Murillo</a>
                 -
-                <span> Desarrollador web. All Rights Reserved. </span>
+                <span> Ing en Telecomunicaciones e Informatica. All Rights Reserved. </span>
 
 
             </div>

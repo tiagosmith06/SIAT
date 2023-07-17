@@ -47,7 +47,7 @@
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">Comuniciación</h1>
+            <h1 class="text-2xl font-medium mb-4">Ultimas noticias</h1>
 
 
             <div class="flex  flex-col gap-4">
