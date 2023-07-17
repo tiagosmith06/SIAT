@@ -35,6 +35,11 @@
                         </p>
                         <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
+                        <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
+                            Horario atención: <span> Lunes a Viernes de 09:00 a. m. a 04:00 pm.
+                            </span>
+                        </p>
+
 
 
                     </div>
@@ -58,7 +63,7 @@
                             Nuestros programas
                         </a> -->
                         <a href="{{route('pages.comunicacion')}}"><i
-                                class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>Ultimas noticias
+                                class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>"****"
 
                         </a>
 
@@ -74,23 +79,10 @@
                     </h2>
 
                     <div class="flex flex-col gap-3 ">
-                        <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
-                            Horario atención: <span> Lunes a Viernes de 09:00 a. m. a 04:00 pm.
-                            </span>
-                        </p>
 
 
 
-                        <p class="max-w-[350px]">
 
-
-                            <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
-
-                            <span>Numero de visitas: @livewire('counter')
-                            </span>
-
-
-                        </p>
 
 
 
