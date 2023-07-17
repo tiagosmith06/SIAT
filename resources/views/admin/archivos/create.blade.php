@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>crear artitulo</h1>
+<h1>Crear artítulo</h1>
 @stop
 
 @section('content')
@@ -50,7 +50,7 @@
 
 
 
-        {!! Form::submit('Subir archivo', ['class'=> 'btn btn-primary']) !!}
+        {!! Form::submit('Cargar archivo', ['class'=> 'btn btn-primary']) !!}
         {!! Form::close() !!}
     </div>
 </div>

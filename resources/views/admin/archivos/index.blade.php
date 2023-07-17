@@ -5,7 +5,7 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista archivos</h1>
+    <h1>Lista de archivos</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.archivos.create')}}">Crear archivo</a>
     @endcan

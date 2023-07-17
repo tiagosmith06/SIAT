@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>editar carrucel</h1>
+<h1>Editar carrucel</h1>
 @stop
 
 @section('content')
@@ -59,7 +59,7 @@
 
             <label>
                 {!! Form::radio('status', 2) !!}
-                Publicado
+                Público
             </label>
             @error('status')
             <span class="text-danger">{{$message}}</span>

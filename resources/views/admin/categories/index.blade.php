@@ -5,11 +5,11 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista categorias</h1>
+    <h1>Lista de Categorías</h1>
 
     @can('admin.categories.create')
     <a class=" btn btn-secondary " href="{{route('admin.categories.create')}}">Crear
-        categoria</a>
+        Categorías</a>
     @endcan
 
 </div>

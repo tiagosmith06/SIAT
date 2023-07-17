@@ -9,21 +9,21 @@
             <div class="flex  w-full gap-5 max-w-8xl flex-wrap  justify-evenly  ">
 
                 <div class="flex flex-col gap-6">
-                    <h2 class="font-bold text-my_blue text-lg text-center">CONTACTO INFORMACIÓN
+                    <h2 class="font-bold text-my_blue text-lg text-center">INFORMACIÓN INSTITUCIONAL
 
                     </h2>
 
                     <div class="flex gap-2 flex-col">
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i>
+                            <i class="fas fa-school mr-1 text-my_blue "></i>
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Dirección: Doña Josefa, Atrato - Chocó
-
+                            <i class="fas fa-directions mr-1 text-my_blue "></i> Dirección: Doña Josefa, Atrato - Chocó
                         </p>
                         <p>
-                            <i class="fa-solid fa-location-pin mr-1 text-my_blue"></i> Código Postal 111321
+                            <i class="fas fa-id-card mr-1 text-my_blue  fa-fw"></i>
+                            Código Postal 111321
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <h3 class="font-bold text-my_blue text-lg text-center">LINKS DE INTERÉS
+                    <h3 class="font-bold text-my_blue text-lg text-center">ENLACES DE INTERES
 
                     </h3>
 
@@ -126,9 +126,9 @@
                     Copyright © 2023
                 </span>
                 <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
-                    class="ml-2 font-bold">Santiago Perea Murillo</a>
+                    class="ml-2 font-bold">Santiago Perea Murillo </a>
                 -
-                <span> Ing en Telecomunicaciones e Informatica. All Rights Reserved. </span>
+                <span>  Ingeniero en Telecomunicaciones e Informatica. All Rights Reserved. </span>
 
 
             </div>

@@ -5,11 +5,11 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista etiquetas</h1>
+    <h1>Lista de etiquetas</h1>
     @can('admin.tags.create')
 
     <a class=" btn btn-secondary " href="{{route('admin.tags.create')}}">Crear
-        etiquetas</a>
+        Etiquetas</a>
     @endcan
 
 </div>

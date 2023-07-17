@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>crear carrucel</h1>
+<h1>Crear carrucel</h1>
 @stop
 
 @section('content')
@@ -61,7 +61,7 @@
 
             <label>
                 {!! Form::radio('status', 2) !!}
-                Publicado
+                Público
             </label>
             @error('status')
             <span class="text-danger">{{$message}}</span>
@@ -114,7 +114,7 @@
 
 
 
-        {!! Form::submit('crear carrucel', ['class'=> 'btn btn-primary']) !!}
+        {!! Form::submit('Crear carruceles', ['class'=> 'btn btn-primary']) !!}
         {!! Form::close() !!}
     </div>
 </div>

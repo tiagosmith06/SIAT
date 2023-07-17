@@ -5,10 +5,10 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista articulos de convocatoria</h1>
+    <h1>Lista de artículos de Catálogo</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.convocatoria.create')}}">Crear
-        plan</a>
+        </a>
 
     @endcan
 
