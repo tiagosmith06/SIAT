@@ -34,9 +34,9 @@
             <div class="flex  flex-col items-center">
 
                 <p class="text-4xl  text-justify">
-                    <strong>Bienvenidos </strong> 
+                    <strong>Bienvenidos </strong>
                 </p>
-<!-- 
+<!--
                 <div>
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
@@ -77,15 +77,15 @@
         </h1>
 
         <div class="flex gap-7 flex-wrap max-w-5xl my-0 mx-auto items-center justify-center">
-            <img src="{{ asset('images/sedchoc.png') }}" calt="" class="rounded-lg">
-            <img src="{{ asset('images/pacipaz.png') }}" alt="">
-            <img src="{{ asset('images/onic.png') }}" alt="">
-            <img src="{{ asset('images/mesapermante.jpg') }}" alt="">
+            <!-- <img src="{{ asset('images/sedchoc.png') }}" calt="" class="rounded-lg">-->
+            <!--<img src="{{ asset('images/pacipaz.png') }}" alt="">-->
+            <!--<img src="{{ asset('images/onic.png') }}" alt="">-->
+            <!--<img src="{{ asset('images/mesapermante.jpg') }}" alt="">-->
         </div>
     </div>
 
 
-  
+
 
 
 </x-app-layout>
