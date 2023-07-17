@@ -3,8 +3,7 @@
         <div class="imagen-title2 "
             style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
-                </h1>
+                <h1 class="font-extrabold text-my_blue text-3xl">*******       </h1>
 
                 <h1 class="text-my_blue text-bold text-1xl font-medium">Programas</h1>
 

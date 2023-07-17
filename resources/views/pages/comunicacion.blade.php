@@ -1,7 +1,6 @@
 <x-app-layout>
     <div class="min-h-screen">
-        <div class="imagen-title2 "
-            style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
+        <div class="imagen-title2 " style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">NOTICIAS</h1>
 
@@ -22,7 +21,7 @@
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
-                                fedeurema /
+                                Inicio /
                             </a>
                         </li>
 

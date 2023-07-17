@@ -5,7 +5,7 @@
         <div class="imagen-title"
             style="background-image:url(https://www.quibdo-choco.gov.co/CabezotesModulos/quibdo5.jpg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Alcaldia de Quibdó</h1>
+                <h1 class="font-extrabold text-my_blue text-3xl">IIAP</h1>
                 <h1 class="text-my_blue text-xl">Documentos</h1>
             </div>
         </div>
