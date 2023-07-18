@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <h2 class="font-bold text-my_blue text-lg  text-center">INFORMACIÓN ADICIONAL
+                    <h2 class="font-bold text-my_blue text-lg  text-center">ALIADOS INSTITUCIONALES
 
                     </h2>
 
