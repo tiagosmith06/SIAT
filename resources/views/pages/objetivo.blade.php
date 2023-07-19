@@ -22,7 +22,7 @@
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                fedeurema /
+                                Inicio /
                             </a>
                         </li>
 
@@ -31,7 +31,7 @@
                             <a href="/nuestros-planes"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                institucional /
+                                Objetivos /
                             </a>
                         </li>
                         <li class="inline-flex items-center">
@@ -39,7 +39,7 @@
                             <a href="/objetivos"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                Objetivos
+                                Objetivos general y especificos
                             </a>
                         </li>
 
@@ -56,10 +56,10 @@
                <br><br>
                Integrar la información ambiental del Pacífico colombiano y facilitar su uso y acceso, con el fin de apoyar los diferentes procesos regionales y nacionales que conduzcan al desarrollo sostenible, en beneficio de la región y de la población que la habita.
                <br><br>
-                              
+
                <strong>Objetivos Específicos </strong>
                <br><br>
-               
+
                •	Conformar una red de entidades y personas que hagan posible, y de manera eficaz y eficiente, la gestión de la información ambiental de la región del pacífico colombiano.
                <br><br>
                •	Definir, establecer y difundir políticas internas del SIAT-PC en torno a la gestión de información ambiental.
