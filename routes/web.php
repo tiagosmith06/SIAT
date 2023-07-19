@@ -28,6 +28,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/mision', 'mision')->name('pages.mision');
     Route::get('/objetivo', 'objetivo')->name('pages.objetivo');
     Route::get('/comunicacion', 'comunicacion')->name('pages.comunicacion');
+    Route::get('/atencionintegral', 'atencionintegral')->name('pages.atencionintegral');
 
     Route::get('/contratacion/{post}', 'show_contratacion')->name('pages.show-contratacion');
 

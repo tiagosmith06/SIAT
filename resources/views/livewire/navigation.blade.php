@@ -476,13 +476,13 @@
                     </li>
 
                     <li>
-                        <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Atención Integral</a>
+                        <a href="{{route('pages.atencionintegral')}}"
+                            class="{{request()->routeIs('pages.atencionintegral') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Atención Integral</a>
                     </li>
 
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.noticias') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
+                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Noticias</a>
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"

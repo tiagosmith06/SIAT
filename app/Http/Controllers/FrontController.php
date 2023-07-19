@@ -31,6 +31,13 @@ class FrontController extends Controller
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
         return view('pages.comunicacion', ['posts' => $posts]);
     }
+
+    public function atencionintegral()
+    {
+        $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
+
+        return view('pages.atencionintegral', ['posts' => $posts]);
+    }
     public function contratacion()
     {
 
