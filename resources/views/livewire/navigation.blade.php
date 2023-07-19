@@ -355,10 +355,7 @@
                         <div class="flex flex-col text-black">
 
                     </a>
-                    <a href="/" class="flex flex-col">
-                        <strong class="text-[15x]">SIAT-PC</strong>
 
-                    </a>
 
                 </div>
 
@@ -379,7 +376,7 @@
                     <form action="{{route('posts.search')}}" method="GET" class="d-flex">
                         <input type="text" id="search-navbar" autocomplete="off" name="search"
                             class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-light_green focus:border-light_green   dark:placeholder-gray-400 "
-                            placeholder="Buscar..." value="{{request('search')}}">
+                            placeholder="Buscar" value="{{request('search')}}">
                     </form>
 
                 </div>
@@ -396,7 +393,7 @@
                 </button>
             </div>
             <div id="mega-menu-icons" class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">
-                <ul class="flex flex-col  mt-4 font-medium md:flex-row md:space-x-8 md:mt-0">
+                <ul class="flex flex-col  mt-2 font-medium md:flex-row md:space-x-6 md:mt-0">
 
                     <li>
                         <a href="/"
@@ -442,7 +439,7 @@
 
                     <li>
                         <a href="{{route('pages.educacion')}}"
-                            class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Chocó Biográfico</a>
+                            class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Chocó Biogeográfico</a>
                     </li>
 
                     <li class="relative">

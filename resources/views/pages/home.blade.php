@@ -29,6 +29,7 @@
         </div>
 
 
+
         <div class="grid grid-cols-1 md:grid-cols-2  justify-between max-w-5xl my-0 mx-auto ">
 
             <div class="flex  flex-col items-center">
@@ -41,30 +42,16 @@
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
 -->
-                <p>Que se constituyó de conformidad con las  disposiciones establecidas en el decreto 1953 de 2014,; con la finalidad de garantizar el
-                    reconocimiento, la
-                    proteccion, ejercicio y goce de los derechos fundamentales de los Pueblos Indígenas
+                <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
                 </p>
             </div>
 
-            <div class=" text-right  flex flex-col gap-6">
-                <div class="">
-                    <span class="text-7xl font-extrabold text-my_green"> 10</span>
-                    <p class="text-lg"> Asociaciones de Cabildos
-                    </p>
-                </div>
+            <div class=" text-right  flex flex-col gap-6">SSSSSSSSSS
 
-                <div class="">
-                    <span class="text-7xl font-extrabold text-my_green"> 65</span>
-                    <p class="text-lg"> Comunidades
-                    </p>
-                </div>
-                <div class="">
-                    <span class="text-7xl font-extrabold text-my_green"> 21</span>
-                    <p class="text-lg"> Resguardos
-                    </p>
-                </div>
+            </div>
 
 
             </div>
@@ -83,6 +70,8 @@
             <!--<img src="{{ asset('images/mesapermante.jpg') }}" alt="">-->
         </div>
     </div>
+
+    
 
 
 
