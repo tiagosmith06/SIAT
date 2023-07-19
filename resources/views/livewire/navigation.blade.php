@@ -463,7 +463,7 @@
 
 
                                 <li>
-                                    <a href="{{route('pages.contratacion')}}"
+                                    <a href="{{route('pages.geovisor')}}"
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">
                                         Geovisor
                                     </a>

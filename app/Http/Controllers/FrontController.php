@@ -35,16 +35,14 @@ class FrontController extends Controller
     public function atencionintegral()
     {
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
-
         return view('pages.atencionintegral', ['posts' => $posts]);
     }
-    public function contratacion()
+    public function geovisor()
     {
-
 
         $posts = Post::where('status', 2)->where('category_id', '=', 5)->latest()->paginate();
 
-        return view('pages.contratacion', ['posts' => $posts]);
+        return view('pages.geovisor', ['posts' => $posts]);
     }
     public function show_contratacion(Post $post)
     {

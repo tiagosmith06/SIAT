@@ -22,7 +22,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/posts/{post}', 'show_articulo')->name('posts.show');
     Route::get('/searches', 'search')->name('posts.search');
     Route::get('/etiquetas/{tag}', 'tag')->name('posts.tag');
-    Route::get('/contratacion', 'contratacion')->name('pages.contratacion');
+    Route::get('/geovisor', 'geovisor')->name('pages.geovisor');
     Route::get('/convocatoria', 'convocatoria')->name('pages.convocatoria');
     Route::get('/vision', 'vision')->name('pages.vision');
     Route::get('/mision', 'mision')->name('pages.mision');

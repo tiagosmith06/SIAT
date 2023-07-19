@@ -20,7 +20,7 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
                                 Inicio /
@@ -53,9 +53,9 @@
         <div class="container py-8  mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
-                La misión del SIAT-PC es integrar y fortalecer saberes, capacidades de entidades, grupos y personas mediante una red que promueva la producción, 
-                intercambio mantenimiento y acceso a la información ambiental pertinente, confiable y oportuna que contribuya a la generación de conocimiento para el ordenamiento ambiental territorial, el mejoramiento de la calidad de vida y el desarrollo sostenible del Pacífico colombiano.               
-               
+                La misión del SIAT-PC es integrar y fortalecer saberes, capacidades de entidades, grupos y personas mediante una red que promueva la producción,
+                intercambio mantenimiento y acceso a la información ambiental pertinente, confiable y oportuna que contribuya a la generación de conocimiento para el ordenamiento ambiental territorial, el mejoramiento de la calidad de vida y el desarrollo sostenible del Pacífico colombiano.
+
             </p>
 
             <div>
