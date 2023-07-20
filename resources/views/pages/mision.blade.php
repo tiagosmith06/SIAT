@@ -26,15 +26,6 @@
                                 Inicio /
                             </a>
                         </li>
-
-                        <li class="inline-flex items-center">
-
-                            <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
-                                Quienes somos /
-                            </a>
-                        </li>
                         <li class="inline-flex items-center">
 
                             <a href="/nuestros-planes"

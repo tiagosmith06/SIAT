@@ -19,21 +19,12 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
                                 Inicio /
                             </a>
                         </li>
 
-                        <li class="inline-flex items-center">
-
-                            <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
-                                Servicios /
-                            </a>
-                        </li>
                         <li class="inline-flex items-center">
 
                             <a href="/nuestros-planes"
@@ -47,7 +38,7 @@
                 </nav>
             </div>
         </div>
-        
+
 
         <div class=" py-8  mx-7 max max-w-8xl ">
             <div class=" max-w-3xl">
@@ -69,9 +60,9 @@
                             alt="foto">
 
                     </div>
-                
+
                     <div class="w-full  flex   flex-col justify-center items-center">
-                      
+
                         @foreach ($posts as $post)
 
                         <a href={{route('pages.show-contratacion', ['post'=>$post])}} class="text-sm">
@@ -89,7 +80,7 @@
 
 
 
-        
+
 
     </div>
 

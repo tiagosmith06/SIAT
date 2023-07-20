@@ -23,16 +23,13 @@
                         </p>
                         <p>
                             <i class="fas fa-id-card mr-1 text-my_blue  fa-fw"></i>
-                            Código Postal 111321
+                            Código Postal: 111321
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
                             Teléfono: 3116421654
                         </p>
-                        <p>
-                            <i class="fa-solid fa-blender-phone mr-1 text-my_blue"></i>
-                            Línea gratuita: Próximamente
-                        </p>
+
                         <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
                         <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
@@ -54,7 +51,7 @@
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Contactanos
                         </a>
-                        <a href="{{route('pages.contactanos')}}" target="_blank"><i
+                        <a href="{{route('pages.comunicacion')}}" target="_blank"><i
                             class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                         Noticias
                     </a>
@@ -66,11 +63,6 @@
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>"****"
 
                         </a>
-
-
-
-
-
                     </div>
                 </div>
                 <div class="flex flex-col gap-6">
@@ -79,12 +71,6 @@
                     </h2>
 
                     <div class="flex flex-col gap-3 ">
-
-
-
-
-
-
 
                     </div>
                 </div>
@@ -107,6 +93,7 @@
                 <i class="fa-brands fa-twitter text-[18px]  text-white"></i>
 
             </a>
+           
 
         </div>
 

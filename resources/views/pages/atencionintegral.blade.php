@@ -2,7 +2,7 @@
     <div class="min-h-screen">
         <div class="imagen-title2 " style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">NOTICIAS</h1>
+                <h1 class="font-extrabold text-my_blue text-3xl">ATENCIÓN INTEGRAL</h1>
 
 
 
@@ -20,7 +20,6 @@
 
                             <a href=""
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
                                 Inicio /
                             </a>
                         </li>
@@ -29,8 +28,7 @@
 
                             <a href="/comunicacion"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
-                                Noticias
+                                Atencion Integral
                             </a>
                         </li>
 
@@ -47,7 +45,9 @@
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">atencionintegral</h1>
+            <h1 class="text-2xl text-center font-medium mb-4">GESTIÓN DOCUMENTAL</h1>
+
+            
 
 
             <div class="flex  flex-col gap-4">

@@ -20,7 +20,7 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
                                 Inicio /
@@ -41,8 +41,8 @@
 
 
                 </nav>
-              
-                  
+
+
             </div>
 
 

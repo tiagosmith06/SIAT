@@ -123,10 +123,10 @@ class FrontController extends Controller
     {
         return view('pages.vision');
     }
-    public function convocatoria()
+    public function catalogo()
     {
         $posts =   Post::where('category_id', '=', 4)->latest()->paginate(2);
-        return view('pages.convocatoria', ['posts' => $posts]);
+        return view('pages.catalogo', ['posts' => $posts]);
     }
 
     public function estructura()

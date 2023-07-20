@@ -466,7 +466,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={{route('pages.convocatoria')}}
+                                    <a href={{route('pages.catalogo')}}
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Catálogo
                                     </a>
                                 </li>

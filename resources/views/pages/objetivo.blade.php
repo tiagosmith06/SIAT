@@ -19,32 +19,19 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
                                 Inicio /
-                            </a>
-                        </li>
-
-                        <li class="inline-flex items-center">
-
-                            <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
-                                Objetivos /
                             </a>
                         </li>
                         <li class="inline-flex items-center">
 
                             <a href="/objetivos"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
                                 Objetivos general y especificos
                             </a>
                         </li>
-
-
-
                     </ol>
                 </nav>
             </div>

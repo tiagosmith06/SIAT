@@ -23,7 +23,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/searches', 'search')->name('posts.search');
     Route::get('/etiquetas/{tag}', 'tag')->name('posts.tag');
     Route::get('/geovisor', 'geovisor')->name('pages.geovisor');
-    Route::get('/convocatoria', 'convocatoria')->name('pages.convocatoria');
+    Route::get('/catalogo', 'catalogo')->name('pages.catalogo');
     Route::get('/vision', 'vision')->name('pages.vision');
     Route::get('/mision', 'mision')->name('pages.mision');
     Route::get('/objetivo', 'objetivo')->name('pages.objetivo');

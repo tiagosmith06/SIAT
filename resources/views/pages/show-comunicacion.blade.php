@@ -6,7 +6,6 @@
                 <li class="inline-flex items-center gap-2">
                     <i class="fa-solid fa-house"></i>
                     <a href="/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
                         Inicio
                     </a>
                 </li>
@@ -20,7 +19,6 @@
                     </svg>
                     <a href="/educacion"
                         class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
                         Comunicación
                     </a>
                 </li>
