@@ -32,11 +32,7 @@
 
                         <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
-                        <p class="max-w-[300px] "> <i class="fa-regular fa-square-check mr-1 text-my_blue "></i>
-                            Horario atención: <span> Lunes a Viernes de 09:00 a. m. a 04:00 pm.
-                            </span>
-                        </p>
-
+                        <
 
 
                     </div>
@@ -66,11 +62,29 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <h2 class="font-bold text-my_blue text-lg  text-center">ALIADOS INSTITUCIONALES
-
-                    </h2>
-
+                    <h2 class="font-bold text-my_blue text-lg  text-center">ALIADOS INSTITUCIONALES</h2>
                     <div class="flex flex-col gap-3 ">
+
+
+
+
+
+                        <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
+                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIAT-AC
+
+                    </a>
+                        <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
+                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIAC
+                        </a>
+
+                        <a href="https://biodiversidad.co/" target="_blank">
+                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIB-COLOMBIA
+                        </a>
+
+                        <a href="http://humboldt.org.co/es/" target="_blank">
+                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>HUMBOLDT
+                        </a>
+
 
                     </div>
                 </div>
@@ -93,7 +107,7 @@
                 <i class="fa-brands fa-twitter text-[18px]  text-white"></i>
 
             </a>
-           
+
 
         </div>
 

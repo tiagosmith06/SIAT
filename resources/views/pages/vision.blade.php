@@ -3,7 +3,7 @@
     <div class="w-full">
 
         <div class="imagen-title"
-            style="background-image:url(https://www.eltiempo.com/files/article_main/uploads/2021/02/24/60368f9cc9bda.jpeg)">
+            style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl ">VISIÓN
                 </h1>
@@ -32,14 +32,6 @@
                             <a href="/nuestros-planes"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                                ¿Quienes somos? /
-                            </a>
-                        </li>
-                        <li class="inline-flex items-center">
-
-                            <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
                                 Visión
                             </a>
                         </li>
@@ -53,10 +45,10 @@
         <div class="container py-8  mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
-                El SIAT-PC será una red de gestión de información ambiental posicionada y reconocida nacional e internacionalmente 
-                por la calidad y confiabilidad de los servicios que provee, por la participación activa de sus diferentes actores y 
+                El SIAT-PC será una red de gestión de información ambiental posicionada y reconocida nacional e internacionalmente
+                por la calidad y confiabilidad de los servicios que provee, por la participación activa de sus diferentes actores y
                 por el respeto y reconocimiento de la diversidad ambiental y sociocultural del Pacífico colombiano.
-                
+
             </p>
 
             <div>
@@ -64,7 +56,7 @@
             </div>
 
             <div class="w-full md:w-[40%] flex justify-center">
-                <img class="w-full object-cover " src="{{asset('images/mision.jpg') }}" alt="foto">
+                <img class="w-full object-cover rounded-full" src="{{asset('images/paisaje.jpeg') }}" alt="foto">
 
             </div>
 

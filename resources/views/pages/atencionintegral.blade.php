@@ -4,9 +4,6 @@
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">ATENCIÓN INTEGRAL</h1>
 
-
-
-
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2">
@@ -47,7 +44,6 @@
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
             <h1 class="text-2xl text-center font-medium mb-4">GESTIÓN DOCUMENTAL</h1>
 
-            
 
 
             <div class="flex  flex-col gap-4">

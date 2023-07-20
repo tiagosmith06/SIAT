@@ -2,7 +2,7 @@
 
     <div class="w-full">
 
-        <div class="imagen-title" style="background-image:url(https://2.bp.blogspot.com/-O_B8l1zE4IE/WEub5M5_kwI/AAAAAAAAa6M/hDt49cvYWHwEhylWfPzFFrZvV4YYZikqwCLcB/s1600/objetivo%2Bespecifico.jpg)">
+        <div class="imagen-title" style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">OBJETIVOS
                 </h1>
@@ -63,7 +63,7 @@
             </div>
 
             <div class="w-full md:w-[40%] flex justify-center">
-                <img class="w-full object-cover " src="{{asset('images/ambiental.png') }}" alt="foto">
+                <img class="w-full object-cover rounded-full " src="{{asset('images/ambiental.png') }}" alt="foto">
 
             </div>
 
