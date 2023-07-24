@@ -16,7 +16,7 @@
                 <img src="{{ asset('images/contact.svg') }} " alt="contactanos" class="w-[200px]" alt="">
 
             </a>
-            <a href="{{route('pages.educacion')}}">
+            <a href="{{route('pages.biogeografico')}}">
 
                 <img src="{{ asset('images/programa250.png') }}" alt="">
             </a>

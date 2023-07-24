@@ -54,7 +54,7 @@
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Contactanos
                         </a>
-                        <a href="{{route('pages.educacion')}}"><i target="_blank"
+                        <a href="{{route('pages.biogeografico')}}"><i target="_blank"
                                 class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
                             Nuestros programas
                             .

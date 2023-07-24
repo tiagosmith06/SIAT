@@ -54,9 +54,9 @@ class FrontController extends Controller
     {
         return view('pages.show-comunicacion', ['post' => $post]);
     }
-    public function show_educacion(Post $post)
+    public function show_bioegrafico(Post $post)
     {
-        return view('pages.show-educacion', ['post' => $post]);
+        return view('pages.show-biogeografico', ['post' => $post]);
     }
     public function show_convocatoria(Post $post)
     {
@@ -111,7 +111,7 @@ class FrontController extends Controller
     {
 
         $posts =   Post::where('category_id', '=', 3)->latest()->paginate(2);
-        return view('pages.educacion', ['posts' => $posts]);
+        return view('pages.biogeografico', ['posts' => $posts]);
     }
     public function programas()
     {

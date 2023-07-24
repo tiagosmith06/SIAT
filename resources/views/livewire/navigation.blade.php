@@ -183,8 +183,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="{{route('pages.educacion')}}"
-                        class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Programas</a>
+                    <a href="{{route('pages.biogeografico')}}"
+                        class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Programas</a>
                 </li>
 
                 <li x-data="{openDesple:false}" class="relative">
@@ -278,8 +278,8 @@
                     </div>
                 </li>
                 <li>
-                    <a href="{{route('pages.educacion')}}"
-                        class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Programas</a>
+                    <a href="{{route('pages.biogeografico')}}"
+                        class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Programas</a>
                 </li>
 
                 <li x-data="{openDesple:false}" class="relative">
@@ -438,8 +438,8 @@
                     </li>
 
                     <li>
-                        <a href="{{route('pages.educacion')}}"
-                            class="{{request()->routeIs('pages.educacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Chocó Biogeográfico</a>
+                        <a href="{{route('pages.biogeografico')}}"
+                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-gray-700">Chocó Biogeográfico</a>
                     </li>
 
                     <li class="relative">

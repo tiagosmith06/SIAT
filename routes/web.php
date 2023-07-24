@@ -35,8 +35,8 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/estructura', 'estructura')->name('pages.estructura');
 
     Route::get('/documentos', 'documents')->name('pages.documents');
-    Route::get('/educacion', 'educacion')->name('pages.educacion');
-    Route::get('/educacion/{post}', 'show_educacion')->name('pages.show-educacion');
+    Route::get('/biogeografico', 'biogeografico')->name('pages.biogeografico');
+    Route::get('/biogeografico/{post}', 'show_bioegrafico')->name('pages.show-biogeografico');
     Route::get('/comunicacion/{post}', 'show_comunicacion')->name('pages.show-comunicacion');
     Route::get('/comment/{post}', 'storeComment')->name('comments.show');
     Route::get('/contador', 'counter')->name('contador');

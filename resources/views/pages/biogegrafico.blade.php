@@ -25,10 +25,10 @@
 
                         <li class="inline-flex items-center">
 
-                            <a href="/educacion"
+                            <a href="/biogeografico"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
-                               Atención Integral/
+                               Chocó Biogeografico/
                             </a>
                         </li>
 
@@ -45,7 +45,7 @@
         </div>
 
         <div class="container py-8 my-0 mx-auto   ">
-            <h1 class="text-2xl font-medium mb-4">Atención Integral</h1>
+            <h1 class="text-2xl font-medium mb-4">Biogegrafico</h1>
 
 
             <div class="flex  flex-col gap-4">
@@ -67,11 +67,11 @@
 
                     </div>
 
-                    <a href="{{route('pages.show-educacion',$post)}}">
+                    <a href="{{route('pages.show-biogeografico',$post)}}">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
                         </h5>
                     </a>
-                    <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+                    <a href="{{route('pages.show-biogeografico',$post)}}" class="mb-3 font-normal ">
                         {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
 
                     </a>

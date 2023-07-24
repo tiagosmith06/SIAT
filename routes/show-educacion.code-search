@@ -1,0 +1,50 @@
+# Query: show-educacion
+# ContextLines: 1
+
+10 resultados - Archivos de 6
+
+app\Http\Controllers\FrontController.php:
+  58      {
+  59:         return view('pages.show-educacion', ['post' => $post]);
+  60      }
+
+resources\views\pages\biogegrafico.blade.php:
+  69  
+  70:                     <a href="{{route('pages.show-educacion',$post)}}">
+  71                          <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
+
+  73                      </a>
+  74:                     <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+  75                          {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
+
+resources\views\pages\catalogo.blade.php:
+  65  
+  66:                     <a href="{{route('pages.show-educacion',$post)}}">
+  67                          <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
+
+  69                      </a>
+  70:                     <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+  71                          {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
+
+routes\web.php:
+  38      Route::get('/biogeografico', 'biogeografico')->name('pages.biogeografico');
+  39:     Route::get('/biogeografico/{post}', 'show_educacion')->name('pages.show-educacion');
+  40      Route::get('/comunicacion/{post}', 'show_comunicacion')->name('pages.show-comunicacion');
+
+routes\resources\views\pages\biogeografico.blade.php:
+  68  
+  69:                     <a href="{{route('pages.show-educacion',$post)}}">
+  70                          <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
+
+  72                      </a>
+  73:                     <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+  74                          {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
+
+routes\resources\views\pages\convocatoria.blade.php:
+  65  
+  66:                     <a href="{{route('pages.show-educacion',$post)}}">
+  67                          <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
+
+  69                      </a>
+  70:                     <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+  71                          {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}

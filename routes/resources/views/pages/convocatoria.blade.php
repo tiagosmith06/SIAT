@@ -63,11 +63,11 @@
                         <span class="text-black ">{{$post->created_at}}</span>
                     </div>
 
-                    <a href="{{route('pages.show-educacion',$post)}}">
+                    <a href="{{route('pages.show-biogeografico',$post)}}">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
                         </h5>
                     </a>
-                    <a href="{{route('pages.show-educacion',$post)}}" class="mb-3 font-normal ">
+                    <a href="{{route('pages.show-biogeografico',$post)}}" class="mb-3 font-normal ">
                         {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
 
                     </a>

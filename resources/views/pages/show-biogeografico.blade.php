@@ -6,7 +6,7 @@
                 <li class="inline-flex items-center gap-2">
                     <i class="fa-solid fa-house"></i>
                     <a href="/" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-                        fedeurema
+                        Inicio
                     </a>
                 </li>
                 <li class="inline-flex items-center">
@@ -17,10 +17,10 @@
                             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    <a href="/educacion"
+                    <a href="/biogeografico"
                         class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
 
-                        Programa
+                        Chocó Biogeografico
                     </a>
                 </li>
                 <li>
