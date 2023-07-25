@@ -1,83 +1,12 @@
-<header class="borde border-b-[1px] border-gray-200">
-
-    <div class="bg-light_blue  ">
-        <div class="max-w-7xl my-0 mx-auto flex justify-between items-center">
-            <div class="text-white flex gap-2 items-center">
-                {{$fecha_actual->format('Y-m-d')}} : {{$fecha_formateada}}
-            </div>
-            @auth
-            <div class="flex items-center order-3 text-black relative" x-data="{open:false}">
-                <button type="button" x-on:click="open=true" id="mega-menu-icons-dropdown-button3" id="mega-menu-icons-dropdown-button3" data-dropdown-toggle="mega-menu-icons-dropdown3"
-                    class="flex mr-3 text-sm  rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
-                    <span class="sr-only">Menú de Usuario</span>
-                    <img class="w-8 h-8 rounded-full" src="{{auth()->user()->profile_photo_url}}" alt="user photo">
-                </button>
-                <!-- Dropdown menu -->
-                <div {{-- x-show="open" x-on:click.away="open=false" x-on:click="openDesple=true" --}}
-                    id="mega-menu-icons-dropdown3" class="z-50 absolute hidden ">
-                    <div aria-labelledby="mega-menu-icons-dropdown-button3"
-                        class="z-50 absolute  my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow  top-[-30px] right-[0px]">
-                        <div class="px-4 py-3 ">
-                            <span class="block text-sm text-gray-900 "> {{auth()->user()->name}}</span>
-                            <span
-                                class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">{{auth()->user()->email}}</span>
-                        </div>
-
-                        <ul class="py-1">
-
-                            @can('admin.index')
-                            <li>
-
-                                <a href="{{route('admin.index')}}"
-                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium">Dashboard</a>
-                            </li>
-                            @endcan
-
-                            <li>
-                                <a href="{{route('profile.show')}}"
-                                    class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Ajuste de cuenta</a>
-                            </li>
-
-                            <li>
-                                <form method="POST" action="{{ route('logout') }}" x-data>
-                                    {{method_field('post')}}
-
-                                    @csrf
+<header class="borde border-b-[1px] border-gray-200 w-full">
 
 
-                                    <a href="{{ route('logout') }}"
-                                        class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_red  hover:text-white font-medium "
-                                        @click.prevent="$root.submit();">Cerrar sesión</a>
-                                </form>
 
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <nav class="bg-white border-gray-200 px-2 sm:px-2 py-1 rounded text-white  w-full">
 
-            </div>
-            @else
-
-
-            <div class="flex gap-2  order-3 items-center cursor-pointer text-white text-[14px] flex-col md:flex-row">
-                <a href="{{route('login')}}" class="text-white">Iniciar Sesión</a>
-                <span class="hidden md:block">| </span>
-
-                <a href="{{route('register')}}" class="text-white">
-                    Registrarse
-                </a>
-
-            </div>
-
-            @endauth
-        </div>
-
-    </div>
-
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-1 rounded text-white ">
-        <div class="flex flex-wrap items-center justify-between max-w-screen-xl  mx-auto p-2">
+        <div class="flex flex-wrap items-center justify-between w-full mx-auto p-2 ">
             <div
-                class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0 max-w-7xl ">
+                class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0  ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
                         <img src=" {{ asset('images/logosiat.png') }} " class=" t-left w-[80px]">
@@ -106,8 +35,8 @@
                             class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-light_green focus:border-light_green   dark:placeholder-gray-400 "
                             placeholder="Buscar" value="{{request('search')}}">
                     </form>
-
                 </div>
+
                 <button data-collapse-toggle="mega-menu-icons" type="button"
                     class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="mega-menu-icons" aria-expanded="false">
@@ -120,6 +49,77 @@
                     </svg>
                 </button>
             </div>
+            <div class="md:order-3 pb-4">
+                <div class="text-white flex gap-2 items-center">
+                    {{$fecha_actual->format('Y-m-d')}} : {{$fecha_formateada}}
+                </div>
+                @auth
+                <div class="flex items-center order-3 text-black relative" x-data="{open:false}">
+                    <button type="button" x-on:click="open=true" id="mega-menu-icons-dropdown-button3" id="mega-menu-icons-dropdown-button3" data-dropdown-toggle="mega-menu-icons-dropdown3"
+                        class="flex mr-3 text-sm  rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
+                        <span class="sr-only">Menú de Usuario</span>
+                        <img class="w-8 h-8 rounded-full" src="{{auth()->user()->profile_photo_url}}" alt="user photo">
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div {{-- x-show="open" x-on:click.away="open=false" x-on:click="openDesple=true" --}}
+                        id="mega-menu-icons-dropdown3" class="z-50 absolute hidden ">
+                        <div aria-labelledby="mega-menu-icons-dropdown-button3"
+                            class="z-50 absolute  my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow  top-[-30px] right-[0px]">
+                            <div class="px-4 py-3 ">
+                                <span class="block text-sm text-gray-900 "> {{auth()->user()->name}}</span>
+                                <span
+                                    class="block text-sm font-medium text-gray-500 truncate dark:text-gray-400">{{auth()->user()->email}}</span>
+                            </div>
+
+                            <ul class="py-1">
+
+                                @can('admin.index')
+                                <li>
+
+                                    <a href="{{route('admin.index')}}"
+                                        class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium">Dashboard</a>
+                                </li>
+                                @endcan
+
+                                <li>
+                                    <a href="{{route('profile.show')}}"
+                                        class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_green  hover:text-white font-medium ">Ajuste de cuenta</a>
+                                </li>
+
+                                <li>
+                                    <form method="POST" action="{{ route('logout') }}" x-data>
+                                        {{method_field('post')}}
+
+                                        @csrf
+
+
+                                        <a href="{{ route('logout') }}"
+                                            class="block px-4 py-2 text-sm text-gray-700 rounded-md hover:bg-light_red  hover:text-white font-medium "
+                                            @click.prevent="$root.submit();">Cerrar sesión</a>
+                                    </form>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                @else
+
+
+                <div class="flex gap-2  order-3 items-center cursor-pointer text-white text-[14px] flex-col md:flex-row">
+                    <a href="{{route('login')}}" class="text-white">Iniciar Sesión</a>
+                    <span class="hidden md:block">| </span>
+
+                    <a href="{{route('register')}}" class="text-white">
+                        Registrarse
+                    </a>
+
+                </div>
+
+                @endauth
+            </div>
+
             <div id="mega-menu-icons" class="items-center justify-content hidden w-full md:flex md:w-auto md:order-1">
                 <ul class="flex flex-col  mt-2 font-medium md:flex-row md:space-x-6 md:mt-0">
 
