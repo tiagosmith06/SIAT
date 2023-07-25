@@ -32,8 +32,7 @@
 
                         <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
-                        <
-
+                        
 
                     </div>
                 </div>
@@ -64,11 +63,6 @@
                 <div class="flex flex-col gap-6">
                     <h2 class="font-bold text-my_blue text-lg  text-center">ALIADOS INSTITUCIONALES</h2>
                     <div class="flex flex-col gap-3 ">
-
-
-
-
-
                         <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
                             <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIAT-AC
 
@@ -121,7 +115,7 @@
                 <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
                     class="ml-2 font-bold">Santiago Perea Murillo </a>
                 -
-                <span>  Ingeniero en Telecomunicaciones e Informatica. All Rights Reserved. </span>
+                <span>  Ingeniero en Telecomunicaciones e Informatica - Todos los derechos son reservados. </span>
 
 
             </div>
