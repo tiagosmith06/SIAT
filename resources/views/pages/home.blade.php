@@ -2,7 +2,7 @@
 
     @include('components/slider-home')
 
-    <div class="max-w-7xl  mx-auto flex-col flex gap-4 my-5 ">
+    <div   class=" bg-white max-w-7xl  mx-auto  flex-col flex gap-4 my-5 ">
 
         <div class="flex gap-5 justify-center flex-wrap items-center">
 
@@ -29,16 +29,16 @@
 
             <div class="flex  flex-col items-center">
 
-                <p class="text-4xl  text-justify">
+                <p class="text-4xl p-2 text-white rounded-r-full bg-orange-400 text-justify">
                     <strong>Bienvenidos </strong>
                 </p>
 <!--                <div>
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
 -->
-                <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-                    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                <p class="bg-green-700 text-white m-4 rounded-br-md  text-justify p-10">El Sistema de Información Ambiental Territorial del Pacífico Colombiano (SIAT-PC)
+                    es el conjunto integrado de actores, políticas, procesos y tecnologías involucradas en la
+                    gestión de información ambiental para facilitar la generación de conocimiento, la toma de decisiones, la educación y la participación social, en el pacifico colombiano.
                 </p>
             </div>
 
@@ -53,7 +53,7 @@
     </div>
 
     <div class="flex flex-col bg-white">
-        <h1 class="t text-center text-gray-700 text-3xl my-3">ALIDOS INSTITUCIONALES
+        <h1 class="t text-center text-gray-700 text-3xl my-3">ALIADOS INSTITUCIONALES
         </h1>
 
         <section class=" grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
