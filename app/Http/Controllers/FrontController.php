@@ -27,7 +27,6 @@ class FrontController extends Controller
     public function comunicacion()
     {
 
-
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
         return view('pages.comunicacion', ['posts' => $posts]);
     }
@@ -108,7 +107,7 @@ class FrontController extends Controller
     {
 
         $posts =   Post::where('category_id', '=', 3)->latest()->paginate(2);
-        return view('pages.bioegeografico', ['posts' => $posts]);
+        return view('pages.biogeografico', ['posts' => $posts]);
     }
     public function programas()
     {

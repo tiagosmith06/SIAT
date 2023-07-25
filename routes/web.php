@@ -36,7 +36,7 @@ Route::controller(FrontController::class)->group(function () {
 
     Route::get('/documentos', 'documents')->name('pages.documents');
     Route::get('/biogeografico', 'biogeografico')->name('pages.biogeografico');
-    Route::get('/biogeografico/{post}', 'show_bioegrafico')->name('pages.show-biogeografico');
+    Route::get('/biogeografico/{post}', 'show_biogegrafico')->name('pages.show-biogeografico');
     Route::get('/comunicacion/{post}', 'show_comunicacion')->name('pages.show-comunicacion');
     Route::get('/comment/{post}', 'storeComment')->name('comments.show');
     Route::get('/contador', 'counter')->name('contador');
