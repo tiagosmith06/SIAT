@@ -103,8 +103,8 @@
                 @else
 
 
-                <div class="flex gap-2  order-3 items-center cursor-pointer text-black text-[14px] flex-col md:flex-row">
-                    <a href="{{route('login')}}" class="text-black">Iniciar Sesión</a>
+                <div class="flex gap-2  order-3 items-center cursor-pointer text-black text-[14px] flex-col ">
+                    <a href="{{route('login')}}" class="text-black">Iniciar Sesión/</a>
                     <span class="hidden md:block">| </span>
 
                     <a href="{{route('register')}}" class="text-black">
