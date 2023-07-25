@@ -14,8 +14,9 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Nunito', ...defaultTheme.fontFamily.sans],
-            },
+                sans: ['Graphik', 'sans-serif'],
+                serif: ['Merriweather', 'serif'],
+              },
 
             screens: {
                 sm: "640px",
@@ -50,3 +51,12 @@ module.exports = {
 
 ],
 };
+const plugin = require('tailwindcss/plugin')
+
+module.exports = {
+  plugins: [
+    plugin(function({ addUtilities, addComponents, e, config }) {
+      // Add your custom styles here
+    }),
+  ]
+}

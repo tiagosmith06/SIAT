@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Lista users</h1>
+<h1>Lista de Usuarios</h1>
 @stop
 
 @section('content')
@@ -29,7 +29,6 @@
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
-
             </tr>
         </thead>
         <tbody>

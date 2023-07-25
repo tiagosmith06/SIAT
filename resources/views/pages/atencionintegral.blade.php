@@ -1,6 +1,6 @@
 <x-app-layout>
     <div class="min-h-screen">
-        <div class="imagen-title2 " style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
+        <div class="imagen-title2 " style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">ATENCIÓN INTEGRAL</h1>
 
@@ -15,7 +15,7 @@
                         </li>
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
                                 Inicio /
                             </a>

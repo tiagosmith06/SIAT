@@ -1,7 +1,7 @@
 <x-app-layout>
 
     <div class="imagen-title"
-        style="background-image:url(https://www.quibdo-choco.gov.co/CabezotesModulos/quibdo5.jpg)">
+        style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
         <div class="cover pl-[50px]">
             <h1 class="font-extrabold text-my_blue text-3xl">Alcaldia de Quibdó</h1>
             <h1 class="text-my_blue text-xl">Sala y prensa</h1>

@@ -104,14 +104,11 @@ class FrontController extends Controller
         return redirect()->back()->with('info', 'comentario recibido con exito');
     }
 
-
-
-
-    public function educacion()
+    public function biogeografico()
     {
 
         $posts =   Post::where('category_id', '=', 3)->latest()->paginate(2);
-        return view('pages.biogeografico', ['posts' => $posts]);
+        return view('pages.bioegeografico', ['posts' => $posts]);
     }
     public function programas()
     {

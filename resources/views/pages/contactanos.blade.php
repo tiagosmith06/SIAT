@@ -1,12 +1,11 @@
 <x-app-layout>
     <div class="min-h-screen">
         <div class="imagen-title2 "
-            style="background-image:url(http://alianzaagroecologia.redelivre.org.br/files/2016/08/Dia-Internacional-dos-Povos-Indigenas.jpg)">
+            style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">CONTACTANOS
-                </h1>
+                <h1 class="font-extrabold text-my_blue text-3xl">      </h1>
 
-
+  <br>
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2">
@@ -16,9 +15,10 @@
 
                             </a>
                         </li>
+
                         <li class="inline-flex items-center">
 
-                            <a href=""
+                            <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
                                 Inicio /
