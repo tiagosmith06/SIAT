@@ -77,10 +77,7 @@
             </div>
             <div class="justify-center flex flex-col md:flex-row items-center">
 
-
-
                 <div>
-
                 </div>
                 <div class="flex flex-col w-full  md:w-[30%] justify-center">
 
@@ -90,7 +87,7 @@
                         <img class="w-full object-cover max-w-[250px]" src="{{asset('images/contratacion.png') }}"
                             alt="foto">
                     </div>  -->
-              
+
                     <div class="w-full  flex   flex-col justify-center items-center">
 
                         @foreach ($posts as $post)
