@@ -2,19 +2,17 @@
 
 
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-2 py-1 rounded text-white  w-full">
+    <nav class="bg-white border-gray-200 px-2 sm:px-2 py-1 rounded text-white w-full">
 
-        <div class="flex flex-wrap items-center justify-between w-full mx-auto p-2 ">
+        <div class="flex flex-wrap items-center justify-between w-full  p-2">
             <div
-                class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between mx-auto my-0  ">
+                class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between  ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
                         <img src=" {{ asset('images/logosiat.png') }} " class=" t-left w-[80px]">
                         <div class="flex flex-col text-black">
 
                     </a>
-
-
                 </div>
 
             </div>
@@ -49,10 +47,8 @@
                     </svg>
                 </button>
             </div>
-            <div class="md:order-3 pb-4">
-                <div class="text-white flex gap-2 items-center">
-                    {{$fecha_actual->format('Y-m-d')}} : {{$fecha_formateada}}
-                </div>
+            <div class="md:order-3 inline">
+
                 @auth
                 <div class="flex items-center order-3 text-black relative" x-data="{open:false}">
                     <button type="button" x-on:click="open=true" id="mega-menu-icons-dropdown-button3" id="mega-menu-icons-dropdown-button3" data-dropdown-toggle="mega-menu-icons-dropdown3"
