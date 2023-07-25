@@ -38,9 +38,9 @@
 </div>
 
 @stop
+
 @section('js')
-<script src=" @vite(['public/vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js'])
-">
+<script src=" @vite(['public/vendor/jQuery-Plugin-stringToSlug-1.3/jquery.stringToSlug.min.js'])">
 
 
 </script>
