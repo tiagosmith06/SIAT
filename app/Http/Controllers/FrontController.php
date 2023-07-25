@@ -27,7 +27,6 @@ class FrontController extends Controller
     public function comunicacion()
     {
 
-
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
         return view('pages.comunicacion', ['posts' => $posts]);
     }

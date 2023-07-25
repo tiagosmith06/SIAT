@@ -9,7 +9,7 @@
                 class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between  ">
                 <div class="flex items-center gap-2">
                     <a href="/" target="_blank" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/logosiat.png') }} " class=" w-[80px]">
+                        <img src=" {{ asset('images/logosiat.png') }} " class=" t-left w-[80px]">
                         <div class="flex flex-col text-black">
 
                     </a>
