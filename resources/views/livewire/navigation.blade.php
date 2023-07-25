@@ -90,7 +90,7 @@
 
 
                                         <a href="{{ route('logout') }}"
-                                            class="block px-4 py-2 text-sm text-green-800 rounded-md hover:bg-light_red  hover:text-white font-medium "
+                                            class="block px-4 py-2 text-sm text-green-800 rounded-md hover:bg-orange-500  hover:text-white font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
                                     </form>
 
@@ -157,7 +157,13 @@
                                         Objetivos
                                     </a>
                                 </li>
-
+                               <!-- <li>
+                                    <a href="{{route('pages.municipios')}}"
+                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-white rounded-md">
+                                       Municipios
+                                    </a>
+                                </li>
+                            -->
                             </ul>
                         </div>
                     </li>

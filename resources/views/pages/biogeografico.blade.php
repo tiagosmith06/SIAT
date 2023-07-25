@@ -41,50 +41,146 @@
                 </nav>
             </div>
 
-
         </div>
-
-        <div class="container py-8 my-0 mx-auto   ">
-            <h1 class="text-2xl font-medium mb-4">Biogegrafico</h1>
-
-
-            <div class="flex  flex-col gap-4">
-
-                @foreach ($posts as $post)
-
-                <div
-                    class="p-6 text-white border bg-my_green border-gray-200 rounded-lg shadow  w-full h-[15rem] flex   flex-col justify-center items-center ">
-                    <div class="flex gap-2 items-center ">
-                        <div class="  top-0 left-0  p-2 rounded-l-md">
-                            <i class="fa-regular fa-calendar text-white"></i>
-                            <span class="text-white ">{{$post->created_at}}</span>
-                        </div>
-                        <div class="flex gap-2">
-                            <i class="fa-regular fa-user text-white"></i>
-                            <span class="text-white ">Admin</span>
-
-                        </div>
-
-                    </div>
-
-                    <a href="{{route('pages.show-biogeografico',$post)}}">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
-                        </h5>
+        <br>
+        <div class="container mx-auto">
+            <input type="text" id="searchInput" class="border rounded px-4 py-2 w-64 mb-4" placeholder="Buscar municipio">
+            <table class="w-full table-auto">
+              <thead>
+                <tr class="bg-green-800 text-white">
+                  <th class="px-4 py-2 cursor-pointer" onclick="sortTable(0)">
+                    Nombre del municipio
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
                     </a>
-                    <a href="{{route('pages.show-biogeografico',$post)}}" class="mb-3 font-normal ">
-                        {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
-
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
                     </a>
+                  </th>
+                  <th class="px-4 py-2 cursor-pointer" onclick="sortTable(1)">
+                    Área
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                  <th class="px-4 py-2 cursor-pointer" onclick="sortTable(2)">
+                    Centros poblados
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                  <th class="px-4 py-2 cursor-pointer" onclick="sortTable(3)">
+                    Áreas protegidas
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                <tr>
+                  <td class="border px-4 py-2">Quibdó</td>
+                  <td class="border px-4 py-2">3,001 km²</td>
+                  <td class="border px-4 py-2">12</td>
+                  <td class="border px-4 py-2">Parque Nacional Natural Utría</td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">Medio Atrato</td>
+                  <td class="border px-4 py-2">5,712 km²</td>
+                  <td class="border px-4 py-2">8</td>
+                  <td class="border px-4 py-2">Reserva Forestal Serranía del Baudó</td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">Riosucio</td>
+                  <td class="border px-4 py-2">2,500 km²</td>
+                  <td class="border px-4 py-2">7</td>
+                  <td class="border px-4 py-2">-</td>
+                </tr>
+                <!-- Agregar más filas para otros municipios -->
+                <tr>
+                  <td class="border px-4 py-2">Nuquí</td>
+                  <td class="border px-4 py-2">1,981 km²</td>
+                  <td class="border px-4 py-2">5</td>
+                  <td class="border px-4 py-2">Parque Nacional Natural Ensenada de Utría</td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">Bagadó</td>
+                  <td class="border px-4 py-2">2,340 km²</td>
+                  <td class="border px-4 py-2">4</td>
+                  <td class="border px-4 py-2">-</td>
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2">Tadó</td>
+                  <td class="border px-4 py-2">1,830 km²</td>
+                  <td class="border px-4 py-2">6</td>
+                  <td class="border px-4 py-2">Reserva Forestal Río Ñambí</td>
+                </tr>
+                <!-- Agregar más filas para otros municipios -->
+                <!-- Aquí van los 30 municipios con sus datos -->
+              </tbody>
+            </table>
+          </div>
 
-                </div>
+          <script>
+            const searchInput = document.getElementById('searchInput');
+            const tableBody = document.getElementById('tableBody');
+            let sortOrder = 1;
 
-                @endforeach
+            function sortTable(columnIndex) {
+              const rows = Array.from(tableBody.children);
+              rows.sort((a, b) => {
+                const aValue = a.children[columnIndex].innerText.toLowerCase();
+                const bValue = b.children[columnIndex].innerText.toLowerCase();
 
-            </div>
-            <div>
+                if (aValue < bValue) return -1 * sortOrder;
+                if (aValue > bValue) return 1 * sortOrder;
+                return 0;
+              });
 
-                {{$posts->links()}}
-            </div>
-        </div>
-    </div>
+              tableBody.innerHTML = '';
+              rows.forEach((row) => {
+                tableBody.appendChild(row);
+              });
+
+              sortOrder = -sortOrder;
+            }
+
+            searchInput.addEventListener('input', () => {
+              const searchText = searchInput.value.toLowerCase();
+
+              Array.from(tableBody.children).forEach((row) => {
+                const municipio = row.children[0].innerText.toLowerCase();
+                if (municipio.includes(searchText)) {
+                  row.style.display = 'table-row';
+                } else {
+                  row.style.display = 'none';
+                }
+              });
+            });
+          </script>
 </x-app-layout>

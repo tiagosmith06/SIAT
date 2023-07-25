@@ -4,6 +4,8 @@ use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MunicipioController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +20,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::controller(FrontController::class)->group(function () {
+    Route::get('/biogeografico', [MunicipioController::class, 'page.biogeografico'])->name('biogeografico');
+    Route::get('/municipios')->name( 'pages.municipios');
     Route::get('/', 'index')->name('pages.index');
     Route::get('/posts/{post}', 'show_articulo')->name('posts.show');
     Route::get('/searches', 'search')->name('posts.search');
