@@ -1,4 +1,4 @@
-<header class="borde border-b-[1px] border-gray-200 w-full">
+<header  class=" borde border-b-[1px] border-gray-200 w-full">
 
 
 

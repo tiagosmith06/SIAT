@@ -5,7 +5,7 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista roles</h1>
+    <h1>Lista de roles</h1>
 
     @can('admin.roles.create')
 
