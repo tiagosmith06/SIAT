@@ -108,7 +108,7 @@ class FrontController extends Controller
     {
 
         $posts =   Post::where('category_id', '=', 3)->latest()->paginate(2);
-        return view('pages.bioegeografico', ['posts' => $posts]);
+        return view('pages.biogeografico', ['posts' => $posts]);
     }
     public function programas()
     {
