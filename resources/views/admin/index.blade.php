@@ -31,7 +31,7 @@
             <i class="fas fa-regular fa-newspaper"></i>
         </div>
         <a href="{{route('admin.posts.index')}}" class="small-box-footer">
-            Visualizar articulos <i class="fas fa-arrow-circle-right"></i>
+            Visualizar artículos <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 
@@ -45,11 +45,11 @@
             <i class="fas fa-solid fa-tags"></i>
         </div>
         <a href="{{route('admin.tags.index')}}" class="small-box-footer">
-            ver etiquetas <i class="fas fa-arrow-circle-right"></i>
+            Ver etiquetas <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 
-    {{--
+
     <div class="small-box " style="background: #71A63C">
         <div class="inner">
             <h3 class="text-white">{{$categories}}</h3>
@@ -59,9 +59,9 @@
             <i class="fas fa-solid fa-barcode"></i>
         </div>
         <a href="{{route('admin.categories.index')}}" class="small-box-footer">
-            ver categorias <i class="fas fa-arrow-circle-right"></i>
+            Ver categorias <i class="fas fa-arrow-circle-right"></i>
         </a>
-    </div> --}}
+    </div>
 
     <div class="small-box " style="background: #71A63C">
         <div class="inner">
@@ -72,7 +72,7 @@
             <i class="fas fa-solid fa-barcode"></i>
         </div>
         <a href="{{route('admin.categories.index')}}" class="small-box-footer">
-            ver comentarios <i class="fas fa-arrow-circle-right"></i>
+            Ver comentarios <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 
@@ -85,7 +85,7 @@
             <i class="fas fa-solid fa-barcode"></i>
         </div>
         <a href="{{route('admin.archivos.index')}}" class="small-box-footer">
-            ver archivos <i class="fas fa-arrow-circle-right"></i>
+            Ver archivos <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
 </div>

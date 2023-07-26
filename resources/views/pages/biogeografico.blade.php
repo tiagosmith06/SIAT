@@ -31,18 +31,32 @@
 
         <div class=" m-4 max-w-7xl mx-auto bg-white rounded-lg shadow-md flex items-center">
 
-            <div class="w-1/2">
+            <div class="w-2/3">
             <img class="w-full h-45 object-cover rounded-l-lg" src="{{ asset('images/chocó.jpg') }}" alt="División Político-Administrativa del Chocó">
            </div>
-            <!-- Texto a otro lado -->
-            <div class="w-1/2 p-4">
-                <h1 class="text-xl-2 font-bold mb-2">CHOCÓ BIOGEOGRÁFICO</h1>
-                    <p class="text-black-700 text-xl text-justify">El municipio del Chocó es Quibdó. El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad. </p>
+          <!-- Texto a otro lado -->
+            <div class="w-2/3 p-4">
+
+                <strong class="p-4 text-center m-4">INFORMACIÓN REFERENCIAL</strong>
+
+                    <p class="text-gray-700 text-xl-10 text-justify"> El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.
+                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
+                        sus paisajes exuberantes y su rica biodiversidad.</p>
                     <div class="mt-4">
             <span class="text-sm text-gray-500">Fuente de la imagen: Wikipedia</span>
 
-            <div class="bg-green-800 rounded-[10%] text-white max-w-screen-xl px-0 py-0 mx-0 text-center lg:py-16 lg:px-6">
+            <div class="bg-green-800  text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">46,530 km²</dt>

@@ -5,10 +5,10 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista programas</h1>
+    <h1>Atención Integral</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.programas.create')}}">Crear
-        programa</a>
+        Atención Integral</a>
 
     @endcan
 

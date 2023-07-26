@@ -75,7 +75,7 @@
             </div>
             <div class="col">
                 <div class="form-group">
-                    {!! Form::label('file', 'imagen que se mostrara en el artitulo') !!}
+                    {!! Form::label('file', 'imagen que se mostrara en el geovisor') !!}
                     {!! Form::file('file', ['class'=> 'form-control-file','accept'=> 'image/*']) !!}
                 </div>
 
@@ -108,7 +108,7 @@
             <div class="col">
                 <div class="form-group">
                     {!! Form::label('file2', 'Archivo') !!} <span>(Opcional)</span>
-                    {!! Form::file('file2', ['class'=> 'form-control-file','accept'=> 'pdf']) !!}
+                    {!! Form::file('file2', ['class'=> 'form-control-file','accept'=> 'pdf','docx','pptx', 'xlsx']) !!}
                 </div>
 
                 @error('file')
