@@ -27,7 +27,7 @@
 
                         <li class="inline-flex items-center">
 
-                            <a href="/educacion"
+                            <a href="/contactanos"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
 
                                 Contactanos
@@ -132,7 +132,7 @@
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-76.657646, 5.690027],
+  center: [-76.6275, 5.5711],
 
   zoom: 16 // Nivel de zoom
 });
