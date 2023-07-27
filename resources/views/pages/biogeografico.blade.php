@@ -143,7 +143,7 @@
                 <table class="w-full table-auto">
                 <thead>
                     <tr class="bg-green-800 text-white">
-                    <th class="px-4 py-2 cursor-pointer" onclick="sortTable(0)">
+                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(0)">
                         Nombre del municipio
                         <a href="javascript:void(0)" class="ml-2">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -156,7 +156,7 @@
                         </svg>
                         </a>
                     </th>
-                    <th class="px-4 py-2 cursor-pointer" onclick="sortTable(1)">
+                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(1)">
                         Área
                         <a href="javascript:void(0)" class="ml-2">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@
                         </svg>
                         </a>
                     </th>
-                    <th class="px-4 py-2 cursor-pointer" onclick="sortTable(2)">
+                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(2)">
                         Centros poblados
                         <a href="javascript:void(0)" class="ml-2">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -182,7 +182,7 @@
                         </svg>
                         </a>
                     </th>
-                    <th class="px-4 py-2 cursor-pointer" onclick="sortTable(3)">
+                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(3)">
                         Áreas protegidas
                         <a href="javascript:void(0)" class="ml-2">
                         <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -199,41 +199,41 @@
                 </thead>
                 <tbody id="tableBody">
                     <tr>
-                    <td class="border px-4 py-2">Quibdó</td>
-                    <td class="border px-4 py-2">3,001 km²</td>
-                    <td class="border px-4 py-2">12</td>
-                    <td class="border px-4 py-2">Parque Nacional Natural Utría</td>
+                    <td class="border px-4 py-2 text-center bg-white">Quibdó</td>
+                    <td class="border px-4 py-2 text-center bg-white">3,001 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">12</td>
+                    <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Utría</td>
                     </tr>
                     <tr>
-                    <td class="border px-4 py-2">Medio Atrato</td>
-                    <td class="border px-4 py-2">5,712 km²</td>
-                    <td class="border px-4 py-2">8</td>
-                    <td class="border px-4 py-2">Reserva Forestal Serranía del Baudó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Medio Atrato</td>
+                    <td class="border px-4 py-2 text-center bg-white">5,712 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">8</td>
+                    <td class="border px-4 py-2 text-center bg-white">Reserva Forestal Serranía del Baudó</td>
                     </tr>
                     <tr>
-                    <td class="border px-4 py-2">Riosucio</td>
-                    <td class="border px-4 py-2">2,500 km²</td>
-                    <td class="border px-4 py-2">7</td>
-                    <td class="border px-4 py-2">-</td>
+                    <td class="border px-4 py-2 text-center bg-white">Riosucio</td>
+                    <td class="border px-4 py-2 text-center bg-white">2,500 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">7</td>
+                    <td class="border px-4 py-2 text-center bg-white">-</td>
                     </tr>
                     <!-- Agregar más filas para otros municipios -->
                     <tr>
-                    <td class="border px-4 py-2">Nuquí</td>
-                    <td class="border px-4 py-2">1,981 km²</td>
-                    <td class="border px-4 py-2">5</td>
-                    <td class="border px-4 py-2">Parque Nacional Natural Ensenada de Utría</td>
+                    <td class="border  px-4 py-2 text-center bg-white">Nuquí</td>
+                    <td class="borderpx-4 py-2 text-center bg-white">1,981 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">5</td>
+                    <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Ensenada de Utría</td>
                     </tr>
                     <tr>
-                    <td class="border px-4 py-2">Bagadó</td>
-                    <td class="border px-4 py-2">2,340 km²</td>
-                    <td class="border px-4 py-2">4</td>
-                    <td class="border px-4 py-2">-</td>
+                    <td class="border px-4 py-2 text-center bg-white">Bagadó</td>
+                    <td class="border px-4 py-2 text-center bg-white">2,340 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">4</td>
+                    <td class="border px-4 py-2 text-center bg-white">-</td>
                     </tr>
                     <tr>
-                    <td class="border px-4 py-2">Tadó</td>
-                    <td class="border px-4 py-2">1,830 km²</td>
-                    <td class="border px-4 py-2">6</td>
-                    <td class="border px-4 py-2">Reserva Forestal Río Ñambí</td>
+                    <td class="border px-4 py-2 text-center bg-white">Tadó</td>
+                    <td class="border px-4 py-2 text-center bg-white">1,830 km²</td>
+                    <td class="border px-4 py-2 text-center bg-white">6</td>
+                    <td class="border px-4 py-2 text-center bg-white">Reserva Forestal Río Ñambí</td>
                     </tr>
                     <!-- Agregar más filas para otros municipios -->
                     <!-- Aquí van los 30 municipios con sus datos -->
