@@ -291,34 +291,22 @@ return [
 
     'menu' => [
         // Navbar items:
-        [
-            'type'         => 'navbar-search',
-            'text'         => 'search',
-            'topnav_right' => true,
-        ],
-        [
-            'type'         => 'fullscreen-widget',
-            'topnav_right' => true,
-        ],
 
-        // Sidebar items:
-        [
-            'type' => 'sidebar-menu-search',
-            'text' => 'search',
-        ],
         [
             'text' => 'Aliados',
             'url'  => 'admin/blog',
+            'icon' => 'fas fa-images',
             'can'  => 'manage-blog',
         ],
         [
             'text'        => 'Dashboard',
             'url'         => '/admin',
+            'icon' => 'fas fa-tablet  ',
             'label_color' => 'success',
         ],
         ['header' => 'Administración'],
         [
-            'text' => 'users',
+            'text' => 'Usuarios',
             'url'  => 'admin/users',
             'icon' => 'fas fa-fw fa-user',
             'active' => ['admin/users*'],
@@ -326,8 +314,9 @@ return [
         ],
 
         [
-            'text' => 'etiquetas',
+            'text' => 'Etiquetas',
             'url'  => 'admin/tags',
+            'icon' => 'fa fa-list',
             'active' => ['admin/tags*'],
             'can' =>  'admin.tags.index'
 
@@ -336,30 +325,35 @@ return [
         [
             'text' => 'Roles',
             'url'  => 'admin/roles',
+            'icon' => 'fas fa-images',
             'active' => ['admin/roles*'],
             'can' =>  'admin.roles.index'
 
 
         ],
         [
-            'text' => 'Programas ',
+            'text' => 'Chocó Biogeografico ',
             'url'  => 'admin/educacion',
+            'icon' => 'fas fa-images',
             'active' => ['admin/roles*'],
             'can' =>  'admin.roles.index'
 
 
         ],
+
         [
-            'text' => 'Contratación',
+            'text' => 'Geovisor',
             'url'  => 'admin/contratacion',
+            'icon' => 'fa fa-map-marker',
             'active' => ['admin/contratacion*'],
             'can' =>  'admin.roles.index'
 
 
         ],
         [
-            'text' => 'Convocatoria',
+            'text' => 'Catálogo',
             'url'  => 'admin/convocatorias',
+            'icon' => 'fas fa-images',
             'active' => ['admin/convocatorias*'],
             'can' =>  'admin.roles.index'
 
@@ -386,34 +380,37 @@ return [
             ],
         ], */
         [
-            'text' => 'carrucel',
+            'text' => 'Carruceles',
             'url'  => 'admin/sliders',
+            'icon' => 'fas fa-images',
             'active' => ['admin/sliders*'],
         ],
 
-        ['header' => 'Opciones de comuniciación'],
+        ['header' => 'Opciones de noticias'],
         [
-            'text'       => 'Lista de comunicación',
+            'text'       => 'Cargar noticias',
+            'url'        => 'admin/posts/create',
+            'icon'        => 'fa fa-paperclip',
+            'can' =>  'admin.posts.create'
+
+        ],
+        [
+            'text'       => 'Lista de noticias',
             'url'        => 'admin/posts',
-            'icon'        => 'far fa-fw fa-file',
+            'icon'        => 'fa fa-paperclip',
             'can' =>  'admin.posts.index'
 
 
         ],
 
-        [
-            'text'       => 'crear comunicación',
-            'url'        => 'admin/posts/create',
-            'icon'        => 'far fa-fw fa-file',
-            'can' =>  'admin.posts.create'
 
-        ],
+        /*
         [
             'text'       => 'Ver comentarios',
             'url'        => 'admin/comments',
             'can' =>  'admin.posts.create'
 
-        ],
+        ],*/
 
     ],
 

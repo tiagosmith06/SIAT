@@ -2,7 +2,7 @@
 
 
 
-    <nav  class="bg-white border-gray-200 px-2 sm:px-2 py-1 rounded text-white w-full">
+    <nav  class="bg-white fixed top-0 left-0 right-0 z-50 bg-white shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-white w-full">
 
         <div class="flex flex-wrap items-center justify-between w-full  p-2">
             <div
@@ -44,6 +44,7 @@
                         <path fill-rule="evenodd"
                             d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                             clip-rule="evenodd"></path>
+                            <i class="fas fa-tablet    "></i>
                     </svg>
                 </button>
             </div>

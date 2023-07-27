@@ -5,7 +5,7 @@
 @section('content_header')
 <div class="d-flex justify-content-between">
 
-    <h1>Lista articulos de contratacion</h1>
+    <h1>Lista articulos del Geovisor</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.contratacion.create')}}">Crear
         plan</a>
