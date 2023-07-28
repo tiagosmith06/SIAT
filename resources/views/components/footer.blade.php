@@ -19,7 +19,7 @@
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fas fa-directions  mr-1 text-my_blue "></i> Dirección: Doña Josefa, Atrato - Chocó
+                            <i class="fas fa-directions  mr-1 text-my_blue "></i> Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa)
                         </p>
                         <p>
                             <i class="fas fa-id-card mr-1 text-my_blue  fa-fw"></i>
