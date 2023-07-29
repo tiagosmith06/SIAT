@@ -27,7 +27,7 @@
                         </p>
                         <p>
                             <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
-                            Teléfono: 3116421654
+                            Teléfono: (54) (4) 6709126 ext 4123 / Cel: 3207991164
                         </p>
 
                         <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
