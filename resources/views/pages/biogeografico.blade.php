@@ -118,147 +118,173 @@
             </div>
           </div>
 
-            <div  class=" p-4 m-4 container mx-auto">
+          <div class="p-4 m-4 container mx-auto">
+            <input type="text" id="searchInput" class="border rounded px-4 py-2 w-64 mb-4" placeholder="Buscar...">
+            <table class="w-full table-auto">
+              <thead>
+                <tr class="bg-green-800 text-white">
 
-                <input type="text" id="searchInput" class="border rounded px-4 py-2 w-64 mb-4" placeholder="Buscar municipio">
-                <table class="w-full table-auto">
-                <thead>
-                    <tr class="bg-green-800 text-white">
-                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(0)">
-                        Nombre del municipio
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                    </th>
-                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(1)">
-                        Área
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                    </th>
-                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(2)">
-                        Centros poblados
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                    </th>
-                    <th class="px-4 py-2 cursor-pointer text-center" onclick="sortTable(3)">
-                        Áreas protegidas
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                        <a href="javascript:void(0)" class="ml-2">
-                        <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
-                        </svg>
-                        </a>
-                    </th>
-                    </tr>
-                </thead>
-                <tbody id="tableBody">
-                    <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Quibdó</td>
-                    <td class="border px-4 py-2 text-center bg-white">3,001 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">12</td>
-                    <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Utría</td>
-                    </tr>
-                    <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Medio Atrato</td>
-                    <td class="border px-4 py-2 text-center bg-white">5,712 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">8</td>
-                    <td class="border px-4 py-2 text-center bg-white">Reserva Forestal Serranía del Baudó</td>
-                    </tr>
-                    <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Riosucio</td>
-                    <td class="border px-4 py-2 text-center bg-white">2,500 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">7</td>
-                    <td class="border px-4 py-2 text-center bg-white">-</td>
-                    </tr>
-                    <!-- Agregar más filas para otros municipios -->
-                    <tr>
-                    <td class="border  px-4 py-2 text-center bg-white">Nuquí</td>
-                    <td class="borderpx-4 py-2 text-center bg-white">1,981 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">5</td>
-                    <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Ensenada de Utría</td>
-                    </tr>
-                    <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Bagadó</td>
-                    <td class="border px-4 py-2 text-center bg-white">2,340 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">4</td>
-                    <td class="border px-4 py-2 text-center bg-white">-</td>
-                    </tr>
-                    <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Tadó</td>
-                    <td class="border px-4 py-2 text-center bg-white">1,830 km²</td>
-                    <td class="border px-4 py-2 text-center bg-white">6</td>
-                    <td class="border px-4 py-2 text-center bg-white">Reserva Forestal Río Ñambí</td>
-                    </tr>
-                    <!-- Agregar más filas para otros municipios -->
-                    <!-- Aquí van los 30 municipios con sus datos -->
-                </tbody>
-                </table>
-            </div>
+                  <th class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(1)">
+                    DEPARTAMENTO
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                  <th class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(2)">
+                    MUNICIPIOS
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                  <th class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(3)">
+                    ÁREA EN HECTAREAS
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                  <th class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(4)">
+                    ALTITUD
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                    <a href="javascript:void(0)" class="ml-2">
+                      <svg class="w-4 h-4 inline-block transform rotate-180" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                      </svg>
+                    </a>
+                  </th>
+                </tr>
+              </thead>
+              <tbody id="tableBody">
+                <tr>
+                  <td class="border px-4 py-2 text-center bg-white">Quibdó</td>
+                  <td class="border px-4 py-2 text-center bg-white">3,001 km²</td>
+                  <td class="border px-4 py-2 text-center bg-white">12</td>
+                  <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Utría</td>
+                
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2 text-center bg-white">Medio Atrato</td>
+                  <td class="border px-4 py-2 text-center bg-white">5,712 km²</td>
+                  <td class="border px-4 py-2 text-center bg-white">8</td>
+                  <td class="border px-4 py-2 text-center bg-white">Reserva Forestal Serranía del Baudó</td>
 
+
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2 text-center bg-white">Riosucio</td>
+                  <td class="border px-4 py-2 text-center bg-white">2,500 km²</td>
+                  <td class="border px-4 py-2 text-center bg-white">7</td>
+                  <td class="border px-4 py-2 text-center bg-white">-</td>
+
+
+                </tr>
+                <!-- Agregar más filas para otros municipios -->
+                <tr>
+                  <td class="border  px-4 py-2 text-center bg-white">Nuquí</td>
+                  <td class="border px-4 py-2 text-center bg-white">1,981 km²</td>
+                  <td class="border px-4 py-2 text-center bg-white">5</td>
+                  <td class="border px-4 py-2 text-center bg-white">Parque Nacional Natural Ensenada de Utría</td>
+
+
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2 text-center bg-white">Bagadó</td>
+                  <td class="border px-4 py-2 text-center bg-white">2,340 km²</td>
+                  <td class="border px-4 py-2 text-center bg-white">4</td>
+                  <td class="border px-4 py-2 text-center bg-white">-</td>
+
+
+                </tr>
+                <tr>
+                  <td class="border px-4 py-2 text-center bg-white">Tadó</td>
+                  <td class="border px-4 py-2 text-center bg-white">9000</td>
+                  <td class="border px-4 py-2 text-center bg-white">6</td>
+
+                  <td class="border px-4 py-2 text-center bg-white">6</td>
+
+                </tr>
+                <!-- Agregar más filas para otros municipios -->
+                <!-- Aquí van los 30 municipios con sus datos -->
+              </tbody>
+            </table>
             <script>
-                const searchInput = document.getElementById('searchInput');
-                const tableBody = document.getElementById('tableBody');
-                let sortOrder = 1;
+              const searchInput = document.getElementById('searchInput');
+              const tableBody = document.getElementById('tableBody');
+              let sortOrder = 1;
 
-                function sortTable(columnIndex) {
+              function sortTable(columnIndex) {
                 const rows = Array.from(tableBody.children);
                 rows.sort((a, b) => {
-                    const aValue = a.children[columnIndex].innerText.toLowerCase();
-                    const bValue = b.children[columnIndex].innerText.toLowerCase();
+                  const aValue = a.children[columnIndex].innerText.toLowerCase();
+                  const bValue = b.children[columnIndex].innerText.toLowerCase();
 
-                    if (aValue < bValue) return -1 * sortOrder;
-                    if (aValue > bValue) return 1 * sortOrder;
-                    return 0;
+                  if (aValue < bValue) return -1 * sortOrder;
+                  if (aValue > bValue) return 1 * sortOrder;
+                  return 0;
                 });
 
                 tableBody.innerHTML = '';
                 rows.forEach((row) => {
-                    tableBody.appendChild(row);
+                  tableBody.appendChild(row);
                 });
 
                 sortOrder = -sortOrder;
-                }
+              }
 
-                searchInput.addEventListener('input', () => {
+              searchInput.addEventListener('input', () => {
                 const searchText = searchInput.value.toLowerCase();
 
                 Array.from(tableBody.children).forEach((row) => {
-                    const municipio = row.children[0].innerText.toLowerCase();
-                    if (municipio.includes(searchText)) {
-                    row.style.display = 'table-row';
-                    } else {
-                    row.style.display = 'none';
+                  let found = false;
+                  Array.from(row.children).forEach((cell) => {
+                    if (cell.innerText.toLowerCase().includes(searchText)) {
+                      found = true;
                     }
+                  });
+                  if (found) {
+                    row.style.display = 'table-row';
+                  } else {
+                    row.style.display = 'none';
+                  }
                 });
-                });
+              });
+
             </script>
+          </div>
+
+
 
     <h1 class="text-center  m-4 p-4">COMUNIDADES</h1>
     <div class=" m-2 w-auto bg-green border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
