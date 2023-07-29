@@ -3,7 +3,7 @@
         <div class="imagen-title2 "
             style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">CHOCÓ BIOGEOGRAFICO    </h1>
+                <h1 class="font-extrabold text-my_blue text-3xl">CHOCÓ BIOGEOGRAFICO </h1>
 
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
@@ -29,32 +29,25 @@
             </div>
         </div>
 
-        <div class=" m-4 max-w-7xl mx-auto bg-white rounded-lg shadow-md flex items-center">
+        <div class=" p-4 m-4 container mx-auto">
+            <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+              <div class="w-full">
+                <a href="#!" data-te-ripple-init data-te-ripple-color="light" class="flex justify-center">
+                  <img class="w-full rounded-t-lg" src="{{asset('images/paisaje.jpeg')}}" alt="" />
+                </a>
+              </div>
+              <div class="p-6">
+                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                  Card title
+                </h5>
+                <p class="mb-4 text-base text-black text-justify text-neutral-200">
+                    La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
+                    Está ubicada en la franja oeste del país, limitando al norte con Panamá, al noreste con la región Caribe, al este con la cordillera Occidental que la separa de la región andina, al sur con Ecuador y al oeste con el océano Pacífico, de donde toma su nombre.
+                    Hace parte del Chocó biogeográfico y está dividida en dos grandes zonas marcadas por el cabo Corrientes. Las principales ciudades son Buenaventura, Tumaco, Quibdó, Istmina, Barbacoas y Nuquí. En ella se desarrolló la cultura Tumaco-La Tolita.
+                    Es una región con una inmensa riqueza ecológica, hidrográfica, minera y forestal en la cual se encuentran parques nacionales naturales. Es además considerada una de las regiones de mayor biodiversidad y pluviosidad del planeta con precipitaciones del orden de los 4 000 mm/anuales según el Ministerio de Minas y Energía de Colombia.
+                    ​ Es también la tierra principal de la cultura afrocolombiana y de numerosas tribus indoamericanas que fueron denominados "chocoes" por los españoles al momento de la Conquista, aunque el término incluye familias lingüísticas de diferente origen. El litoral pone a Colombia de frente al Océano más grande del mundo y con ello un campo de encuentro internacional vital para su desarrollo.
+                </p>
 
-            <div class="w-2/3">
-            <img class="w-full h-45 object-cover rounded-l-lg" src="{{ asset('images/chocó.jpg') }}" alt="División Político-Administrativa del Chocó">
-           </div>
-          <!-- Texto a otro lado -->
-            <div class="w-2/3 p-4">
-
-                <strong class="p-4 text-center m-4">INFORMACIÓN REFERENCIAL</strong>
-
-                    <p class="text-gray-700 text-xl-10 text-justify"> El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.
-                        El Chocó es un departamento situado en la costa pacífica de Colombia, y Quibdó es su capital y el municipio más grande de la región. Es conocido por su diversidad étnica y cultural,
-                        sus paisajes exuberantes y su rica biodiversidad.</p>
-                    <div class="mt-4">
-            <span class="text-sm text-gray-500">Fuente de la imagen: Wikipedia</span>
 
             <div class="bg-green-800  text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
@@ -85,20 +78,10 @@
                     <div class=" m- flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">518.457+</dt>
                         <dd class="font-light text-gray-500 dark:text-gray-400">Población
-
                         </dd>
                     </div>
-
                 </dl>
             </div>
-
-            </div
-            </div>
-
-            </div>
-            </div>
-
-        <section class=" p-3 m-2 bg-white ">
             <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
@@ -131,11 +114,9 @@
 
                 </dl>
             </div>
-          </section>
-
-
-
-
+              </div>
+            </div>
+          </div>
 
             <div  class=" p-4 m-4 container mx-auto">
 
