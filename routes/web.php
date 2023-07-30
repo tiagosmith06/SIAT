@@ -5,6 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MunicipioController;
+use App\Http\Controllers\Admin\DocumentoController;
 
 
 /*
@@ -44,6 +45,8 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/comunicacion/{post}', 'show_comunicacion')->name('pages.show-comunicacion');
     Route::get('/comment/{post}', 'storeComment')->name('comments.show');
     Route::get('/contador', 'counter')->name('contador');
+
+    
 });
 
 Route::controller(ContactController::class)->group(function () {

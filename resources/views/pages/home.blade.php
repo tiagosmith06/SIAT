@@ -2,29 +2,55 @@
 
     @include('components/slider-home')
 
-    <div   class=" bg-white max-w-7xl  mx-auto  flex-col flex gap-4 my-5 ">
+    <div class="flex flex-col bg-white">
+        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>CONJUNTO DE DATOS</strong> </h1>
+        <section class=" grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <h1 class="text-center font-bold flex "></h1>
+                            <a href="https://ipt.biodiversidad.co/iiap/" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-auto" src="{{ asset('images/database.png') }}" alt="SIAC" /></a>
+                        </div>
+                    </div>
 
-        <div class="flex gap-5 justify-center flex-wrap items-center">
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                           <a href="https://sentenciasrioatrato.siatpc.co/" target="_parent" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-fit" src="{{ asset('images/sentencia.png') }}" alt="..." /></a>
 
-            <a href='https://cliente.hostgator.co/sitios-web' target="_blank">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="" target="_blank" >
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                </div>
 
-                <img src="{{ asset('images/142.png') }}" alt="">
-
-            </a>
-            <a href="{{route('pages.contactanos')}}">
-                <img src="{{ asset('images/contact.svg') }} " alt="contactanos" class="w-[200px]" alt="">
-
-            </a>
-            <a href="{{route('pages.biogeografico')}}">
-
-                <img src="{{ asset('images/programa250.png') }}" alt="">
-            </a>
-            <a href={{ route('pages.comunicacion') }}>
-
-                <img src="{{ asset('images/noticia250.png') }}" alt="">
-            </a>
-        </div>
-
+            </div>
+        </section>
+    </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2  justify-between max-w-5xl my-0 mx-auto ">
 
@@ -103,12 +129,7 @@
             </div>
         </section>
 
-        <div class="flex gap-7 flex-wrap max-w-5xl my-0 mx-auto items-center justify-center">
-            <!-- <img src="{{ asset('images/sedchoc.png') }}" calt="" class="rounded-lg">-->
-            <!--<img src="{{ asset('images/pacipaz.png') }}" alt="">-->
-            <!--<img src="{{ asset('images/onic.png') }}" alt="">-->
-            <!--<img src="{{ asset('images/mesapermante.jpg') }}" alt="">-->
-        </div>
+
     </div>
 
 </x-app-layout>

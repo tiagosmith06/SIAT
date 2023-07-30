@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <h1>Formulario de contacto del tu sitio web 
+    <h1>Formulario de contacto de tu sitio web
     </h1>
 
     <p>Un usuario ha enviado un mensaje a través del formulario de contacto en tu sitio web:</p>
