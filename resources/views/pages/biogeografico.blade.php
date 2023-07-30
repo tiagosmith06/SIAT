@@ -188,12 +188,334 @@
               </thead>
               <tbody id="tableBody">
                 <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Urrao</td>
+                    <td class="border px-4 py-2 text-center bg-white">256.384,97</td>
+                    <td class="border px-4 py-2 text-center bg-white">2.000</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Abriaquí</td>
+                    <td class="border px-4 py-2 text-center bg-white">29.697,42</td>
+                    <td class="border px-4 py-2 text-center bg-white">1.900</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Vigia del Fuerte</td>
+                    <td class="border px-4 py-2 text-center bg-white">166.272,99</td>
+                    <td class="border px-4 py-2 text-center bg-white">7</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Frontino</td>
+                    <td class="border px-4 py-2 text-center bg-white">138.445,60</td>
+                    <td class="border px-4 py-2 text-center bg-white">1.500</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Cañasgorda</td>
+                    <td class="border px-4 py-2 text-center bg-white">36.483,86</td>
+                    <td class="border px-4 py-2 text-center bg-white">1.298</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Uramita</td>
+                    <td class="border px-4 py-2 text-center bg-white">26.593,70</td>
+                    <td class="border px-4 py-2 text-center bg-white">647</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Murindo</td>
+                    <td class="border px-4 py-2 text-center bg-white">126.683,99</td>
+                    <td class="border px-4 py-2 text-center bg-white">25</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Dabeiba</td>
+                    <td class="border px-4 py-2 text-center bg-white">195.766,95</td>
+                    <td class="border px-4 py-2 text-center bg-white">412</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Mutatá</td>
+                    <td class="border px-4 py-2 text-center bg-white">107.526,59</td>
+                    <td class="border px-4 py-2 text-center bg-white">132</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Hituango</td>
+                    <td class="border px-4 py-2 text-center bg-white">82.328,76</td>
+                    <td class="border px-4 py-2 text-center bg-white">1750</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Chigorodó</td>
+                    <td class="border px-4 py-2 text-center bg-white">72.198,17</td>
+                    <td class="border px-4 py-2 text-center bg-white">31</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Carepa</td>
+                    <td class="border px-4 py-2 text-center bg-white">38.743.53</td>
+                    <td class="border px-4 py-2 text-center bg-white">34</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Apartadó</td>
+                    <td class="border px-4 py-2 text-center bg-white">53.536,47</td>
+                    <td class="border px-4 py-2 text-center bg-white">28</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Turbo</td>
+                    <td class="border px-4 py-2 text-center bg-white">288.633,76</td>
+                    <td class="border px-4 py-2 text-center bg-white">1</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">San Pedro de Uraba</td>
+                    <td class="border px-4 py-2 text-center bg-white">15,159,79</td>
+                    <td class="border px-4 py-2 text-center bg-white">434</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Necocli</td>
+                    <td class="border px-4 py-2 text-center bg-white">105.912,83</td>
+                    <td class="border px-4 py-2 text-center bg-white">6</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
+                    <td class="border px-4 py-2 text-center bg-white">Argelia</td>
+                    <td class="border px-4 py-2 text-center bg-white">77.645,55</td>
+                    <td class="border px-4 py-2 text-center bg-white">1750</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
+                    <td class="border px-4 py-2 text-center bg-white">Guapi	</td>
+                    <td class="border px-4 py-2 text-center bg-white">257.088,67</td>
+                    <td class="border px-4 py-2 text-center bg-white">4</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
+                    <td class="border px-4 py-2 text-center bg-white">El Tambo</td>
+                    <td class="border px-4 py-2 text-center bg-white">160.323,43</td>
+                    <td class="border px-4 py-2 text-center bg-white">1750</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
+                    <td class="border px-4 py-2 text-center bg-white">Timbiquí</td>
+                    <td class="border px-4 py-2 text-center bg-white">205.978,55</td>
+                    <td class="border px-4 py-2 text-center bg-white">10</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
+                    <td class="border px-4 py-2 text-center bg-white">López	</td>
+                    <td class="border px-4 py-2 text-center bg-white">337.042,70</td>
+                    <td class="border px-4 py-2 text-center bg-white">390</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Litoral del San Juan</td>
+                    <td class="border px-4 py-2 text-center bg-white">413.615,27</td>
+                    <td class="border px-4 py-2 text-center bg-white">25</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Sipí</td>
+                    <td class="border px-4 py-2 text-center bg-white">157.745,31</td>
+                    <td class="border px-4 py-2 text-center bg-white">50</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Novita</td>
+                    <td class="border px-4 py-2 text-center bg-white">34.567,60</td>
+                    <td class="border px-4 py-2 text-center bg-white">100</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Medio San Juan (Andagoya)</td>
+                    <td class="border px-4 py-2 text-center bg-white">76.377,40</td>
+                    <td class="border px-4 py-2 text-center bg-white">41</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">San José del Palmar</td>
+                    <td class="border px-4 py-2 text-center bg-white">158.252,44</td>
+                    <td class="border px-4 py-2 text-center bg-white">2500</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Condoto</td>
+                    <td class="border px-4 py-2 text-center bg-white">46.788,64</td>
+                    <td class="border px-4 py-2 text-center bg-white">50</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Rio Iro</td>
+                    <td class="border px-4 py-2 text-center bg-white">32.521,73</td>
+                    <td class="border px-4 py-2 text-center bg-white">158</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Istmina</td>
+                    <td class="border px-4 py-2 text-center bg-white">188.108,17</td>
+                    <td class="border px-4 py-2 text-center bg-white">47</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Medio Baudo</td>
+                    <td class="border px-4 py-2 text-center bg-white">137.294,30</td>
+                    <td class="border px-4 py-2 text-center bg-white">50</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Unión Panamericana (Las Animas)</td>
+                    <td class="border px-4 py-2 text-center bg-white">17.783,77</td>
+                    <td class="border px-4 py-2 text-center bg-white">74</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Tadó</td>
+                    <td class="border px-4 py-2 text-center bg-white">71.499,59</td>
+                    <td class="border px-4 py-2 text-center bg-white">78</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Certegui</td>
+                    <td class="border px-4 py-2 text-center bg-white">42.351,40</td>
+                    <td class="border px-4 py-2 text-center bg-white">54</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">El Cantón del San Pablo (Managrú)</td>
+                    <td class="border px-4 py-2 text-center bg-white">38.069,33</td>
+                    <td class="border px-4 py-2 text-center bg-white">35</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Bajo Baudo (Pizarro)</td>
+                    <td class="border px-4 py-2 text-center bg-white">348.219,82</td>
+                    <td class="border px-4 py-2 text-center bg-white">5</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Bagado</td>
+                    <td class="border px-4 py-2 text-center bg-white">80.759,87</td>
+                    <td class="border px-4 py-2 text-center bg-white">200</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Rio Quito</td>
+                    <td class="border px-4 py-2 text-center bg-white">69.936,31</td>
+                    <td class="border px-4 py-2 text-center bg-white">35</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Atrato (Yuto)</td>
+                    <td class="border px-4 py-2 text-center bg-white">42.173,94</td>
+                    <td class="border px-4 py-2 text-center bg-white">55</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Lloró</td>
+                    <td class="border px-4 py-2 text-center bg-white">84.312,26</td>
+                    <td class="border px-4 py-2 text-center bg-white">100</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Nuquí</td>
+                    <td class="border px-4 py-2 text-center bg-white">70.458,34</td>
+                    <td class="border px-4 py-2 text-center bg-white">5</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">El Carmen de Atrato</td>
+                    <td class="border px-4 py-2 text-center bg-white">83.029,34</td>
+                    <td class="border px-4 py-2 text-center bg-white">1.726</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Alto Baudo (Pie de Pató)</td>
+                    <td class="border px-4 py-2 text-center bg-white">205.187,79</td>
+                    <td class="border px-4 py-2 text-center bg-white">50</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Medio Atrato (Beté)</td>
+                    <td class="border px-4 py-2 text-center bg-white">181.374,92</td>
+                    <td class="border px-4 py-2 text-center bg-white">25</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Quibdó</td>
+                    <td class="border px-4 py-2 text-center bg-white">350.865,59</td>
+                    <td class="border px-4 py-2 text-center bg-white">32</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Bahia Solano</td>
+                    <td class="border px-4 py-2 text-center bg-white">89.606,57</td>
+                    <td class="border px-4 py-2 text-center bg-white">34</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Bojayá</td>
+                    <td class="border px-4 py-2 text-center bg-white">363.317,81</td>
+                    <td class="border px-4 py-2 text-center bg-white">13</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">El Carmen del Darién</td>
+                    <td class="border px-4 py-2 text-center bg-white">318.268,75</td>
+                    <td class="border px-4 py-2 text-center bg-white">5</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Juradó</td>
+                    <td class="border px-4 py-2 text-center bg-white">129.805,37</td>
+                    <td class="border px-4 py-2 text-center bg-white">5</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Rio Sucio</td>
+                    <td class="border px-4 py-2 text-center bg-white">761.545,64</td>
+                    <td class="border px-4 py-2 text-center bg-white">22</td>
+                </tr>
+
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Hunguia</td>
+                    <td class="border px-4 py-2 text-center bg-white">119.123,07</td>
+                    <td class="border px-4 py-2 text-center bg-white">50</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
+                    <td class="border px-4 py-2 text-center bg-white">Acandí</td>
+                    <td class="border px-4 py-2 text-center bg-white">79.852,83</td>
+                    <td class="border px-4 py-2 text-center bg-white">6</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Córdoba</td>
+                    <td class="border px-4 py-2 text-center bg-white">Tierralta</td>
+                    <td class="border px-4 py-2 text-center bg-white">390.190,39</td>
+                    <td class="border px-4 py-2 text-center bg-white">51</td>
+                </tr>
+                <tr>
+                    <td class="border px-4 py-2 text-center bg-white">Córdoba</td>
+                    <td class="border px-4 py-2 text-center bg-white">Valencia</td>
+                    <td class="border px-4 py-2 text-center bg-white">34.051,70</td>
+                    <td class="border px-4 py-2 text-center bg-white">55</td>
+                </tr>
+
+                <tr>
                   <td class="border px-4 py-2 text-center bg-white">Nariño</td>
                   <td class="border px-4 py-2 text-center bg-white">Cumbal</td>
                   <td class="border px-4 py-2 text-center bg-white">66.464,38</td>
                   <td class="border px-4 py-2 text-center bg-white">3100</td>
-
                 </tr>
+
                 <tr>
                     <td class="border px-4 py-2 text-center bg-white">Nariño</td>
                     <td class="border px-4 py-2 text-center bg-white">Sapuye</td>
@@ -336,102 +658,7 @@
                     <td class="border px-4 py-2 text-center bg-white">249.369,84</td>
                     <td class="border px-4 py-2 text-center bg-white">2</td>
                 </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Urrao</td>
-                    <td class="border px-4 py-2 text-center bg-white">256.384,97</td>
-                    <td class="border px-4 py-2 text-center bg-white">2.000</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Abriaquí</td>
-                    <td class="border px-4 py-2 text-center bg-white">29.697,42</td>
-                    <td class="border px-4 py-2 text-center bg-white">1.900</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Vigia del Fuerte</td>
-                    <td class="border px-4 py-2 text-center bg-white">166.272,99</td>
-                    <td class="border px-4 py-2 text-center bg-white">7</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Frontino</td>
-                    <td class="border px-4 py-2 text-center bg-white">138.445,60</td>
-                    <td class="border px-4 py-2 text-center bg-white">1.500</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Cañasgorda</td>
-                    <td class="border px-4 py-2 text-center bg-white">36.483,86</td>
-                    <td class="border px-4 py-2 text-center bg-white">1.298</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Uramita</td>
-                    <td class="border px-4 py-2 text-center bg-white">26.593,70</td>
-                    <td class="border px-4 py-2 text-center bg-white">647</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Murindo</td>
-                    <td class="border px-4 py-2 text-center bg-white">126.683,99</td>
-                    <td class="border px-4 py-2 text-center bg-white">25</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Dabeiba</td>
-                    <td class="border px-4 py-2 text-center bg-white">195.766,95</td>
-                    <td class="border px-4 py-2 text-center bg-white">412</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Mutatá</td>
-                    <td class="border px-4 py-2 text-center bg-white">107.526,59</td>
-                    <td class="border px-4 py-2 text-center bg-white">132</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Hituango</td>
-                    <td class="border px-4 py-2 text-center bg-white">82.328,76</td>
-                    <td class="border px-4 py-2 text-center bg-white">1750</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Chigorodó</td>
-                    <td class="border px-4 py-2 text-center bg-white">72.198,17</td>
-                    <td class="border px-4 py-2 text-center bg-white">31</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Carepa</td>
-                    <td class="border px-4 py-2 text-center bg-white">38.743.53</td>
-                    <td class="border px-4 py-2 text-center bg-white">34</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Apartadó</td>
-                    <td class="border px-4 py-2 text-center bg-white">53.536,47</td>
-                    <td class="border px-4 py-2 text-center bg-white">28</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Turbo</td>
-                    <td class="border px-4 py-2 text-center bg-white">288.633,76</td>
-                    <td class="border px-4 py-2 text-center bg-white">1</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">San Pedro de Uraba</td>
-                    <td class="border px-4 py-2 text-center bg-white">15,159,79</td>
-                    <td class="border px-4 py-2 text-center bg-white">434</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
-                    <td class="border px-4 py-2 text-center bg-white">Necocli</td>
-                    <td class="border px-4 py-2 text-center bg-white">105.912,83</td>
-                    <td class="border px-4 py-2 text-center bg-white">6</td>
-                </tr>
+
                 <tr>
                     <td class="border px-4 py-2 text-center bg-white">Risaralda</td>
                     <td class="border px-4 py-2 text-center bg-white">Pueblo Rico</td>
@@ -439,41 +666,15 @@
                     <td class="border px-4 py-2 text-center bg-white">1.563</td>
                 </tr>
                 <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Antioquia</td>
+                    <td class="border px-4 py-2 text-center bg-white">Risaralda</td>
                     <td class="border px-4 py-2 text-center bg-white">Mistrató</td>
                     <td class="border px-4 py-2 text-center bg-white">47.465,90</td>
                     <td class="border px-4 py-2 text-center bg-white">501</td>
                 </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
-                    <td class="border px-4 py-2 text-center bg-white">Argelia</td>
-                    <td class="border px-4 py-2 text-center bg-white">77.645,55</td>
-                    <td class="border px-4 py-2 text-center bg-white">1750</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
-                    <td class="border px-4 py-2 text-center bg-white">Guapi	</td>
-                    <td class="border px-4 py-2 text-center bg-white">257.088,67</td>
-                    <td class="border px-4 py-2 text-center bg-white">4</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
-                    <td class="border px-4 py-2 text-center bg-white">El Tambo</td>
-                    <td class="border px-4 py-2 text-center bg-white">160.323,43</td>
-                    <td class="border px-4 py-2 text-center bg-white">1750</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
-                    <td class="border px-4 py-2 text-center bg-white">Timbiquí</td>
-                    <td class="border px-4 py-2 text-center bg-white">205.978,55</td>
-                    <td class="border px-4 py-2 text-center bg-white">10</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Cauca</td>
-                    <td class="border px-4 py-2 text-center bg-white">López	</td>
-                    <td class="border px-4 py-2 text-center bg-white">337.042,70</td>
-                    <td class="border px-4 py-2 text-center bg-white">390</td>
-                </tr>
+
+
+
+
                 <tr>
                     <td class="border px-4 py-2 text-center bg-white">Valle del Cauca</td>
                     <td class="border px-4 py-2 text-center bg-white">Vijes</td>
@@ -563,205 +764,6 @@
                     <td class="border px-4 py-2 text-center bg-white">Yotoco</td>
                     <td class="border px-4 py-2 text-center bg-white">3792,43</td>
                     <td class="border px-4 py-2 text-center bg-white">850</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Córdoba</td>
-                    <td class="border px-4 py-2 text-center bg-white">Tierralta</td>
-                    <td class="border px-4 py-2 text-center bg-white">390.190,39</td>
-                    <td class="border px-4 py-2 text-center bg-white">51</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Córdoba</td>
-                    <td class="border px-4 py-2 text-center bg-white">Valencia</td>
-                    <td class="border px-4 py-2 text-center bg-white">34.051,70</td>
-                    <td class="border px-4 py-2 text-center bg-white">55</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Litoral del San Juan</td>
-                    <td class="border px-4 py-2 text-center bg-white">413.615,27</td>
-                    <td class="border px-4 py-2 text-center bg-white">25</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Sipí</td>
-                    <td class="border px-4 py-2 text-center bg-white">157.745,31</td>
-                    <td class="border px-4 py-2 text-center bg-white">50</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Novita</td>
-                    <td class="border px-4 py-2 text-center bg-white">34.567,60</td>
-                    <td class="border px-4 py-2 text-center bg-white">100</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Medio San Juan (Andagoya)</td>
-                    <td class="border px-4 py-2 text-center bg-white">76.377,40</td>
-                    <td class="border px-4 py-2 text-center bg-white">41</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">San José del Palmar</td>
-                    <td class="border px-4 py-2 text-center bg-white">158.252,44</td>
-                    <td class="border px-4 py-2 text-center bg-white">2500</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Condoto</td>
-                    <td class="border px-4 py-2 text-center bg-white">46.788,64</td>
-                    <td class="border px-4 py-2 text-center bg-white">50</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Rio Iro</td>
-                    <td class="border px-4 py-2 text-center bg-white">32.521,73</td>
-                    <td class="border px-4 py-2 text-center bg-white">158</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Istmina</td>
-                    <td class="border px-4 py-2 text-center bg-white">188.108,17</td>
-                    <td class="border px-4 py-2 text-center bg-white">47</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Medio Baudo ()</td>
-                    <td class="border px-4 py-2 text-center bg-white">137.294,30</td>
-                    <td class="border px-4 py-2 text-center bg-white">50</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Unión Panamericana (Las Animas)</td>
-                    <td class="border px-4 py-2 text-center bg-white">17.783,77</td>
-                    <td class="border px-4 py-2 text-center bg-white">74</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Tadó</td>
-                    <td class="border px-4 py-2 text-center bg-white">71.499,59</td>
-                    <td class="border px-4 py-2 text-center bg-white">78</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Certegui</td>
-                    <td class="border px-4 py-2 text-center bg-white">42.351,40</td>
-                    <td class="border px-4 py-2 text-center bg-white">54</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">El Cantón del San Pablo (Managrú)</td>
-                    <td class="border px-4 py-2 text-center bg-white">38.069,33</td>
-                    <td class="border px-4 py-2 text-center bg-white">35</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Bajo Baudo (Pizarro)</td>
-                    <td class="border px-4 py-2 text-center bg-white">348.219,82</td>
-                    <td class="border px-4 py-2 text-center bg-white">5</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Bagado</td>
-                    <td class="border px-4 py-2 text-center bg-white">80.759,87</td>
-                    <td class="border px-4 py-2 text-center bg-white">200</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Rio Quito</td>
-                    <td class="border px-4 py-2 text-center bg-white">69.936,31</td>
-                    <td class="border px-4 py-2 text-center bg-white">35</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Atrato (Yuto)</td>
-                    <td class="border px-4 py-2 text-center bg-white">42.173,94</td>
-                    <td class="border px-4 py-2 text-center bg-white">55</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Lloró</td>
-                    <td class="border px-4 py-2 text-center bg-white">84.312,26</td>
-                    <td class="border px-4 py-2 text-center bg-white">100</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Nuquí</td>
-                    <td class="border px-4 py-2 text-center bg-white">70.458,34</td>
-                    <td class="border px-4 py-2 text-center bg-white">5</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">El Carmen de Atrato</td>
-                    <td class="border px-4 py-2 text-center bg-white">83.029,34</td>
-                    <td class="border px-4 py-2 text-center bg-white">1.726</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white"></td>
-                    <td class="border px-4 py-2 text-center bg-white"></td>
-                    <td class="border px-4 py-2 text-center bg-white"></td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Alto Baudo (Pie de Pató)</td>
-                    <td class="border px-4 py-2 text-center bg-white">205.187,79</td>
-                    <td class="border px-4 py-2 text-center bg-white">50</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Medio Atrato (Beté)</td>
-                    <td class="border px-4 py-2 text-center bg-white">181.374,92</td>
-                    <td class="border px-4 py-2 text-center bg-white">25</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Quibdó</td>
-                    <td class="border px-4 py-2 text-center bg-white">350.865,59</td>
-                    <td class="border px-4 py-2 text-center bg-white">32</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Bahia Solano</td>
-                    <td class="border px-4 py-2 text-center bg-white">89.606,57</td>
-                    <td class="border px-4 py-2 text-center bg-white">34</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Bojayá</td>
-                    <td class="border px-4 py-2 text-center bg-white">363.317,81</td>
-                    <td class="border px-4 py-2 text-center bg-white">13</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">El Carmen del Darién</td>
-                    <td class="border px-4 py-2 text-center bg-white">318.268,75</td>
-                    <td class="border px-4 py-2 text-center bg-white">5</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Juradó</td>
-                    <td class="border px-4 py-2 text-center bg-white">129.805,37</td>
-                    <td class="border px-4 py-2 text-center bg-white">5</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Rio Sucio</td>
-                    <td class="border px-4 py-2 text-center bg-white">761.545,64</td>
-                    <td class="border px-4 py-2 text-center bg-white">22</td>
-                </tr>
-
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Hunguia</td>
-                    <td class="border px-4 py-2 text-center bg-white">119.123,07</td>
-                    <td class="border px-4 py-2 text-center bg-white">50</td>
-                </tr>
-                <tr>
-                    <td class="border px-4 py-2 text-center bg-white">Chocó</td>
-                    <td class="border px-4 py-2 text-center bg-white">Acandí</td>
-                    <td class="border px-4 py-2 text-center bg-white">79.852,83</td>
-                    <td class="border px-4 py-2 text-center bg-white">6</td>
                 </tr>
 
 
