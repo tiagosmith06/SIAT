@@ -750,7 +750,7 @@
                 <tr>
                     <td class="border px-4 py-2 text-center bg-white">Valle del Cauca</td>
                     <td class="border px-4 py-2 text-center bg-white">Argelia</td>
-                    <td class="border px-4 py-2 text-center bg-white">9000,080</td>
+                    <td class="border px-4 py-2 text-center bg-white">9.080,60</td>
                     <td class="border px-4 py-2 text-center bg-white">1.512</td>
                 </tr>
                 <tr>
