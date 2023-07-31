@@ -9,72 +9,72 @@
             <div class="flex  w-full gap-5 max-w-8xl flex-wrap  justify-evenly  p-1 m-1  ">
 
                 <div class="flex flex-col gap-6  p-2 m-1">
-                    <h2 class="font-bold text-white text-my_blue text-lg text-center">INFORMACIÓN INSTITUCIONAL
+                    <h2 class="font-bold text-white  text-lg text-center">INFORMACIÓN INSTITUCIONAL
 
                     </h2>
 
                     <div class="flex gap-2 flex-col  p-2 m-1">
                         <p>
-                            <i class="fas fa-school mr-1 text-my_blue "></i>
+                            <i class="fas fa-school mr-1  "></i>
                             NIT: 901675220-9
                         </p>
                         <p>
-                            <i class="fas fa-directions  mr-1 text-my_blue "></i> Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa)
+                            <i class="fas fa-directions  mr-1  "></i> Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa)
                         </p>
                         <p>
-                            <i class="fas fa-id-card mr-1 text-my_blue  fa-fw"></i>
+                            <i class="fas fa-id-card mr-1   fa-fw"></i>
                             Código Postal: 111321
                         </p>
                         <p>
-                            <i class="fa-solid fa-phone mr-1 text-my_blue"></i>
+                            <i class="fa-solid fa-phone mr-1 "></i>
                             Teléfono: (54) (4) 6709126 ext 4123 / Cel: 3207991164
                         </p>
 
-                        <p> <i class="fa-regular fa-envelope mr-1 text-my_blue"></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
+                        <p> <i class="fa-regular fa-envelope mr-1 "></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
                         </p>
                     </div>
                 </div>
                 <div class="flex flex-col gap-6  p-2 m-1">
-                    <h3 class="font-bold  text-white text-my_blue text-lg text-center">ENLACES DE INTERES
+                    <h3 class="font-bold  text-white  text-lg text-center">ENLACES DE INTERES
 
                     </h3>
 
                     <div class="flex gap-2   p-2 m-1 flex-col">
                         <a href="{{route('pages.contactanos')}}" target="_blank"><i
-                                class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
+                                class="fa-solid fa-arrow-right mr-1 "></i>
                             Contactanos
                         </a>
                         <a href="{{route('pages.comunicacion')}}" target="_blank"><i
-                            class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
+                            class="fa-solid fa-arrow-right mr-1 "></i>
                         Noticias
                     </a>
                       <!--  <a href="{{route('pages.biogeografico')}}"><i target="_blank"
-                                class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>
+                                class="fa-solid fa-arrow-right mr-1 "></i>
                             Nuestros programas
                         </a> -->
-                        <a href="{{route('pages.comunicacion')}}"><i
-                                class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>"****"
+                        <a href="{{route('pages.atencionintegral')}}"><i
+                                class="fa-solid fa-arrow-right mr-1 "></i>Atencion integral
 
                         </a>
                     </div>
                 </div>
                 <div class="flex flex-col gap-6 p-1 m-1">
-                    <h2 class="font-bold text-my_blue text-lg  text-white text-center">ALIADOS INSTITUCIONALES</h2>
+                    <h2 class="font-bold  text-lg  text-white text-center">ALIADOS INSTITUCIONALES</h2>
                     <div class="flex flex-col gap-3 ">
                         <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIAT-AC
+                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIAT-AC
 
                     </a>
                         <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIAC
+                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIAC
                         </a>
 
                         <a href="https://biodiversidad.co/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>SIB-COLOMBIA
+                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIB-COLOMBIA
                         </a>
 
                         <a href="http://humboldt.org.co/es/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 text-my_blue"></i>HUMBOLDT
+                            <i class="fa-solid fa-arrow-right  mr-1 "></i>HUMBOLDT
                         </a>
 
 
@@ -85,17 +85,17 @@
         <div class="flex justify-center m-1 p-1 gap-8 items-center flex-wrap py-3">
 
             <a href="https://www.youtube.com/@iiapcolombia3631" target="_blank"
-                class="flex flex-col gap-2 rounded-[50%] items-center bg-my_blue p-4 hover:bg-my_red">
+                class="flex flex-col gap-2 rounded-[50%] items-center p-4 hover:bg-my_red">
                 <i class="fa-brands fa-youtube text-white text-[30px]"></i>
 
             </a>
             <a href="https://web.facebook.com/IIAPCO" target="_blank"
-                class="flex flex-col rounded-[50%]  gap-2 items-center bg-my_blue p-4 hover:bg-[#3B5998]">
+                class="flex flex-col rounded-[50%]  gap-2 items-center  p-4 hover:bg-[#3B5998]">
                 <i class="fa-brands fa-facebook text-[30px]  text-white"></i>
 
             </a>
             <a href="https://twitter.com/IIAP_CO" target="_blank"
-                class="flex flex-col rounded-[50%] gap-1 items-center bg-my_blue p-4 hover:bg-[#00ACEE]">
+                class="flex flex-col rounded-[50%] gap-1 items-center p-4 hover:bg-[#00ACEE]">
                 <i class="fa-brands fa-twitter text-[30px]  text-white"></i>
 
             </a>
@@ -104,7 +104,7 @@
         </div>
 
 
-        <div class="h-[70px] md:h-[40px] bg-my_green text-white  p-2 m-1  flex  w-full box-border justify-center">
+        <div class="h-[70px] md:h-[40px] bg-white text-green-500  p-2 m-1  flex  w-full box-border justify-center">
             <div class="flex w-full justify-center items-center flex-wrap">
                 <span>
 
