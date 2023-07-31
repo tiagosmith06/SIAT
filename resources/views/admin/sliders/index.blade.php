@@ -8,7 +8,7 @@
     <h1>Lista carrucel</h1>
     @can('admin.posts.create')
     <a class=" btn btn-secondary " href="{{route('admin.sliders.create')}}">Crear
-        carrucel</a>
+        Carrucel</a>
 
     @endcan
 

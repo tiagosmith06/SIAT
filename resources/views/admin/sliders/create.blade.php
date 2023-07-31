@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Crear carrucel</h1>
+<h1>Crear Carrucel</h1>
 @stop
 
 @section('content')
@@ -89,24 +89,7 @@
                 @enderror
             </div>
         </div>
-        {{--
-        <div class="form-group">
-            {!! Form::label('extract', 'Extracto') !!}
-            {!! Form::textarea('extract', null, ['class'=> 'form-control']) !!}
-
-            @error('extract')
-            <span class="text-danger">{{$message}}</span>
-            @enderror
-        </div>
-
-        <div class="form-group">
-            {!! Form::label('body', 'Cuerpo') !!}
-            {!! Form::textarea('body', null, ['class'=> 'form-control']) !!}
-
-            @error('body')
-            <span class="text-danger">{{$message}}</span>
-            @enderror
-        </div> --}}
+        
         {!! Form::hidden('body', "d") !!}
         {!! Form::hidden('extract', "d") !!}
 
