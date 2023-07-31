@@ -47,15 +47,11 @@
             @foreach ($posts as $programa)
             <tr class="d-flex justify-content-between">
                 <div>
-
                     <th scope="row">{{$programa->id}}</th>
                     <td>{{$programa->name}}</td>
-
                 </div>
 
                 <div>
-
-
                     <td width="10px">
                         @can('admin.posts.edit')
                         <a class="btn btn-primary btn-sm" href="{{route('admin.programas.edit',$programa)}}">
@@ -76,9 +72,6 @@
                             <button type="submit" class="btn btn-danger btn-sm">
                                 Eliminar
                             </button>
-
-
-
                         </form>
 
                         @endcan

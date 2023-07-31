@@ -332,6 +332,16 @@ return [
 
         ],
         [
+            'text' => 'Atencion Integral',
+            'url'  => 'admin/programas',
+            'icon' => 'fas fa-images',
+            'active' => ['admin/roles*'],
+            'can' =>  'admin.roles.index'
+
+
+        ],
+
+        [
             'text' => 'Chocó Biogeografico ',
             'url'  => 'admin/educacion',
             'icon' => 'fas fa-images',

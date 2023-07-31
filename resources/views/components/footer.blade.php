@@ -2,7 +2,7 @@
 
     <hr>
 
-    <footer  class="flex bg-green-800 text-white  flex-col gap-8 w-full bottom-0 mt-4 ">
+    <footer  class="flex bg-green-500 text-white  flex-col gap-4 w-full bottom-0 mt-4 ">
 
 
         <div class="flex justify-around gap-3">

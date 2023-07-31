@@ -61,7 +61,7 @@
 
             <label>
                 {!! Form::radio('status', 2) !!}
-                Publicado
+                Público
             </label>
             @error('status')
             <span class="text-danger">{{$message}}</span>

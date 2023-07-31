@@ -2,50 +2,44 @@
 
     @include('components/slider-home')
 
-    <div class="flex flex-col bg-white">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>CONJUNTO DE DATOS</strong> </h1>
+
+
+    <div class="flex flex-col bg-white p-2 m-6">
+        <h1 class="t text-center  text-gray-700 text-3xl my-3 text-white bg-orange-400 rounded-full"><strong>CONJUNTO DE DATOS</strong> </h1>
         <section class=" grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="team-member">
-                            <h1 class="text-center font-bold flex "></h1>
+                            <h1 class="text-center p-2 font-bold flex text-green-800">CONJUNTO DE DATOS</h1>
                             <a href="https://ipt.biodiversidad.co/iiap/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-auto" src="{{ asset('images/database.png') }}" alt="SIAC" /></a>
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-[100px]" src="{{ asset('images/database.png') }}" alt="SIAC" /></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="team-member">
+                            <h1 class="text-center p-2 font-bold flex  text-green-800">SENTENCIA RIO ATRATO</h1>
                            <a href="https://sentenciasrioatrato.siatpc.co/" target="_parent" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-fit" src="{{ asset('images/sentencia.png') }}" alt="..." /></a>
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-[100px]" src="{{ asset('images/sentencia.png') }}" alt="Sentencia rio atrato" /></a>
 
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="team-member">
-                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
+                            <h1 class="text-center p-3 font-bold flex text-green-800 ">MESA FORESTAL</h1>
+                            <a href="https://mesaforestal.siatpc.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/mesa_forestal.png') }}" alt="Mesa forestal" /></a>
                         </div>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="col-lg-3">
                         <div class="team-member">
-                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
+                            <h1 class="text-center p-2 font-bold flex text-green-800 ">VISIÓN DE DESARROLLO</h1>
+                            <a href="https://siatpc.co/vision-de-desarrollo" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/view.png') }}" alt="Vision de desarrollo" /></a>
                         </div>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="" target="_blank" >
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
-                        </div>
-                    </div>
+
                 </div>
 
             </div>
@@ -96,7 +90,7 @@
                     <div class="col-lg-2">
                         <div class="team-member">
                            <a href="http://www.siac.gov.co//" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-fit" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
 
                         </div>
                     </div>
