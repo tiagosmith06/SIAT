@@ -217,5 +217,10 @@
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-7.jpg" alt="">
     </div>
 
+
 </div>
+
+<style>
+
+</style>
 </x-app-layout>

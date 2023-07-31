@@ -46,7 +46,7 @@
             <h1 class="text-4xl font-semibold text-opacity-20"> {{$post->name}}</h1>
 
             <div class="my-2 flex gap-2">
-                <p>Por admin :</p>
+                <p>Por Admin :</p>
                 <span> {{$post->updated_at->format('d-m-Y ')}}
                 </span>
             </div>

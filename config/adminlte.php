@@ -369,7 +369,7 @@ return [
 
 
         ],
-        /*
+
         [
             'text'    => 'Documentos',
             'icon'    => 'fas fa-fw fa-share',
@@ -388,7 +388,7 @@ return [
                     'url'  => 'admin/archivos',
                 ],
             ],
-        ], */
+        ], 
         [
             'text' => 'Carruceles',
             'url'  => 'admin/sliders',
