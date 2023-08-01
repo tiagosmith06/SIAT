@@ -1,7 +1,4 @@
 <header  class=" borde border-b-[1px] border-gray-200 w-full">
-
-
-
     <nav  class="bg-green-500 fixed top-0 left-0 right-0 z-50 shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-green-500 w-full">
 
         <div class="flex flex-wrap items-center justify-between w-full  p-2">
@@ -155,13 +152,7 @@
                                         Objetivos
                                     </a>
                                 </li>
-                               <!-- <li>
-                                    <a href="{{route('pages.municipios')}}"
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">
-                                       Municipios
-                                    </a>
-                                </li>
-                            -->
+
                             </ul>
                         </div>
                     </li>
@@ -172,9 +163,7 @@
                     </li>
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
-                            class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
-                            Servicios
-
+                            class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">Servicios
                             <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"

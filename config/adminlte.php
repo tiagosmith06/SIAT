@@ -335,7 +335,7 @@ return [
             'text' => 'Atencion Integral',
             'url'  => 'admin/programas',
             'icon' => 'fas fa-images',
-            'active' => ['admin/roles*'],
+            'active' => ['admin/programa*'],
             'can' =>  'admin.roles.index'
 
 
@@ -388,7 +388,7 @@ return [
                     'url'  => 'admin/archivos',
                 ],
             ],
-        ], 
+        ],
         [
             'text' => 'Carruceles',
             'url'  => 'admin/sliders',
