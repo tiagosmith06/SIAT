@@ -165,7 +165,7 @@
                             </ul>
                         </div>
                     </li>
-                    
+
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
                             class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>

@@ -166,6 +166,36 @@ axios.get('{{ route("contador") }}')
 
         @include('components/footer')
 
+<!-- ... -->
+    <div id="app">
+        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="{{ url('/') }}">
+                    {{ config('app.name', 'Laravel') }}
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left Side Of Navbar -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- Agregar enlaces para acceder a las vistas -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('cargar-archivo') }}">Cargar Archivo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('lista-documentos') }}">Lista de Documentos</a>
+                        </li>
+                    </ul>
+                    <!-- Right Side Of Navbar -->
+                    <!-- ... -->
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+            @yield('content')
+        </main>
+    </div>
+
+<!-- ... -->
 
     </div>
 
@@ -177,5 +207,6 @@ axios.get('{{ route("contador") }}')
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
