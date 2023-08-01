@@ -40,18 +40,19 @@
                     </h3>
 
                     <div class="flex gap-2   p-2 m-1 flex-col">
-                        <a href="{{route('pages.contactanos')}}" target="_blank"><i
+                        <a href="{{route('pages.contactanos')}}" target="_parent"><i
                                 class="fa-solid fa-arrow-right mr-1 "></i>
                             Contactanos
                         </a>
-                        <a href="{{route('pages.comunicacion')}}" target="_blank"><i
+                        <a href="{{route('pages.comunicacion')}}" target="_parent"><i
                             class="fa-solid fa-arrow-right mr-1 "></i>
                         Noticias
                     </a>
-                      <!--  <a href="{{route('pages.biogeografico')}}"><i target="_blank"
+                        <a href="{{route('pages.biogeografico')}}"><i target="_parent"
                                 class="fa-solid fa-arrow-right mr-1 "></i>
-                            Nuestros programas
-                        </a> -->
+                            Chocó Biogeografico
+                        </a>
+
                         <a href="{{route('pages.atencionintegral')}}"><i
                                 class="fa-solid fa-arrow-right mr-1 "></i>Atencion integral
 

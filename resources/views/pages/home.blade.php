@@ -5,45 +5,7 @@
 
 
     <div class="flex flex-col bg-white p-2 m-6">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3 text-white bg-orange-400 rounded-full"><strong>CONJUNTO DE DATOS</strong> </h1>
-        <section class=" grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <h1 class="text-center p-2 font-bold flex text-green-800">CONJUNTO DE DATOS</h1>
-                            <a href="https://ipt.biodiversidad.co/iiap/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-[100px]" src="{{ asset('images/database.png') }}" alt="SIAC" /></a>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <h1 class="text-center p-2 font-bold flex  text-green-800">SENTENCIA RIO ATRATO</h1>
-                           <a href="https://sentenciasrioatrato.siatpc.co/" target="_parent" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-[100px]" src="{{ asset('images/sentencia.png') }}" alt="Sentencia rio atrato" /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <h1 class="text-center p-3 font-bold flex text-green-800 ">MESA FORESTAL</h1>
-                            <a href="https://mesaforestal.siatpc.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/mesa_forestal.png') }}" alt="Mesa forestal" /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <h1 class="text-center p-2 font-bold flex text-green-800 ">VISIÓN DE DESARROLLO</h1>
-                            <a href="https://siatpc.co/vision-de-desarrollo" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/view.png') }}" alt="Vision de desarrollo" /></a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
     </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2  justify-between max-w-5xl my-0 mx-auto ">
@@ -57,7 +19,7 @@
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
 -->
-                <p class="bg-green-700 text-2xl text-white m-4 rounded-br-md  text-justify p-10">El Sistema de Información Ambiental Territorial del Pacífico Colombiano (SIAT-PC)
+                <p class="bg-green-500 text-2xl text-white m-4 rounded-br-md  text-justify p-10">El Sistema de Información Ambiental Territorial del Pacífico Colombiano (SIAT-PC)
                     es el conjunto integrado de actores, políticas, procesos y tecnologías involucradas en la
                     gestión de información ambiental para facilitar la generación de conocimiento, la toma de decisiones, la educación y la participación social, en el pacifico colombiano.
                 </p>

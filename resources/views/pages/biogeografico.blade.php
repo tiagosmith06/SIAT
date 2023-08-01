@@ -38,7 +38,7 @@
               </div>
               <div class="p-6">
                 <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-                  Card title
+                  CHOCÓ BIOGEOGRÁFICO
                 </h5>
                 <p class="mb-4 text-base text-black text-justify text-neutral-200">
                     La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
@@ -49,11 +49,11 @@
                 </p>
 
 
-            <div class="bg-green-800  text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
+            <div  class="bg-green-800   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-2xl md:text-2xl font-extrabold">4</dt>
-                        <dd class="font-light text-gray-500 text-white">DEPARTAMENTOS</dd>
+                        <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
+                        <dd class="font-light text-gray-500 text-white"><a href="#departamentos" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">DEPARTAMENTOS</a></dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7M</dt>
@@ -61,23 +61,23 @@
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">178</dt>
-                        <dd class="font-light text-gray-500 text-white">Municipios</dd>
+                        <dd class="font-light text-gray-500 text-white"><a href="#municipios" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">MUNICIPIOS</a></dd>
                     </div>
 
                 </dl>
                 <dl class="grid m-4 borde- max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">233.946 KM²</dt>
-                        <dd class="font-light text-gray-500 text-white">Área total</dd>
+                        <dd class="font-light text-gray-500 text-white">ÁREA TOTAL</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">174</dt>
-                        <dd class="font-light text-gray-500 text-white">Comunidades</dd>
+                        <dd class="font-light text-gray-500 text-white">COMUNIDADES</dd>
                     </div>
 
                     <div class=" m- flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">232</dt>
-                        <dd class="font-light text-gray-500 text-white">Resguardos Indigenas</dd>
+                        <dd class="font-light text-gray-500 text-white ">RESGUARDOS INDIGENAS</dd>
                     </div>
                 </dl>
             </div>
@@ -117,13 +117,13 @@
             </div>
           </div>
 
-          <div class="p-4 m-4 container mx-auto">
+          <div id="municipios"  class="p-4 m-4 container mx-auto">
             <input type="text" id="searchInput" class="border rounded px-4 py-2 w-64 mb-4" placeholder="Buscar...">
-            <table class="w-full table-auto">
+            <table  class="w-full table-auto">
               <thead>
                 <tr class="bg-green-800 text-white">
 
-                  <th class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(1)">
+                  <th id="departamentos" class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(1)">
                     DEPARTAMENTO
                     <a href="javascript:void(0)" class="ml-2">
                       <svg class="w-4 h-4 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24"
@@ -767,6 +767,7 @@
 
 
               </tbody>
+
             </table>
             <script>
               const searchInput = document.getElementById('searchInput');
@@ -811,6 +812,7 @@
               });
 
             </script>
+
           </div>
 
 

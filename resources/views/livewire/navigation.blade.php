@@ -89,7 +89,6 @@
 
                                         @csrf
 
-
                                         <a href="{{ route('logout') }}"
                                             class="block px-4 py-2 text-sm text-green-500 rounded-md hover:bg-orange-500  hover:text-green-500 font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
@@ -99,17 +98,15 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
                 @else
 
-
-                <div class="flex gap-2  order-3 items-center cursor-pointer text-black text-[14px] flex-col ">
-                    <a href="{{route('login')}}" class="text-black">Iniciar Sesión</a>
-
+                <div class="flex gap-2  order-3 items-center cursor-pointer text-white text-[14px] flex-col ">
+                    <a href="{{route('login')}}" class="text-white">Iniciar Sesión</a>
 
 
-                    <a href="{{route('register')}}" class="text-black">
+
+                    <a href="{{route('register')}}" class="text-white">
                         Registrarse
                     </a>
 
@@ -168,12 +165,11 @@
                             </ul>
                         </div>
                     </li>
-
+                    
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
                             class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
                     </li>
-
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
                             class=" py-2 pl-3 pr-4 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
@@ -189,8 +185,6 @@
                         <div id="mega-menu-icons-dropdown2"
                             class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
                             <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button2">
-
-
                                 <li>
                                     <a href="{{route('pages.geovisor')}}"
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">
@@ -204,14 +198,11 @@
                                 </li>
                             </ul>
                         </div>
-
                     </li>
-
                     <li>
                         <a href="{{route('pages.atencionintegral')}}"
                             class="{{request()->routeIs('pages.atencionintegral') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Atención Integral</a>
                     </li>
-
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
                             class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Noticias</a>
@@ -220,11 +211,8 @@
                         <a href="{{route('pages.contactanos')}}"
                             class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-3 pr-4  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Contactanos</a>
                     </li>
-
                 </ul>
-
             </div>
         </div>
     </nav>
-
 </header>
