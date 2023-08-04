@@ -1,31 +1,31 @@
-<!-- ... -->
-<body>
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        <!-- Agregar enlaces para acceder a las vistas -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('cargar-archivo') }}">Cargar Archivo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('lista-documentos') }}">Lista de Documentos</a>
-                        </li>
-                    </ul>
-                    <!-- Right Side Of Navbar -->
-                    <!-- ... -->
-                </div>
-            </div>
-        </nav>
+<x-app-layout>
+    <div class="min-h-screen">
+      <div class="imagen-title2" style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
+        <div class="cover pl-[50px]">
+          <h1 class="font-extrabold text-my_blue text-3xl">GESTION DOCUMENTAL</h1>
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
-</body>
-<!-- ... -->
+          <nav class="flex my-4" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+              <li class="inline-flex items-center gap-2">
+                <i class="fa-solid fa-house"></i> <a href="#"
+                  class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
+                </a>
+              </li>
+              <li class="inline-flex items-center">
+                <a href="/" class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600"> Inicio /</a>
+              </li>
+              <li class="inline-flex items-center">
+                <a href="/gestion"
+                  class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
+                  Gestión Documental
+                </a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+
+
+
+  </x-app-layout>
+

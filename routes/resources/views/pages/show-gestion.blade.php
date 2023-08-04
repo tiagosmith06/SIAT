@@ -29,7 +29,7 @@
 
                         <li class="inline-flex items-center">
 
-                            <a href="/gestion_documental"
+                            <a href="/gestion"
                                 class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
                                 Gestion
                             </a>

@@ -5,7 +5,7 @@
         <div class="imagen-title"
             style="background-image:url(https://www.eltiempo.com/files/article_main/uploads/2021/02/24/60368f9cc9bda.jpeg)">
             <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">Consejo Terriorial de Autoridades indigenas del Chocó
+                <h1 class="font-extrabold text-my_blue text-3xl">¿QUIENES SOMOS?
                 </h1>
                 <h1 class="text-my_blue text-xl">Visión</h1>
 

@@ -4,10 +4,10 @@
 
         <div class="flex flex-wrap m-2 items-center justify-between w-full  p-1">
             <div
-                class="container flex flex-wrap items-center justify-between md:justify-center lg:justify-between  ">
+                class="container flex flex-wrap items-center justify-between md:justify-center xl:justify-between  ">
                 <div class="flex items-center  gap-2">
                     <a href="/" target="_parent" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/logotipo.jpg') }} " class="   t-left w-[70px]">
+                        <img src=" {{ asset('images/logotipo.jpg') }} " class=" rounded-full  t-left w-[70px]">
                         <div class="flex flex-col text-black">
                     </a>
                 </div>
@@ -208,7 +208,7 @@
                             class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
                             <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button2">
                                 <li>
-                                    <a href="{{route('pages.geovisor')}}"
+                                    <a href="{{route('pages.gestion')}}"
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">
                                         Gestión Documental
                                     </a>
@@ -218,11 +218,7 @@
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Proyectos Ambientales
                                     </a>
                                 </li>
-                                <li>
-                                    <a href={{route('pages.catalogo')}}
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Tableros de Control
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
 
