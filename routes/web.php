@@ -34,7 +34,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/objetivo', 'objetivo')->name('pages.objetivo');
     Route::get('/comunicacion', 'comunicacion')->name('pages.comunicacion');
     Route::get('/atencionintegral', 'atencionintegral')->name('pages.atencionintegral');
-
+    Route::get('/gestion_documental', 'gestion_documental')->name('pages.show_gestion');
     Route::get('/contratacion/{post}', 'show_contratacion')->name('pages.show-contratacion');
 
     Route::get('/estructura', 'estructura')->name('pages.estructura');
