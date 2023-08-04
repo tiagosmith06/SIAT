@@ -4,8 +4,7 @@ use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MunicipioController;
-use App\Http\Controllers\GestionDocumentalController;
+
 
 
 
@@ -47,12 +46,7 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/comment/{post}', 'storeComment')->name('comments.show');
     Route::get('/contador', 'counter')->name('contador');
 });
-Route::group(['middleware' => 'auth'], function () {
-    Route::get('/cargar-archivo', [GestionDocumentalController::class, 'showUploadForm'])->name('cargar-archivo');
-    Route::post('/subir-archivo', [GestionDocumentalController::class, 'upload'])->name('subir-archivo');
-    Route::get('/lista-documentos', [GestionDocumentalController::class, 'showDocumentList'])->name('lista-documentos');
-    Route::get('/descargar-archivo/{id}', [GestionDocumentalController::class, 'download'])->name('descargar-archivo');
-});
+
 
 
 Route::controller(ContactController::class)->group(function () {

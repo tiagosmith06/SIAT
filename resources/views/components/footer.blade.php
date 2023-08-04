@@ -1,122 +1,109 @@
-<div class="bg-white">
 
-    <hr>
-
-    <footer  class="flex bg-green-500 text-white  flex-col gap-4 w-full bottom-0 mt-4 ">
-
-
-        <div class="flex justify-around gap-3">
-            <div class="flex  w-full gap-5 max-w-8xl flex-wrap  justify-evenly  p-1 m-1  ">
-
-                <div class="flex flex-col gap-6  p-2 m-1">
-                    <h2 class="font-bold text-white  text-lg text-center">INFORMACIÓN INSTITUCIONAL
-
-                    </h2>
-
-                    <div class="flex gap-2 flex-col  p-2 m-1">
-                        <p>
-                            <i class="fas fa-school mr-1  "></i>
-                            NIT: 901675220-9
-                        </p>
-                        <p>
-                            <i class="fas fa-directions  mr-1  "></i> Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa)
-                        </p>
-                        <p>
-                            <i class="fas fa-id-card mr-1   fa-fw"></i>
-                            Código Postal: 111321
-                        </p>
-                        <p>
-                            <i class="fa-solid fa-phone mr-1 "></i>
-                            Teléfono: (54) (4) 6709126 ext 4123 / Cel: 3207991164
-                        </p>
-
-                        <p> <i class="fa-regular fa-envelope mr-1 "></i><a href="mailto:">Correo Electronico: sig@iiap.org.co</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="flex flex-col gap-6  p-2 m-1">
-                    <h3 class="font-bold  text-white  text-lg text-center">ENLACES DE INTERES
-
-                    </h3>
-
-                    <div class="flex gap-2   p-2 m-1 flex-col">
-                        <a href="{{route('pages.contactanos')}}" target="_parent"><i
-                                class="fa-solid fa-arrow-right mr-1 "></i>
-                            Contactanos
-                        </a>
-                        <a href="{{route('pages.comunicacion')}}" target="_parent"><i
-                            class="fa-solid fa-arrow-right mr-1 "></i>
-                        Noticias
-                    </a>
-                        <a href="{{route('pages.biogeografico')}}"><i target="_parent"
-                                class="fa-solid fa-arrow-right mr-1 "></i>
-                            Chocó Biogeografico
-                        </a>
-
-                        <a href="{{route('pages.atencionintegral')}}"><i
-                                class="fa-solid fa-arrow-right mr-1 "></i>Atencion integral
-
-                        </a>
-                    </div>
-                </div>
-                <div class="flex flex-col gap-6 p-1 m-1">
-                    <h2 class="font-bold  text-lg  text-white text-center">ALIADOS INSTITUCIONALES</h2>
-                    <div class="flex flex-col gap-3 ">
-                        <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIAT-AC
-
-                    </a>
-                        <a href="https://siatac.co/objetivos-del-siatac/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIAC
-                        </a>
-
-                        <a href="https://biodiversidad.co/" target="_blank">
-                            <i class="fa-solid fa-arrow-right mr-1 "></i>SIB-COLOMBIA
-                        </a>
-
-                        <a href="http://humboldt.org.co/es/" target="_blank">
-                            <i class="fa-solid fa-arrow-right  mr-1 "></i>HUMBOLDT
-                        </a>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="flex justify-center m-1 p-1 gap-8 items-center flex-wrap py-3">
-
-            <a href="https://www.youtube.com/@iiapcolombia3631" target="_blank"
-                class="flex flex-col gap-2 rounded-[50%] items-center p-4 hover:bg-my_red">
-                <i class="fa-brands fa-youtube text-white text-[30px]"></i>
-
-            </a>
-            <a href="https://web.facebook.com/IIAPCO" target="_blank"
-                class="flex flex-col rounded-[50%]  gap-2 items-center  p-4 hover:bg-[#3B5998]">
-                <i class="fa-brands fa-facebook text-[30px]  text-white"></i>
-
-            </a>
-            <a href="https://twitter.com/IIAP_CO" target="_blank"
-                class="flex flex-col rounded-[50%] gap-1 items-center p-4 hover:bg-[#00ACEE]">
-                <i class="fa-brands fa-twitter text-[30px]  text-white"></i>
-
-            </a>
-
-
+<footer class="bg-green-500">
+    <div class="mx-auto w-full max-w-screen-xl">
+      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div>
+            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">INSTITUCIÓN </h1>
+            <ul class="text-white text-white font-medium">
+                <li class="mb-4">
+                    <a href="#" class=" hover:text-gray">Nit: 901675220-9</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" target="_blank" class="hover:text-gray">Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Teléfono:(54) (4) 6709126</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Ext: 4123</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Código Postal - 111321 </a>
+                </li>
+            </ul>
         </div>
 
-
-        <div class="h-[70px] md:h-[40px] bg-white text-green-500  p-2 m-1  flex  w-full box-border justify-center">
-            <div class="flex w-full justify-center items-center flex-wrap">
-                <span>
-
-                    Copyright © 2023
-                </span>
-                <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
-                    class="ml-2 font-bold">Santiago Perea Murillo </a>
-                -
-                <span>  Ingeniero en Telecomunicaciones e Informatica - Todos los derechos son reservados. </span>
-
-
-            </div>
+        <div>
+            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">ENLACES DE INTERES</h1>
+            <ul class="text-white text-white font-medium">
+                <li class="mb-4">
+                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-gray hover:red-500">Contactanos</a>
+                </li>
+                <li class="mb-4">
+                    <a href="{{route('pages.comunicacion')}}" target="_parent" class="hover:text-gray">Noticias</a>
+                </li>
+                <li class="mb-4">
+                    <a href="{{route('pages.atencionintegral')}}" target="_parent" class="hover:text-gray">Atención Integral</a>
+                </li>
+                <li class="mb-4">
+                    <a href="{{route('pages.biogeografico')}}" target="_parent" class="hover:text-gray">Chocó Biogeográfico</a>
+                </li>
+            </ul>
         </div>
-    </footer>
+
+        <div>
+            <h2 class="mb-6  font-bold text-white uppercase text-white">POLITICAS Y PRIVACIDAD</h2>
+            <ul class="text-white text-white font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Normatividad</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Terminos y Condiciones</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Políticas y Privacidad</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-xl font-bold text-white uppercase text-white">SERVICIOS</h2>
+            <ul class="text-white text-white font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">iOS</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Android</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">Windows</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:text-gray">MacOS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="px-4 py-6 bg-green-500  md:flex md:items-center md:justify-between">
+        <span class="text-sm  text-white sm:text-center">© <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
+            class="ml-2 font-bold">Santiago Perea Murillo </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
+        </span>
+        <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
+            <a href="https://web.facebook.com/IIAPCO" class="text-white hover:text-white hover:text-white">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                    </svg>
+                  <span class="sr-only">Facebook</span>
+              </a>
+              <a href="https://twitter.com/IIAP_CO" target="_blank" class="text-white hover:text-blue-500 ">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Twitter </span>
+              </a>
+              <a href="https://github.com/tiagosmith06" class="text-white hover:text-white hover:text-gray">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
+                  </svg>
+                  <span class="sr-only">GitHub Cuenta</span>
+              </a>
+              <a href="https://www.youtube.com/@iiapcolombia3631" target="_blank" class="text-white hover:text-red ">
+                  <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
+                </svg>
+                  <span class="sr-only">Youtube</span>
+              </a>
+        </div>
+      </div>
+    </div>
+</footer>
+

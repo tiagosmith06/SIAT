@@ -7,7 +7,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
 
-    <title>{{ 'SIAT-PC' }}</title>
+    <title>{{ 'SISTEMA DE INFORMACIÓN TERRITORIAL AMBIENTAL DEL PACIFICO COLOMBIANO' }}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -63,8 +63,7 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <script src="{{ asset('js/app.js') }}"></script>
 
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js'])
-    --}}
+
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
@@ -94,7 +93,7 @@
             padding-bottom: 80px;
             width: 100%;
             margin: auto;
-            background: linear-gradient(to right, rgba(255, 255, 255, 1) 36%, rgba(255, 255, 255, .61) 61%, rgba(246, 246, 246, .17) 89%, rgba(255, 255, 255, 0) 100%);
+
         }
 
         .fa-house {
@@ -114,15 +113,15 @@
             padding-top: 100px;
             padding-bottom: 100px;
             width: 100%;
-            margin: auto;
+            margin: 10px;
+            padding: 4px;
         }
-
 
         .title-main {
             border-bottom: 5px solid #021E73;
-            display: block;
+            display: flex;
             font-family: "roboto_condensedbold";
-            font-size: 24px;
+            font-size: 20px;
             line-height: 24px;
             padding-bottom: 5px;
             padding-top: 27px;
@@ -139,17 +138,16 @@
     <script>
         window.addEventListener('unload', function(event) {
         document.cookie = encodeURIComponent('visited') + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-axios.get('{{ route("contador") }}')
-.then(function(response) {
-    document.cookie = encodeURIComponent('visited') + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
-
-  console.log(response);
-
-})
-.catch(function(error) {
-  console.log(error);
-});
-});
+        axios.get('{{ route("contador") }}')
+        .then(function(response)
+        {
+            document.cookie = encodeURIComponent('visited') + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+            console.log(response);
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+        });
     </script>
 </head>
 
@@ -166,37 +164,6 @@ axios.get('{{ route("contador") }}')
 
         @include('components/footer')
 
-<!-- ... -->
-    <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
-            <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav mr-auto">
-                        <!-- Agregar enlaces para acceder a las vistas -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('cargar-archivo') }}">Cargar Archivo</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ route('lista-documentos') }}">Lista de Documentos</a>
-                        </li>
-                    </ul>
-                    <!-- Right Side Of Navbar -->
-                    <!-- ... -->
-                </div>
-            </div>
-        </nav>
-
-        <main class="py-4">
-            @yield('content')
-        </main>
-    </div>
-
-<!-- ... -->
-
     </div>
 
     @stack('modals')
@@ -207,6 +174,5 @@ axios.get('{{ route("contador") }}')
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
-
 
 </html>

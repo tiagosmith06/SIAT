@@ -36,7 +36,7 @@
                 </nav>
             </div>
         </div>
-        <div class="container py-8 mb-8 mx-7 w-full justify-center flex flex-col md:flex-row items-center">
+        <div class=" bg-white container py-8 mb-8 mx-7 w-full justify-center flex flex-col md:flex-row items-center">
 
             <p class="w-full  max-w-[500px] min-w-[400px] text-lg text-justify m-4 ">
                 La misión del SIAT-PC es integrar y fortalecer saberes, capacidades de entidades, grupos y personas mediante una red que promueva la producción,
@@ -55,7 +55,5 @@
 
         </div>
     </div>
-
-    
 
 </x-app-layout>

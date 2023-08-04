@@ -8,7 +8,6 @@
                     <a href="/" target="_parent" rel="noopener noreferrer" class="flex">
                         <img src=" {{ asset('images/logotipo.jpg') }} " class="  rounded-circle t-left w-[60px]">
                         <div class="flex flex-col text-black">
-
                     </a>
                 </div>
 
@@ -183,6 +182,11 @@
                                 <li>
                                     <a href={{route('pages.catalogo')}}
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Catálogo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href={{route('pages.catalogo')}}
+                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Tableros de Control
                                     </a>
                                 </li>
                             </ul>

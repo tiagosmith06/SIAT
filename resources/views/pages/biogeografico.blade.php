@@ -1,127 +1,109 @@
 <x-app-layout>
-    <div class="min-h-screen">
-        <div class="imagen-title2 "
-            style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
-            <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">CHOCÓ BIOGEOGRAFICO </h1>
 
-                <nav class="flex my-4" aria-label="Breadcrumb">
-                    <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                        <li class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-house"></i>
-                            <a href="#" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-                            </a>
-                        </li>
-                        <li class="inline-flex items-center">
-                            <a href="/"class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-                                 Inicio /
-                            </a>
-                        </li>
-
-                        <li class="inline-flex items-center">
-                            <a href="/biogeografico"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-                               Chocó Biogeografico
-                            </a>
-                        </li>
-                    </ol>
-                </nav>
+    <div class="flex items-center m-4 ">
+        <h1 class="text-center text-xl font-bold">CHOCÓ BIOGEOGRAFICO</h1>
+    </div>
+        <div class="flex m-5 p-5 bg-white  items-center justify-between  bg-white-100">
+            <div class="flex-1">
+            <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
             </div>
-        </div>
+            <div class="flex-1 m-3 p-4">
 
-        <div class=" p-4 m-4 container mx-auto">
-            <div class="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
-              <div class="w-full">
-                <a href="#!" data-te-ripple-init data-te-ripple-color="light" class="flex justify-center">
-                  <img class="w-full rounded-t-lg" src="{{asset('images/paisaje.jpeg')}}" alt="" />
-                </a>
-              </div>
-              <div class="p-6">
-                <h5 class="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-                  CHOCÓ BIOGEOGRÁFICO
-                </h5>
-                <p class="mb-4 text-base text-black text-justify text-neutral-200">
-                    La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
-                    Está ubicada en la franja oeste del país, limitando al norte con Panamá, al noreste con la región Caribe, al este con la cordillera Occidental que la separa de la región andina, al sur con Ecuador y al oeste con el océano Pacífico, de donde toma su nombre.
-                    Hace parte del Chocó biogeográfico y está dividida en dos grandes zonas marcadas por el cabo Corrientes. Las principales ciudades son Buenaventura, Tumaco, Quibdó, Istmina, Barbacoas y Nuquí. En ella se desarrolló la cultura Tumaco-La Tolita.
-                    Es una región con una inmensa riqueza ecológica, hidrográfica, minera y forestal en la cual se encuentran parques nacionales naturales. Es además considerada una de las regiones de mayor biodiversidad y pluviosidad del planeta con precipitaciones del orden de los 4 000 mm/anuales según el Ministerio de Minas y Energía de Colombia.
-                    ​ Es también la tierra principal de la cultura afrocolombiana y de numerosas tribus indoamericanas que fueron denominados "chocoes" por los españoles al momento de la Conquista, aunque el término incluye familias lingüísticas de diferente origen. El litoral pone a Colombia de frente al Océano más grande del mundo y con ello un campo de encuentro internacional vital para su desarrollo.
-                </p>
+            <h1 class="text-3xl font-bold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
+
+            <p class="mb-4 text-base text-black text-justify text-neutral-200">
+                La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
+                Está ubicada en la franja oeste del país, limitando al norte con Panamá, al noreste con la región Caribe, al este con la cordillera Occidental que la separa de la región andina, al sur con Ecuador y al oeste con el océano Pacífico, de donde toma su nombre.
+                Hace parte del Chocó biogeográfico y está dividida en dos grandes zonas marcadas por el cabo Corrientes. Las principales ciudades son Buenaventura, Tumaco, Quibdó, Istmina, Barbacoas y Nuquí. En ella se desarrolló la cultura Tumaco-La Tolita.
+                Es una región con una inmensa riqueza ecológica, hidrográfica, minera y forestal en la cual se encuentran parques nacionales naturales. Es además considerada una de las regiones de mayor biodiversidad y pluviosidad del planeta con precipitaciones del orden de los 4 000 mm/anuales según el Ministerio de Minas y Energía de Colombia.
+                ​ Es también la tierra principal de la cultura afrocolombiana y de numerosas tribus indoamericanas que fueron denominados "chocoes" por los españoles al momento de la Conquista, aunque el término incluye familias lingüísticas de diferente origen. El litoral pone a Colombia de frente al Océano más grande del mundo y con ello un campo de encuentro internacional vital para su desarrollo.
+            </p>
 
 
-            <div  class="bg-green-800   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
-                <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
+            <div  class="bg-green-500   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
+                <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
-                        <dd class="font-light text-gray-500 text-white"><a href="#departamentos" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">DEPARTAMENTOS</a></dd>
+                        <dd class="font-light text-white-500 text-white"><a href="#departamentos" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">DEPARTAMENTOS</a></dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7M</dt>
-                        <dd class="font-light text-gray-500 text-white">POBLACIÓN</dd>
+                        <dd class="font-light text-white-500 text-white">POBLACIÓN</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">178</dt>
-                        <dd class="font-light text-gray-500 text-white"><a href="#municipios" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">MUNICIPIOS</a></dd>
+                        <dd class="font-light text-white-500 text-white"><a href="#municipios" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">MUNICIPIOS</a></dd>
                     </div>
 
                 </dl>
-                <dl class="grid m-4 borde- max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 text-white">
+                <dl class="grid m-4 borde- max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">233.946 KM²</dt>
-                        <dd class="font-light text-gray-500 text-white">ÁREA TOTAL</dd>
+                        <dd class="font-light text-white-500 text-white">ÁREA TOTAL</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">174</dt>
-                        <dd class="font-light text-gray-500 text-white">COMUNIDADES</dd>
+                        <dd class="font-light text-white-500 text-white">COMUNIDADES</dd>
                     </div>
 
                     <div class=" m- flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">232</dt>
-                        <dd class="font-light text-gray-500 text-white ">RESGUARDOS INDIGENAS</dd>
+                        <dd class="font-light text-white-500 text-white ">RESGUARDOS INDIGENAS</dd>
                     </div>
                 </dl>
             </div>
+
             <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-                <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-black">
+                <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
-                        <dd class="font-light text-gray-500 text-white">developers</dd>
+                        <dd class="font-light text-white-500 text-white">developers</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
-                        <dd class="font-light text-gray-500 text-white">contributors</dd>
+                        <dd class="font-light text-white-500 text-white">contributors</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
-                        <dd class="font-light text-gray-500 text-white">organizations</dd>
+                        <dd class="font-light text-white-500 text-white">organizations</dd>
                     </div>
-
                 </dl>
-                <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-black">
+
+                <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
-                        <dd class="font-light text-gray-500 text-white">developers</dd>
+                        <dd class="font-light text-white-500 text-white">developers</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
-                        <dd class="font-light text-gray-500 text-white">contributors</dd>
+                        <dd class="font-light text-white-500 text-white">contributors</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
-                        <dd class="font-light text-gray-500 text-white">organizations</dd>
+                        <dd class="font-light text-white-500 text-white">organizations</dd>
                     </div>
-
                 </dl>
-            </div>
+                </div>
               </div>
-            </div>
-          </div>
+    </div>
+</div>
 
-          <div id="municipios"  class="p-4 m-4 container mx-auto">
+
+<div id="accordion-collapse" class="m-4 pb-4"  data-accordion="collapse">
+    <h2 id="accordion-collapse-heading-1">
+      <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500 rounded-t-xl  focus:ring-green-500 focus:ring-green-500 dark:border-white-700 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+        <span>MUNICIPIOS</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+        <div id="municipios"   class="p-4 m-4 container mx-auto">
             <input type="text" id="searchInput" class="border rounded px-4 py-2 w-64 mb-4" placeholder="Buscar...">
             <table  class="w-full table-auto">
               <thead>
-                <tr class="bg-green-800 text-white">
+                <tr class="bg-green-500 text-white">
 
                   <th id="departamentos" class="px-0 py-0 cursor-pointer text-center" onclick="sortTable(1)">
                     DEPARTAMENTO
@@ -756,7 +738,7 @@
                     <td class="border px-4 py-2 text-center bg-white">Valle del Cauca</td>
                     <td class="border px-4 py-2 text-center bg-white">El Cairo</td>
                     <td class="border px-4 py-2 text-center bg-white">21.423,70</td>
-                    <td class="border px-4 py-2 text-center bg-white">1800</td>
+                    <td class="border px-4 py-2 text-center bg-white">1500</td>
                 </tr>
                 <tr>
                     <td class="border px-4 py-2 text-center bg-white">Valle del Cauca</td>
@@ -810,10 +792,43 @@
                   }
                 });
               });
-
             </script>
-
           </div>
+    </div>
+    <h2 id="accordion-collapse-heading-2">
+      <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+        <span>COMUNIDADES NEGRAS</span>
+        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+        </svg>
+      </button>
+    </h2>
+    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+      <div class="p-5 border border-b-0 border-white-200 dark:border-white-700">
+        <p class="mb-2 text-white-500 dark:text-white-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+        <p class="text-white-500 dark:text-white-400">Check out the <a href="https://flowbite.com/figma/" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+      </div>
+    </div>
+    <h2 id="accordion-collapse-heading-3">
+        <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+            <span>COMUNIDADES NEGRAS</span>
+            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+            </svg>
+          </button>
+    </h2>
+    <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+      <div class="p-5 border border-t-0 border-white-200 dark:border-white-700">
+        <p class="mb-2 text-white-500 dark:text-white-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+        <p class="mb-2 text-white-500 dark:text-white-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+        <p class="mb-2 text-white-500 dark:text-white-400">Learn more about these technologies:</p>
+        <ul class="pl-5 text-white-500 list-disc dark:text-white-400">
+          <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
+          <li><a href="https://tailwindui.com/" rel="nofollow" class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 
 
