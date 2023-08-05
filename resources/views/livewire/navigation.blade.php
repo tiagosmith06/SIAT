@@ -135,9 +135,7 @@
                             <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button">
 
                                 <li>
-                                    <a href={{route('pages.mision')}}
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Misión
-                                    </a>
+                                    <a href= {{route('pages.mision')}} class="block px-4 py-2 hover:bg-orange-500 hover:text-green-500 rounded-md">Misión </a>
                                 </li>
                                 <li>
                                     <a href="{{route('pages.vision')}}"
@@ -197,7 +195,7 @@
 
                 <li>
                     <a href="{{route('pages.atencionintegral')}}"
-                        class="{{request()->routeIs('pages.atencionintegral') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Noticias</a>
+                        class="{{request()->routeIs('pages.atencionintegral') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Atención Integral</a>
                 </li>
                     <li>
                         <a href="{{route('pages.comunicacion')}}"

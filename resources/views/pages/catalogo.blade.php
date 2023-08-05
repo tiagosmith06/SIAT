@@ -44,8 +44,6 @@
 
 
             </div>
-
-
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
