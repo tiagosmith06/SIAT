@@ -124,14 +124,7 @@ class FrontController extends Controller
         $posts =   Post::where('category_id', '=', 4)->latest()->paginate(2);
         return view('pages.catalogo', ['posts' => $posts]);
     }
-    public function gestion()
-    {
-        $posts =   Post::where('category_id', '=', 4)->latest()->paginate(2);
-        return view('pages.gestion', ['posts' => $posts]);
-    }
-
-
-
+    
     public function estructura()
     {
         return view('pages.estructura');

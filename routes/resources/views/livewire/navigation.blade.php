@@ -203,13 +203,8 @@
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Convocatoria
                                     </a>
                                 </li>
-
-
-
                             </ul>
                         </div>
-
-
 
                     </li>
 
