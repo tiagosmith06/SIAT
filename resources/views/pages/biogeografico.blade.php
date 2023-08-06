@@ -1,11 +1,11 @@
 <x-app-layout>
 
-    
+
 
         <div class="flex m-5 p-5 bg-white  items-center justify-between  bg-white-100">
 
-           <div class="flex-1">
-            <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
+            <div class="flex-1" style="overflow-y: auto;">
+                <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
             </div>
             <div class="flex-1 m-3 p-4">
                 <br><br><br><br>
