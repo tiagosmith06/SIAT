@@ -1,5 +1,6 @@
 <x-app-layout>
 
+    
 
         <div class="flex m-5 p-5 bg-white  items-center justify-between  bg-white-100">
 
@@ -54,6 +55,7 @@
             </div>
 
             <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                <h1 class="text-center text-2xl mb-3  font-bold"> OTROS DATOS ESTADISTICOS</h1>
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
