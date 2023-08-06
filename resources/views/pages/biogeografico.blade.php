@@ -1,16 +1,15 @@
 <x-app-layout>
 
-    <div class="flex items-center justify-center m-4">
-        <h1 class="text-4xl font-extrabold text-green-500 dark:text-white">CHOCÓ BIOGEOGRÁFICO</h1>
-    </div>
 
         <div class="flex m-5 p-5 bg-white  items-center justify-between  bg-white-100">
-            <div class="flex-1">
+
+           <div class="flex-1">
             <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
             </div>
             <div class="flex-1 m-3 p-4">
+                <br><br><br><br>
+                <h1 class="text-5xl mb-8 text-green-500  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
-            <h1 class="text-3xl font-bold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
             <p class="mb-4 text-base text-black text-justify text-neutral-200">
                 La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
