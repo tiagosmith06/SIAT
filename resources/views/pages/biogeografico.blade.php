@@ -1,8 +1,9 @@
 <x-app-layout>
 
-    <div class="flex items-center m-4 ">
-        <h1 class="text-center text-xl font-bold">CHOCÓ BIOGEOGRAFICO</h1>
+    <div class="flex items-center justify-center m-4">
+        <h1 class="text-4xl font-extrabold text-green-500 dark:text-white">CHOCÓ BIOGEOGRÁFICO</h1>
     </div>
+
         <div class="flex m-5 p-5 bg-white  items-center justify-between  bg-white-100">
             <div class="flex-1">
             <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
@@ -135,17 +136,17 @@
                     <div>
                         <label for="showEntries">Mostrar entradas:</label>
                         <select id="showEntries" class="px-2 py-1 border border-gray-300 rounded-md">
-                            <option value="10">10</option>
-                            <option value="20" selected>20</option>
+                            <option value="15">15</option>
+                            <option value="25" selected>25</option>
                             <option value="50">50</option>
-                            <option value="100">100</option>
+
                         </select>
                     </div>
                     <div id="paginationInfo" class="text-black"></div>
                     <div class="flex items-center">
-                    <button id="prevPageBtn" class="bg-blue-500 cursor pointer hover:text-green-500  mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
+                    <button id="prevPageBtn" class="bg-blue-500  hover:bg-green-500 text-white mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
                     <div id="paginationInfo" class="text-black"></div>
-                    <button id="nextPageBtn" class="bg-blue-500 hover:text-green-500 ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
+                    <button id="nextPageBtn" class="bg-blue-500 hover:bg-green-500 text-white ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
                 </div>
                 </div>
 
@@ -378,7 +379,7 @@
                 padding: 8px; /* Espaciado interno para un mejor aspecto */
             }
         </style>
-        <input type="text" id="customSearchInput2" class="w-full px-4 py-2 mb-4 border border-blue-500 rounded-md focus:outline-none focus:border-blue-600" placeholder="Buscar...">
+        <input type="text" id="customSearchInput2" class="w-full px-4 py-2 mb-4 border border-blue-500 rounded-md focus:outline-none focus:border-blue" placeholder="Buscar...">
         <table id="customDataTable2" class="w-full bg-white rounded-lg shadow-lg">
             <thead class="bg-blue-500 text-white">
                 <tr>
@@ -391,22 +392,23 @@
                 </tr>
             </thead>
             <tbody>
-                <!-- Aquí se insertarán los registros -->
+
+
             </tbody>
         </table>
         <div class="flex justify-between items-center mt-4">
             <div>
-                <label for="customShowEntries2" class="text-gray-600">Mostrar registros:</label>
+                <label for="customShowEntries2" class="text-gray">Mostrar registros:</label>
                 <select id="customShowEntries2" class="px-2 py-1 border border-blue-500 rounded-md">
-                    <option value="5">5</option>
-                    <option value="15" selected>15</option>
-                    <option value="25">15</option>
+                    <option value="15">15</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">15</option>
                 </select>
             </div>
             <div class="flex items-center">
-                <button id="customPrevPageBtn2" class="mr-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md">Anterior</button>
-                <div id="customPaginationInfo2" class="text-gray-600"></div>
-                <button id="customNextPageBtn2" class="ml-2 px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-md">Siguiente</button>
+                <button id="customPrevPageBtn2" class="mr-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                <div id="customPaginationInfo2" class="text-black"></div>
+                <button id="customNextPageBtn2" class="ml-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
             </div>
         </div>
     </div>
@@ -414,7 +416,7 @@
     <script>
         // Datos de ejemplo para la tabla
         let customDatosEjemplo2 = [
- ["DOS BOCAS", "RESOLUCION 0288 DEL 13-dic-1996", "8734,83", "1996", "9624,574043"],
+["DOS BOCAS", "RESOLUCION 0288 DEL 13-dic-1996", "8734,83", "1996", "9624,574043"],
 ["TURRIQUITADÓ", "RESOLUCION 2799 DEL 22-nov-2000", "9406,858", "2000", "9288,764757"],
 ["BELLAVISTA", "RESOLUCION 3235 DEL 15-nov-2007", "284,7361", "2007", "283,69619"],
 ["CÓRDOBA Y SAN CIPRIANO", "RESOLUCION 2456 DEL 4-dic-2005", "7322,9019", "2005", "7295,532479"],
@@ -706,9 +708,25 @@
         <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
             <div class="p-5 border border-t-0 border-white-200 dark:border-white-700">
                  <div class="container mx-auto p-4">
-                            <input type="text" id="customSearchInput" class="w-full px-4 py-2 mb-4 border border-purple-500 rounded-lg focus:outline-none focus:border-purple-600" placeholder="Buscar...">
+                    <style>
+                        /* Estilos para los campos de datos */
+                        #customDataTable td {
+                            background-color: white;
+                            border: 2px solid #000000;
+                            text-align: center; /* Para centrar el contenido de las celdas */
+                            padding: 8px;
+                           /* Espaciado interno para un mejor aspecto */
+                        }
+                        /* Estilos para los encabezados de columna */
+                        #customDataTable th {
+                            border: 1px solid #ccc;
+                            text-align: center; /* Para centrar el contenido de los encabezados */
+                            padding: 8px; /* Espaciado interno para un mejor aspecto */
+                        }
+                    </style>
+                            <input type="text" id="customSearchInput" class="w-full px-4 py-2 mb-4 border border-blue-500 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Buscar...">
                             <table id="customDataTable" class="w-full bg-white shadow-md rounded-lg">
-                                <thead class="bg-purple-500 text-white">
+                                <thead class="bg-blue-500 text-white">
                                     <tr>
                                         <th class="px-4 py-2 cursor-pointer" data-sort="0">NOMBRE DE RESGUARDO</th>
                                         <th class="px-4 py-2 cursor-pointer" data-sort="1">CÓDIGO TERRITORIAL</th>
@@ -725,47 +743,261 @@
                             </table>
                             <div class="flex justify-between items-center mt-4">
                                 <div>
-                                    <label for="customShowEntries" class="text-gray-600">Mostrar entradas:</label>
-                                    <select id="customShowEntries" class="px-2 py-1 border border-purple-500 rounded-md">
-                                        <option value="10">10</option>
-                                        <option value="20" selected>20</option>
+                                    <label for="customShowEntries" class="text-gray">Mostrar entradas:</label>
+                                    <select id="customShowEntries" class="px-2 py-1 border border-blue-500-500 rounded-md">
+                                        <option value="15">15</option>
+                                        <option value="25" selected>25</option>
                                         <option value="50">50</option>
                                     </select>
                                 </div>
                                 <div class="flex items-center">
-                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-md">Anterior</button>
-                                    <div id="customPaginationInfo" class="text-gray-600"></div>
-                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded-md">Siguiente</button>
+                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                                    <div id="customPaginationInfo" class="text-black"></div>
+                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
                                 </div>
                             </div>
                         </div>
 
                         <script>
-                            // Datos de ejemplo para la tabla
-                            let customDatosEjemplo = [
+
+                            let customDatosEjemplo =
+                            [
                                 [  "NAPIPÍ",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "63",  "1/10/1986",  "22474,12275",  "EMBERA KATÍO"],
-[  "PARED Y PARECITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "18",  "10/04/2003",  "1849,5273",  "EMBERA"],
-[  "GUADUALITO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "17",  "10/12/2002",  "471,528208",  "EMBERA"],
-[  "EL PIÑAL",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "6",  "20/02/2001",  "2906,88453",  "EMBERA"],
-[  "CAIMANERO DE JAMPAPA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "27",  "3/04/1987",  "1774,04544",  "EMBERA KATÍO"],
-[  "PESCADITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "7",  "20/02/2001",  "270,13551",  "EMBERA KATÍO"],
-[  "PLAYITA SAN FRANCISCO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "178",  "3/09/2009",  "3239,688742",  "EPERARA SIAPIDARA"],
-[  "PASO DEL RÍO SALADO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "10",  "21/12/2015",  "6547,698505",  "AWÁ"],
-[  "SANTA MARÍA DE PANGALA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "15",  "18/02/1987",  "12216,71637",  "WAUNANA"],
-[  "SAN JUAN DE PAMPON",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "38",  "3/10/2000",  "41,883815",  "EPERARA SIAPIDARA TRUA"],
-[  "DOXURA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "36",  "24/09/2001",  "108,544976",  "EMBERA CHAMI"],
-[  "ALTO RÍO TAGACHI",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "24",  "30/04/1986",  "21720,65722",  "EMBERA KATÍO"],
-[  "EMBERA DRUA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "2",  "10/04/2003",  "17,111276",  "EMBERA KATÍO"],
-[  "LA JAGUA-GUACHAL-PITALITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "58",  "29/09/1992",  "1251,362197",  "EMBERA EPERARA"],
-[  "YARUMAL Y EL BARRANCO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "42",  "3/08/1992",  "5121,39809",  "EMBERA KATÍO"],
-[  "CHINGUIRITO MIRA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "29",  "10/04/2003",  "802,176227",  "AWÁ"],
-[  "ANDABÚ",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "27",  "31/05/1999",  "16530,21292",  "EMBERA KATÍO"],
-[  "RAMOS-MONGON-MANCHURIA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "29",  "13/07/1992",  "4217,275829",  "AWÁ"],
-[  "OPOGADÓ - DOGUADÓ",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "44",  "10/04/2003",  "30107,06142",  "EMBERA KATÍO"]
+                                [  "PARED Y PARECITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "18",  "10/04/2003",  "1849,5273",  "EMBERA"],
+                                [  "GUADUALITO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "17",  "10/12/2002",  "471,528208",  "EMBERA"],
+                                [  "EL PIÑAL",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "6",  "20/02/2001",  "2906,88453",  "EMBERA"],
+                                [  "CAIMANERO DE JAMPAPA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "27",  "3/04/1987",  "1774,04544",  "EMBERA KATÍO"],
+                                [  "PESCADITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "7",  "20/02/2001",  "270,13551",  "EMBERA KATÍO"],
+                                [  "PLAYITA SAN FRANCISCO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "178",  "3/09/2009",  "3239,688742",  "EPERARA SIAPIDARA"],
+                                [  "PASO DEL RÍO SALADO",  "LEGALIZACIÓN DECRETO 107",  "ACUERDO",  "10",  "21/12/2015",  "6547,698505",  "AWÁ"],
+                                [  "SANTA MARÍA DE PANGALA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "15",  "18/02/1987",  "12216,71637",  "WAUNANA"],
+                                [  "SAN JUAN DE PAMPON",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "38",  "3/10/2000",  "41,883815",  "EPERARA SIAPIDARA TRUA"],
+                                [  "DOXURA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "36",  "24/09/2001",  "108,544976",  "EMBERA CHAMI"],
+                                [  "ALTO RÍO TAGACHI",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "24",  "30/04/1986",  "21720,65722",  "EMBERA KATÍO"],
+                                [  "EMBERA DRUA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "2",  "10/04/2003",  "17,111276",  "EMBERA KATÍO"],
+                                [  "LA JAGUA-GUACHAL-PITALITO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "58",  "29/09/1992",  "1251,362197",  "EMBERA EPERARA"],
+                                [  "YARUMAL Y EL BARRANCO",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "42",  "3/08/1992",  "5121,39809",  "EMBERA KATÍO"],
+                                [  "CHINGUIRITO MIRA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "29",  "10/04/2003",  "802,176227",  "AWÁ"],
+                                [  "ANDABÚ",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "27",  "31/05/1999",  "16530,21292",  "EMBERA KATÍO"],
+                                [  "RAMOS-MONGON-MANCHURIA",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "29",  "13/07/1992",  "4217,275829",  "AWÁ"],
+                                [  "OPOGADÓ - DOGUADÓ",  "LEGALIZACIÓN DECRETO 107",  "RESOLUCIÓ",  "44",  "10/04/2003",  "30107,06142",  "EMBERA KATÍO"],
+                                ["EL SILENCIO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 238", "23/12/2010", "60,834963", "EMBERA KATÍO"],
+                                ["PUADÓ, LA LERMA, MATARÉ, Y TERDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 39", "3/07/1986", "12002,81063", "WOUNAAN"],
+                                ["TANELA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 101", "27/07/1982", "1029,398386", "KATÍO"],
+                                ["SANTA ROSA DE IJUA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 56", "29/09/1992", "7771,485248", "WAUNANA"],
+                                ["ALMORZADERO, SAN ISIDRO Y LA NUEVA UNIÓN", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 15", "10/12/2002", "4971,950409", "EPERARA SIAPIDARA"],
+                                ["NUEVO PITALITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 55", "29/09/1992", "2279,468738", "EMBERA KATÍO"],
+                                ["CABECERAS O PUERTO PIZARÍO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 13", "3/05/1983", "3857,930182", "WAUNANA"],
+                                ["VALLE DE PERDIDAS", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 50", "17/10/1995", "8692,900368", "EMBERA KATÍO"],
+                                ["RÍO MURINDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 14", "18/02/1987", "18464,13998", "EMBERA KATÍO"],
+                                ["BUENAVISTA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 54", "29/09/1992", "2457,577504", "WAUNANA"],
+                                ["YU YIC KWE", "LEGALIZACIÓN DECRETO 107", "ACUERDO 88", "20/12/2006", "2416,183951", "NASA PAEZ"],
+                                ["MAJORÉ-AMBURÁ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 14", "24/05/1996", "6810,609188", "EMBERA KATÍO"],
+                                ["BURUJON O LA UNIÓN-SAN BERNARDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 12", "3/05/1983", "6370,716869", "WAUNANA"],
+                                ["RÍO NEGUA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 22", "24/04/1985", "4656,570895", "EMBERA KATÍO"]
+                                ["MONDO-MONDOCITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 72", "29/08/1988", "1379,347072", "EMBERA KATÍO"],
+                                ["EL GRAN SABALO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 70", "14/04/1993", "42715,16347", "AWÁ"],
+                                ["CHOROMANDÓ ALTO Y MEDIO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 31", "30/11/1998", "3054,521765", "EMBERA KATÍO"],
+                                ["CRISTIANÍA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 59", "7/12/1995", "1122,34956", "EMBERA KATÍO"],
+                                ["CHAGPIEN TORDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 75", "10/11/1983", "22462,41591", "WAUNANA"],
+                                ["RÍO TAPARAL", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 70", "6/11/1985", "14163,97179", "WAUNANA"],
+                                ["GUAGUANDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 46", "26/06/1989", "12826,76472", "EMBERA"],
+                                ["ALTO RÍO CUIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 49", "10/07/1986", "22322,30779", "EMBERA KATÍO"],
+                                ["CUAYQUER DEL ALTO ALBI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 41", "3/07/1986", "4362,665481", "AWÁ"],
+                                ["TOGOROMA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 107", "15/12/1981", "8626,298874", "WAUNANA"],
+                                ["JAGUAL RÍO CHINTADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 136", "3/12/1980", "41332,00566", "EMBERA KATÍO"],
+                                ["RÍO PURRICHA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 26", "13/07/1992", "17752,59626", "EMBERA"],
+                                ["ALTO RÍO BOJAYÁ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 48", "10/07/1986", "49427,19505", "EMBERA KATÍO"],
+                                ["SAN AGUSTIN-LA FLORESTA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 26", "24/05/1996", "51,182632", "EPERARA SIAPIDARA"],
+                                ["CUCHILLA-PALMAR", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 82", "14/04/1993", "2581,283113", "AWÁ"],
+                                ["LANAS", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 3", "25/01/1984", "7561,325162", "EMBERA KATÍO"],
+                                ["ISLA DEL MONO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 34", "31/05/1999", "1586,157129", "EPERARA SIAPIDARA"],
+                                ["PALMAR IMBI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 82", "14/04/1993", "7345,420015", "AWÁ"],
+                                ["WASIRUMA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 5", "16/02/1994", "48,685739", "EMBERA"],
+                                ["INDA GUACARAY", "LEGALIZACIÓN DECRETO 107", "ACUERDO 221", "26/10/2010", "1235,585927", "AWÁ"],
+                                ["LA PURIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 56", "23/12/1998", "4055,311079", "EMBERA KATÍO"],
+                                ["PUERTO LIBIA TRIPICAY", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 41", "30/11/1998", "2138,72428", "EMBERA KATÍO"],
+                                ["RÍO AMÉ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 79", "17/12/1990", "3396,032905", "EMBERA KATÍO"],
+                                ["JAIKERAZAVI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 28", "31/05/1999", "35375,24105", "EMBERA KATÍO"],
+                                ["DOMINICO, LONDOÑO Y APARTADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 73", "19/11/1990", "6624,514889", "EMBERA KATÍO"],
+                                ["PAVARANDÓ Y AMPARRADÓ MEDIO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 76", "19/11/1990", "22100,69623", "EMBERA KATÍO"],
+                                ["NUSIDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 27", "29/07/1998", "261,232087", "EMBERA"],
+                                ["GUAYABAL DE PARTADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 54", "24/07/1987", "4169,618083", "EMBERA KATÍO"],
+                                ["CUASCUABI-PALDUBI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 22", "21/06/1994", "575,469563", "AWÁ"],
+                                ["RÍO CHAJERADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 103", "18/12/1989", "41841,70503", "EMBERA KATÍO"],
+                                ["SANTA MARTA DE CURICHE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 20", "18/03/1987", "10139,2017", "WAUNANA"],
+                                ["GEGORÁ, QUIPARÁ, MURANDÓ, TIRAVENADO Y JIGUADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 11", "28/06/2001", "3673,508449", "EMBERA KATÍO"],
+                                ["ABEJERO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 79", "9/12/1999", "224,71697", "EMBERA KATÍO"],
+                                ["GUARANDO CARRIZAL", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 35", "31/05/1999", "69,285546", "EMBERA KATÍO"],
+                                ["NARIKIZAVI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 1", "20/02/2001", "276,177817", "EMBERA KATÍO"],
+                                ["PEÑA BLANCA-RÍO TRUANDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 40", "3/08/1992", "57961,41056", "EMBERA KATÍO"],
+                                ["QUEBRADA CHICUE RÍO TANGUI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 28", "13/07/1992", "2614,014928", "EMBERA KATÍO"],
+                                ["CHUSCAL Y TUGURIDOCITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 41", "21/07/1988", "4755,970305", "EMBERA"],
+                                ["MUNGARADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 37", "31/05/1999", "533,883594", "EMBERA KATÍO"],
+                                ["BELLAVISTA-UNIÓN PITALITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 40", "15/08/1984", "29274,43353", "WAUNANA"],
+                                ["GITO DOCABU", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 33", "24/09/2001", "2456,060862", "EMBERA CHAMI"],
+                                ["PATIO BONITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 16", "10/04/2003", "838,288789", "EMBERA KATÍO"],
+                                ["BUCHADÓ AMPARRADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 1", "15/01/1990", "8467,697987", "EMBERA KATÍO"],
+                                ["RÍO ORPUA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 21", "18/03/1987", "21802,40038", "WAUNANA"],
+                                ["SANTA ROSITA", "LEGALIZACIÓN DECRETO 107", "ACUERDO 220", "26/10/2010", "403,653991", "AWÁ"],
+                                ["RÍO DAGUA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 4", "25/01/1984", "52,055931", "WAUNANA"],
+                                ["QUEBRADA GRANDE", "LEGALIZACIÓN DECRETO 107", "ACUERDO 71", "17/08/2006", "775,375723", "EPERARA SIAPIDARA"],
+                                ["RÍO BEBARA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 38", "30/11/1998", "37202,73312", "EMBERA KATÍO"],
+                                ["JURADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 102", "27/07/1982", "16554,26212", "EMBERA KATÍO"],
+                                ["CHONARA HUENA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 45", "10/04/2003", "460,55207", "EMBERÁ (EPERARA-SIAPIDARA)"],
+                                ["SALAQUI Y PAVARANDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 15", "3/05/1983", "105953,5822", "EMBERA KATÍO"],
+                                ["GUALCALA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 30", "13/07/1992", "17118,95092", "AWÁ"],
+                                ["CAIMÁN NUEVO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 73", "12/12/1992", "8091,379427", "CUNA"],
+                                ["NUNALBÍ ALTO ULBÍ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 32", "10/04/2003", "9823,575737", "AWÁ"],
+                                ["SABALETA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 1", "14/04/1997", "667,774679", "EMBERA WOUNAAN"],
+                                ["EL CHARCÓN", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 33", "30/11/1998", "137,554499", "EMBERA KATÍO"],
+                                ["YABERARADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 30", "31/05/1999", "11776,80708", "EMBERA KATÍO"],
+                                ["CHONTADURAL CAÑERO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 24", "24/05/1996", "9133,264358", "EMBERA KATÍO"],
+                                ["TIOSILIDIO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 11", "3/05/1983", "4518,481902", "WAUNANA"],
+                                ["ALTO CARTAGENA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 22", "10/12/2002", "4126,173506", "AWÁ"],
+                                ["TORTUGAÑA, TELEMBI, PUNDE, PITADERO, BRAVO, TRONQUERIA Y ZABALETA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 25", "29/07/1998", "19493,84559", "AWÁ"],
+                                ["DEARADE BIAKIRUDE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 13", "29/06/2000", "6312,23346", "EMBERA"],
+                                ["GUADUAL, CUMBAS, MAGÜI, INVINA Y ARRAYÁN", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 51", "29/11/1994", "5191,67245", "AWÁ"],
+                                ["HONDA RÍO GUIZA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 26", "10/04/2003", "306,006058", "AWÁ"],
+                                ["CUAMBI-YASLAMBI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 207", "2/08/1978", "2548,046073", "AWÁ"],
+                                ["CAÑÓN DEL RÍO SANQUININI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ 43", "3/08/1992", "2744,903839", "EMBERA KATÍO"],
+                                ["PIPALTA-PALBI-YAGUAPI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "11", "24/05/1996", "2590.777376", "AWÁ"],
+                                ["MIASA DE PARTADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "36", "31/05/1999", "2268.886793", "EMBERA KATÍO"],
+                                ["RÍO PANGÜI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "88", "27/07/1982", "6624.538185", "EMBERA KATÍO"],
+                                ["QUEBRADA QUERA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "16", "28/06/1992", "4193.131621", "EMBERA KATÍO"],
+                                ["RÍOS VALLE Y BOROBORO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "30", "8/05/1984", "23065.83175", "EMBERA KATÍO"],
+                                ["HURTADO Y TEGAVERA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "72", "2/12/1992", "4221.953035", "EMBERA KATÍO"],
+                                ["VILLA NUEVA JUNA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "1", "27/02/2002", "456.980427", "EMBERA"],
+                                ["PUERTO ANTIOQUIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "42", "30/12/1998", "286.557152", "EMBERA"],
+                                ["LA FLORESTA, SANTA ROSA Y SAN FRANCISCO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "94", "7/11/1989", "9447.83839", "EMBERA KATÍO"],
+                                ["AWÁ ÑAMBL PIEDRA VERDE", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "7", "21/12/2015", "7366.679139", "AWÁ"],
+                                ["EL 18", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "330", "20/02/2014", "1053.70339", "EMBERA KATÍO"],
+                                ["CUTI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "103", "27/07/1982", "240.367179", "CUNA"],
+                                ["NULPE MEDIO-ALTO Y RÍO SAN JUAN", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "16", "25/05/1994", "38083.28753", "AWÁ"],
+                                ["RÍO ICHO Y LA QUEBRADA BARATUDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "21", "24/04/1985", "5121.993856", "EMBERA"],
+                                ["CUALQUER INTEGRADO LA MILAGROSA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "20", "10/12/2002", "4152.418887", "AWÁ"],
+                                ["GRAN ROSARIO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "25", "24/05/1996", "17443.20178", "AWÁ"],
+                                ["RÍOS JURUBIDA-CHORI Y ALTO BAUDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "15", "21/04/1982", "80147.62946", "EMBERA KATÍO"],
+                                ["LOMA DE CITABARA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "24", "29/07/1998", "276.591604", "EMBERA CHAMI"],
+                                ["RÍO NUQUI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "13", "21/04/1982", "9935.168535", "EMBERA KATÍO"],
+                                ["PERANCHO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "37", "3/08/1992", "905.894999", "EMBERA KATÍO"],
+                                ["RÍOS PATO Y JENGADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "39", "21/07/1988", "3131.406902", "EMBERA KATÍO"],
+                                ["PIALAPI-PUEBLO VIEJO-SAN MIGUEL-YARE", "COLONIALES", "RESOLUCIÓ", "1", "9/02/1993", "3294.754845", "AWÁ"],
+                                ["DOKERAZAVI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "28", "24/09/2001", "691.939675", "EMBERA"],
+                                ["INDA ZABALETA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "30", "10/04/2003", "6264.903364", "AWÁ"],
+                                ["JENGADO APARTADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "15", "23/06/1992", "4487.816472", "EMBERA KATÍO"],
+                                ["LA IGUANA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "137", "3/12/1980", "10198.6268", "EMBERA KATÍO"],
+                                ["LAS PLAYAS", "LEGALIZACIÓN DECRETO 1071", "RESOLUCIÓ", "29", "31/05/1999", "177.118762", "EMBERA KATÍO"],
+                                ["BOCHOROMA-BOCHOROMACITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "71", "29/08/1988", "520.787771", "EMBERA KATÍO"],
+                                ["NUSSI PURRU", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "35", "3/10/2000", "15008.23696", "EMBERA WOUN"],
+                                ["PINGULLO-SARDINERO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "144", "14/12/1993", "12110.07663", "AWÁ"],
+                                ["CUASBIL-LA FALDADA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "49", "29/11/1994", "1168.068483", "AWÁ"],
+                                ["SAUNDE GUIGUAY", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "28", "10/04/2003", "7547.246572", "AWÁ"],
+                                ["PAINA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "54", "23/12/1998", "2851.839643", "EMBERA KATÍO"],
+                                ["ALTO SINU, ESMERALDA CRUZ GRANDE E IWAGADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "2", "9/02/1993", "116653.333", "EMBERA KATÍO"],
+                                ["PLANADAS TELEMBÍ", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "97", "15/02/2007", "3131.075806", "AWÁ"],
+                                ["SABALETERA SAN ONOFRE Y EL TIGRE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "19", "19/04/2003", "2092.347144", "EMBERA KATÍO"],
+                                ["ALTO DEL RÍO MUNGUIDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "17", "23/02/1992", "5594.458051", "EMBERA KATÍO"],
+                                ["MAMEY DE DIPURDÚ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "20", "10/04/2003", "205.557606", "EMBERA"],
+                                ["PEÑA LA ALEGRIA", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "212", "9/07/2010", "31.187051", "AWÁ"],
+                                ["BETE-AUROBETE Y AURO DEL BUEY", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "16", "3/05/1983", "11539.64782", "EMBERA KATÍO"],
+                                ["EL SANDE", "COLONIALES", "RESOLUCIÓ", "43", "10/12/1997", "8771.939158", "AWÁ"],
+                                ["EL DOCE O QUEBRADA BORBOLLÓN", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "16", "21/04/1982", "1224.550326", "EMBERA KATÍO"],
+                                ["SANANDOCITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "8", "20/02/2001", "7788.053115", "EMBERA KATÍO"],
+                                ["LA DELFINA", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "99", "15/02/2007", "782.786384", "NASA EMBERA CHAMI"],
+                                ["SANTA CECILIA DE LA QUEBRADA ORO CHOCÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "49", "10/07/1989", "5032.479882", "EMBERA KATÍO"],
+                                ["RÍOS UVA Y POGUE-QUEBRADA TAPARAL.", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "23", "3/02/1981", "50340.06059", "EMBERA KATÍO"],
+                                ["RÍO DOMINGODO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "35", "21/07/1983", "24333.91035", "EMBERA KATÍO"],
+                                ["GUAYACAN-SANTA ROSA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "54", "24/07/1989", "229.894078", "WAUNANA"],
+                                ["PUERTO LIBRE DEL RÍO PEPÉ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "50", "10/07/1989", "2093.171899", "EMBERA KATÍO"],
+                                ["INFI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "186", "2/11/1977", "3314.513194", "EMBERA KATÍO"],
+                                ["RÍO GUANGÜI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "91", "27/07/1982", "22601,90484", "EMBERA KATÍO"],
+                                ["ORDO SIVIRÚ AGUACLARA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "57", "29/09/1992", "2510,226481", "EMBERA KATÍO"],
+                                ["ANDAGUEDA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "185", "13/12/1979", "56411,03923", "EMBERA KATÍO"],
+                                ["AMPARRADO ALTO Y MEDIO Y QUEBRADA CHONTADURO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "42", "1/11/1994", "17816,81308", "EMBERA KATÍO"],
+                                ["CALLE SANTA ROSA RÍO SAIJA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "14", "3/05/1983", "22365,20897", "EMBERA KATÍO"],
+                                ["UNIFICADO CHAMÍ DEL RÍO SAN JUAN", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "1", "29/01/1986", "26256,56807", "EMBERA KATÍO"],
+                                ["RIO NAYA COMUNIDAD JOAQUINCITO", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "5", "21/12/2015", "2430,091884", "EMBERA"],
+                                ["LA CRISTALINA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "14", "29/06/2000", "13586,90024", "EMBERA CHAMI"],
+                                ["RÍOS CATRU-DUBASA Y ANCOSO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "260", "11/10/2011", "56896,29138", "EMBERA KATÍO"],
+                                ["TRONQUERIA, PULGANDE-PALICITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "13", "28/06/2001", "12379,22499", "AWÁ"],
+                                ["CHACHAJO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "103", "15/12/1981", "2133,859019", "WAUNANA"],
+                                ["EL CEDRO, LAS PEÑAS, LA BRAVA, PILVÍ Y LA PINTADA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "18", "29/06/2000", "5001,190003", "AWÁ"],
+                                ["RÍO LA PLAYA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "72", "14/04/1993", "5179,055246", "EMBERA KATÍO"],
+                                ["LA PALMA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "3", "11/05/1998", "116,098842", "EMBERA CHAMI"],
+                                ["PAPAYO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "102", "15/12/1981", "3316,273767", "WAUNANA"],
+                                ["PICHICORA, CHICUE, PUERTO ALEGRE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "40", "30/11/1998", "15191,32516", "EMBERA KATÍO"],
+                                ["CHIMURRO Y NENDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "89", "10/10/1988", "13357,03737", "EMBERA KATÍO"],
+                                ["SIRENA BERRECUY", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "29", "24/09/2001", "1210,30825", "EMBERA"],
+                                ["RÍO SATINGA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "95", "7/11/1989", "2653,122401", "EMBERA KATÍO"],
+                                ["RÍO MUMBU", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "63", "21/09/1983", "3354,313606", "EMBERA KATÍO"],
+                                ["CHAQUENODA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "31", "14/08/1996", "15165,73748", "EMBERA KATÍO"],
+                                ["DOCORDO-BALSALITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "106", "15/12/1981", "4916,234982", "WAUNANA"],
+                                ["LA LOMITA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "55", "23/12/1998", "993,879316", "EMBERA KATÍO"],
+                                ["CHIGORODO MEMBA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "15", "10/04/2003", "2438,757108", "EMBERA"],
+                                ["MOTORDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "61", "19/08/1987", "461,430653", "EMBERA KATÍO"],
+                                ["EYAKERA DOGIBI", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "303", "17/04/2013", "3157,568171", "EMBERA DODIBA"],
+                                ["DO IMAMA TUMA Y BELLA LUZ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "14", "10/04/2003", "3027,147509", "EMBERA"],
+                                ["PULGANDE CAMPOALEGRE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "39", "31/05/1999", "1021,706418", "AWÁ"],
+                                ["LA UNIÓN CHOCO - SAN CRISTOBAL", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "36", "22/05/1984", "19618,05749", "WAUNANA"],
+                                ["EL FIERA", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "224", "26/10/2010", "4444,600739", "EMBERA KATÍO"],
+                                ["ELVEINTE, PLAYALTA Y EL NOVENTA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "83", "1/07/1982", "4348,564734", "EMBERA KATÍO"],
+                                ["RÍO BEBARAMA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "66", "16/08/1988", "8144,161757", "EMBERA KATÍO"],
+                                ["VANIA CHAMÍ DE ARGELIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "50", "30/11/1998", "90,06662", "EMBERA CHAMI"],
+                                ["AGUACLARA Y BELLA LUZ DEL RÍO AMPORÁ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "23", "10/04/1989", "9296,235519", "EMBERA KATÍO"],
+                                ["RÍOS TORREIDO Y CHIMANI", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "62", "21/09/1983", "6336,948352", "EMBERA KATÍO"],
+                                ["MURRI-PANTANOS", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "19", "24/05/1996", "31784,14493", "EMBERA KATÍO"],
+                                ["ALTO BONITO VIRA VIRA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "16", "10/12/2002", "3671,978515", "EMBERA"],
+                                ["SEVER", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "29", "14/08/1996", "10217,02342", "EMBERA KATÍO"],
+                                ["PLAYA BENDITA", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "179", "3/09/2009", "4358,269266", "EPERARA SIAPIDARA"],
+                                ["COPE DEL RÍO INGARA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "6", "24/05/1996", "268,456065", "EMBERA KATÍO"],
+                                ["TARENA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "73", "29/08/1988", "5094,612866", "EMBERA KATÍO"],
+                                ["LA RAYA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "38", "3/08/1992", "5029,760367", "EMBERA KATÍO"],
+                                ["MORRITO", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "68", "17/08/2006", "908,890591", "EPERARA SIAPIDARA"],
+                                ["SANQUIANGUITA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "80", "9/12/1999", "654,996738", "EPERARA SIAPIDARA"],
+                                ["PUERTO CHICHILIANO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "17", "10/04/2003", "308,036005", "EMBERA WAUNAN"],
+                                ["RÍO PICHIMA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "71", "6/11/1985", "9228,876198", "WAUNANA"],
+                                ["LOS NIASA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "17", "24/05/1996", "37,398635", "EMBERA CHAMI"],
+                                ["LA TURBIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "23", "26/03/1990", "28795,40269", "AWÁ"],
+                                ["PEÑAS DEL OLVIDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "4", "11/05/1998", "246,750976", "EMBERA CHAMI"],
+                                ["TRAPICHE DEL RÍO PEPÉ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "51", "10/07/1989", "967,677481", "EMBERA KATÍO"],
+                                ["RÍO JARAPETÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "16", "28/02/1984", "5663,438398", "EMBERA KATÍO"],
+                                ["RÍO QUIPARADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "61", "21/09/1983", "9689,883007", "EMBERA KATÍO WAUNANA"],
+                                ["RÍO GARRAPATAS", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "43", "11/06/1987", "14334,3666", "EMBERA KATÍO"],
+                                ["RÍO PAVASA Y QUEBRADA JELLA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "77", "14/04/1993", "13755,7825", "EMBERA KATÍO"],
+                                ["BAJO GRANDE", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "12", "28/06/2001", "2443,777085", "EMBERA"],
+                                ["CHIDIMA TOLO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "5", "20/02/2001", "4483,598978", "EMBERA KATÍO"],
+                                ["PIGUAMBI PALANGALA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "38", "31/05/1999", "493,663889", "AWÁ"],
+                                ["TOKOLLORO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "9", "20/02/2001", "254,451134", "KATÍO"],
+                                ["EL VEINTIUNO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "3", "25/01/1994", "245,571813", "EMBERA"],
+                                ["INTEGRADO EL CHARCO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "37", "3/10/2000", "3824,658158", "EPERARA SIAPIDARA"],
+                                ["GUELNAMBI-CARAÑO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "44", "1/11/1994", "2660,061041", "GUELNAMBI-CARAÑO"],
+                                ["JENATURADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "9", "22/02/1995", "596,408084", "EMBERA KATÍO"],
+                                ["TUNGINA Y APARTADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "74", "19/11/1990", "8380,231966", "EMBERA KATÍO"],
+                                ["ALTO RÍO BUEY", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "23", "30/04/1986", "13126,49264", "EMBERA KATÍO"],
+                                ["PERANCHITO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "39", "3/08/1992", "1465,519009", "EMBERA KATÍO"],
+                                ["URADÁ JIGUAMIANDÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "7", "27/02/2003", "19847,22508", "EMBERA"],
+                                ["CAÑAVERALES-ANTADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "3", "7/02/1995", "4997,6981", "EMBERA KATÍO"],
+                                ["EL SALADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "22", "26/03/1990", "6101,896097", "EMBERA KATÍO"],
+                                ["MAIZ BLANCO", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "69", "17/08/2006", "127,722297", "EPERARA SIAPIDARA"],
+                                ["WANCHIRADO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "71", "2/12/1992", "10764,2388", "EMBERA KATÍO"],
+                                ["GEGENADÓ", "LEGALIZACIÓN DECRETO 107", "ACUERDO", "217", "23/12/2010", "2393,166867", "EMBERA"],
+                                ["SAN JOSÉ AMIA DE PATO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "39", "30/11/1998", "812,489168", "EMBERA KATÍO"],
+                                ["PUERTO ALEGRE Y LA DIVISA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "42", "21/07/1988", "21791,19756", "EMBERA KATÍO"],
+                                ["CORIBÍ BEDADÓ", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "3", "10/04/2003", "105,520185", "EMBERA KATÍO"],
+                                ["POLINES", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "60", "19/08/1987", "3388,677744", "EMBERA KATÍO"],
+                                ["DAI UMADAMIA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "66", "26/07/2018", "111,035126", "EMBERA CHAMI"],
+                                ["KEJUAMBi FELICIANA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "31", "10/04/2003", "1839,719243", "AWA"],
+                                ["CHAGUI CHIMBUZA VEGAS Y OTROS", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "3", "27/02/2002", "3473,518405", "AWÁ"],
+                                ["RESGUARDO INDÍGENA CHIMBAGAL Y TAJA", "ANCESTRALES DECRETO 2333", "RESOLUCIÓ", "365", "5/05/2015", "385,135384", "AWÁ"],
+                                ["MONZHOMANDO", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "1", "22/07/2003", "187,334724", "EMBERA KATIO"],
+                                ["NAVERA DRUA", "LEGALIZACIÓN DECRETO 107", "RESOLUCIÓ", "26", "10/12/2002", "320,753163", "EMBERA CHAMI"],
+                                ["NUEVA BELLAVISTA Y PARTIDERO", "LEGALIZACIÓN DECRETO 1071", "RESOLUCIÓN", "374", "21/09/2015", "45,1151", "EPERARA SIAPIDARA"],
+                                ["ARQUIA", "LEGALIZACIÓN DECRETO 1071", "RESOLUCIÓN", "100", "27/07/1982", "2394,431555", "Cuna"]
 
-                                // ... más datos aquí ...
+
+
                             ];
-
                             const customDataTable = document.getElementById('customDataTable');
                             const customSearchInput = document.getElementById('customSearchInput');
                             const customShowEntriesSelect = document.getElementById('customShowEntries');
