@@ -117,22 +117,7 @@
                     }
                 </style>
                 <input type="text" id="searchInput" class="w-full px-4 py-2 mb-4 border border-green-400 rounded-lg" placeholder="Buscar...">
-                <table id="dataTable" class="w-full">
-                    <thead>
-                        <tr class="bg-blue-500 text-white" >
-                            <th class="border px-4 py-2 text-center">CODIGÓ DE DEPARTAMENTOS</th>
-                            <th class="border px-4 py-2 text-center">DEPARTAMENTOS</th>
-                            <th class="border px-4 py-2 text-center">CÓDIGO DE MUNICIPIOS</th>
-                            <th class="border px-4 py-2 text-center">MUNICIPIOS</th>
-                            <th class="border px-4 py-2 text-center">ÁREA (ha)</th>
-                            <th class="border px-4 py-2 text-center">ALTITUD (msnm)</th>
 
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                    </tbody>
-                </table>
                 <div class="flex justify-between mt-4">
                     <div>
                         <label for="showEntries">Mostrar entradas:</label>
@@ -152,6 +137,23 @@
                 </div>
 
             </div>
+                <table id="dataTable" class="w-full">
+                    <thead>
+                        <tr class="bg-blue-500 text-white" >
+                            <th class="border px-4 py-2 text-center">CODIGÓ DE DEPARTAMENTOS</th>
+                            <th class="border px-4 py-2 text-center">DEPARTAMENTOS</th>
+                            <th class="border px-4 py-2 text-center">CÓDIGO DE MUNICIPIOS</th>
+                            <th class="border px-4 py-2 text-center">MUNICIPIOS</th>
+                            <th class="border px-4 py-2 text-center">ÁREA (ha)</th>
+                            <th class="border px-4 py-2 text-center">ALTITUD (msnm)</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+
            <script>
                         // Datos de ejemplo para la tabla
                 const datosEjemplo = [
@@ -357,6 +359,7 @@
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
             </svg>
           </button>
+
         </h2>
         <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
           <div class="p-5 border border-b-0 border-white-200 dark:border-white-700">
@@ -381,6 +384,21 @@
             }
         </style>
         <input type="text" id="customSearchInput2" class="w-full px-4 py-2 mb-4 border border-blue-500 rounded-md focus:outline-none focus:border-blue" placeholder="Buscar...">
+        <div class="flex justify-between items-center mt-4">
+            <div>
+                <label for="customShowEntries2" class="text-gray mb-4">Mostrar registros:</label>
+                <select id="customShowEntries2" class="px-2 py-1 mb-4 border border-blue-500 rounded-md">
+                    <option value="15">15</option>
+                    <option value="25" selected>25</option>
+                    <option value="50">15</option>
+                </select>
+            </div>
+            <div class="flex items-center">
+                <button id="customPrevPageBtn2" class="mr-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                <div id="customPaginationInfo2" class="text-black"></div>
+                <button id="customNextPageBtn2" class="ml-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
+            </div>
+        </div>
         <table id="customDataTable2" class="w-full bg-white rounded-lg shadow-lg">
             <thead class="bg-blue-500 text-white">
                 <tr>
@@ -397,21 +415,7 @@
 
             </tbody>
         </table>
-        <div class="flex justify-between items-center mt-4">
-            <div>
-                <label for="customShowEntries2" class="text-gray">Mostrar registros:</label>
-                <select id="customShowEntries2" class="px-2 py-1 border border-blue-500 rounded-md">
-                    <option value="15">15</option>
-                    <option value="25" selected>25</option>
-                    <option value="50">15</option>
-                </select>
-            </div>
-            <div class="flex items-center">
-                <button id="customPrevPageBtn2" class="mr-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
-                <div id="customPaginationInfo2" class="text-black"></div>
-                <button id="customNextPageBtn2" class="ml-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
-            </div>
-        </div>
+
     </div>
 
     <script>
@@ -726,6 +730,22 @@
                         }
                     </style>
                             <input type="text" id="customSearchInput" class="w-full px-4 py-2 mb-4 border border-blue-500 rounded-lg focus:outline-none focus:border-blue-500" placeholder="Buscar...">
+
+                            <div class="flex justify-between items-center mt-4">
+                                <div>
+                                    <label for="customShowEntries" class="text-gray mb-4">Mostrar entradas:</label>
+                                    <select id="customShowEntries" class="px-2 py-1 mb-4 border border-blue-500-500 rounded-md">
+                                        <option value="10">10</option>
+                                        <option value="15" selected>15</option>
+                                        <option value="25">25</option>
+                                    </select>
+                                </div>
+                                <div class="flex items-center">
+                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                                    <div id="customPaginationInfo" class="text-black"></div>
+                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
+                                </div>
+                            </div>
                             <table id="customDataTable" class="w-full bg-white shadow-md rounded-lg">
                                 <thead class="bg-blue-500 text-white">
                                     <tr>
@@ -742,21 +762,7 @@
                                     <!-- Aquí se insertarán los registros -->
                                 </tbody>
                             </table>
-                            <div class="flex justify-between items-center mt-4">
-                                <div>
-                                    <label for="customShowEntries" class="text-gray">Mostrar entradas:</label>
-                                    <select id="customShowEntries" class="px-2 py-1 border border-blue-500-500 rounded-md">
-                                        <option value="15">15</option>
-                                        <option value="25" selected>25</option>
-                                        <option value="50">50</option>
-                                    </select>
-                                </div>
-                                <div class="flex items-center">
-                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
-                                    <div id="customPaginationInfo" class="text-black"></div>
-                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
-                                </div>
-                            </div>
+
                         </div>
 
                         <script>

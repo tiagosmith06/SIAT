@@ -4,9 +4,6 @@
             <div class="cover pl-[50px]">
                 <h1 class="font-extrabold text-my_blue text-3xl">NOTICIAS</h1>
 
-
-
-
                 <nav class="flex my-4" aria-label="Breadcrumb">
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2">
@@ -34,21 +31,14 @@
                             </a>
                         </li>
 
-
-
-
                     </ol>
-
-
                 </nav>
             </div>
-
 
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
             <h1 class="text-2xl font-medium mb-4">Ultimas noticias</h1>
-
 
             <div class="flex  flex-col gap-4">
 
@@ -67,23 +57,19 @@
                     </a>
                     <a href="{{route('pages.show-comunicacion',$post)}}" class="mb-3 font-normal ">
                         {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
-
                     </a>
-
                 </div>
                 @endforeach
-
             </div>
             <div>
-
                 {{$posts->links()}}
             </div>
         </div>
     </div>
     <div class="container my-24 mx-auto md:px-6">
+
         <section class="mb-32 text-center">
           <h2 class="mb-12 text-center text-3xl font-bold">ARTICULOS PUBLICADOS</h2>
-
           <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
             <div class="mb-6 lg:mb-0">
               <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
@@ -126,7 +112,6 @@
                   </div>
                 </a>
               </div>
-
               <h5 class="mb-3 text-lg font-bold">LABORATORIO DE DATOS IIAP</h5>
               <div class="mb-3 flex items-center justify-center text-sm font-medium text-primary dark:text-primary-400">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
@@ -279,6 +264,8 @@
             </div>
           </div>
       </section>
+
+      
 
 
 
