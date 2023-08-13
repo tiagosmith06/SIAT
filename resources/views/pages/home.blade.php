@@ -2,8 +2,6 @@
 
     @include('components/slider-home')
 
-
-
     <div class="flex flex-col bg-white p-2 m-6">
 
     </div>
@@ -15,7 +13,8 @@
                 <p class="text-4xl p-2 text-white rounded-r-full bg-orange-400 text-justify">
                     <strong>BIENVENIDOS A SIAT-PC </strong>
                 </p>
-<!--                <div>
+<!--
+                <div>
                     <img class="max-w-[300px]" src="{{ asset('/images/logo.jpeg') }}" alt="">
                 </div>
 -->
@@ -34,6 +33,8 @@
             </div>
 
     </div>
+
+
 
     <div class="flex flex-col bg-white">
         <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
@@ -81,11 +82,10 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
-
-
     </div>
+
+    
 
 </x-app-layout>
