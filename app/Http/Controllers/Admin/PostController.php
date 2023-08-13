@@ -32,6 +32,7 @@ class PostController extends Controller
         $search = $request->search;
 
         $categories = Category::pluck('name', 'id');
+        $posts = Post::with('user')->where('name', 'LIKE', "%{$search}%")->where('category_id', '=', 1)->latest()->paginate();
 
         $posts =   Post::where('name', 'LIKE', "%{$search}%")->where('category_id', '=', 1)->latest()->paginate();
         return view('admin.posts.index', ['posts' => $posts, 'categories' => $categories]);

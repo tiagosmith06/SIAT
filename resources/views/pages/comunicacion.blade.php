@@ -46,38 +46,56 @@
 
         </div>
 
-        <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">Ultimas noticias</h1>
+        <div class="container my-24 mx-auto md:px-6">
+            <section class="mb-32 text-center">            <h1 class="mb-12 text-center text-3xl font-bold">Ultimas noticias</h1>
 
 
-            <div class="flex  flex-col gap-4">
+                <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
 
                 @foreach ($posts as $post)
 
-                <div
-                    class="p-6 text-white border relative border-gray-200 rounded-lg shadow  w-full h-[15rem] flex justify-center items-center flex-col bg-slate-500">
-                    <div class=" absolute top-0 left-0  bg-white p-2 rounded-l-md">
-                        <i class="fa-regular fa-calendar text-my_green"></i>
-                        <span class="text-black ">{{$post->created_at}}</span>
-                    </div>
+                <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                    data-te-ripple-init data-te-ripple-color="light">
+                    <img class="w-full"
+                    src="@if($post->image){{Storage::url($post->image->url)}} @endif">
+
+                    <a href="#!">
+                      <div
+                        class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                      </div>
+                    </a>
+                  </div>
+
 
                     <a href="{{route('pages.show-comunicacion',$post)}}">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight  "> {{$post->name}}
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  ">
                         </h5>
+                        <h5 class="mb-3 text-lg font-bold">{{$post->name}}</h5>
+
                     </a>
-                    <a href="{{route('pages.show-comunicacion',$post)}}" class="mb-3 font-normal ">
+
+                    <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
+                        <small>Publicado <u>{{$post->created_at}}</u> by
+                            <a href="{{route('pages.show-comunicacion',$post)}}">{{$post->user->name}}</a></small>
+                        </p>
+
+                    <a href="{{route('pages.show-comunicacion',$post)}}" class="text-neutral-500 text-black text-justify text-justify">
                         {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
 
                     </a>
+
 
                 </div>
                 @endforeach
 
             </div>
+                </div>
             <div>
 
                 {{$posts->links()}}
             </div>
+            </section>
         </div>
     </div>
     <div class="container my-24 mx-auto md:px-6">
@@ -85,6 +103,7 @@
           <h2 class="mb-12 text-center text-3xl font-bold">ARTICULOS PUBLICADOS</h2>
 
           <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
+
             <div class="mb-6 lg:mb-0">
               <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
                 data-te-ripple-init data-te-ripple-color="light">
@@ -96,7 +115,6 @@
                 </a>
               </div>
 
-              <h5 class="mb-3 text-lg font-bold">CAPURGANÁ</h5>
               <div class="mb-3 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                   stroke="currentColor" class="mr-2 h-5 w-5">
