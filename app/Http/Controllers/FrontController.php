@@ -31,6 +31,8 @@ class FrontController extends Controller
         return view('pages.comunicacion', ['posts' => $posts]);
     }
 
+
+
     public function atencionintegral()
     {
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
@@ -119,12 +121,22 @@ class FrontController extends Controller
     {
         return view('pages.vision');
     }
+
+    public function gestiondocumental()
+    {
+        return view('pages.gestiondocumental');
+    }
+    public function proyectosambientales()
+    {
+        return view('pages.proyectosambientales');
+    }
+
     public function catalogo()
     {
         $posts =   Post::where('category_id', '=', 4)->latest()->paginate(2);
         return view('pages.catalogo', ['posts' => $posts]);
     }
-    
+
     public function estructura()
     {
         return view('pages.estructura');

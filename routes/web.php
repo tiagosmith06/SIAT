@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(FrontController::class)->group(function () {
     Route::get('/biogeografico', [MunicipioController::class, 'page.biogeografico'])->name('biogeografico');
-    Route::get('/municipios')->name( 'pages.municipios');
+    Route::get('/municipios')->name('pages.municipios');
     Route::get('/', 'index')->name('pages.index');
     Route::get('/posts/{post}', 'show_articulo')->name('posts.show');
     Route::get('/searches', 'search')->name('posts.search');
@@ -34,7 +34,10 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/objetivo', 'objetivo')->name('pages.objetivo');
     Route::get('/comunicacion', 'comunicacion')->name('pages.comunicacion');
     Route::get('/atencionintegral', 'atencionintegral')->name('pages.atencionintegral');
-  
+    Route::get('/proyectosambientales', 'proyectosambientales')->name('pages.proyectosambientales');
+    Route::get('/gestiondocumental', 'gestiondocumental')->name('pages.gestiondocumental');
+
+
     Route::get('/contratacion/{post}', 'show_contratacion')->name('pages.show-contratacion');
 
     Route::get('/estructura', 'estructura')->name('pages.estructura');
