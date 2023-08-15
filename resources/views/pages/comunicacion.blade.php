@@ -17,7 +17,6 @@
 
                             <a href="/"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
                                 Inicio /
                             </a>
                         </li>
@@ -26,7 +25,6 @@
 
                             <a href="/comunicacion"
                                 class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
                                 Noticias
                             </a>
                         </li>
@@ -38,7 +36,7 @@
         </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">Ultimas noticias</h1>
+            <h1 class="text-2xl font-medium mb-4">ÚLTIMAS NOTICIAS</h1>
 
 
                 <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
@@ -67,7 +65,7 @@
                     </a>
 
                     <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
-                        <small>Publicado <u>{{$post->created_at}}</u> by
+                        <small>Publicado <u>{{$post->created_at}}</u> Autor:
                             <a href="{{route('pages.show-comunicacion',$post)}}">{{$post->user->name}}</a></small>
                         </p>
 
@@ -88,7 +86,7 @@
     <div class="container my-24 mx-auto md:px-6">
 
         <section class="mb-32 text-center">
-          <h2 class="mb-12 text-center text-3xl font-bold">ARTICULOS PUBLICADOS</h2>
+          <h2 class="mb-12 text-center text-3xl font-bold">NOTICIAS ANTIGUAS</h2>
           <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
 
             <div class="mb-6 lg:mb-0">
@@ -111,7 +109,7 @@
                 Travels
               </div>
               <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
-                <small>Publicado <u>13.01.2022</u> by
+                <small>Publicado  <u>13-08-2023</u> Autor:
                   <a href="#!">Anna Maria Doe</a></small>
               </p>
               <p class="text-neutral-500 text-black text-justify text-justify">
@@ -141,7 +139,7 @@
                 Art
               </div>
               <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
-                <small>Publicado <u>12.01.2022</u> by
+                <small>Publicado <u>13-08-2023</u> Autor:
                   <a href="#!">Halley Frank</a></small>
               </p>
               <p class="text-neutral-500 text-black text-justify text-justify">
@@ -173,7 +171,7 @@
                   Business
                 </div>
                 <p class="mb- text-neutral-500 text-black text-justify text-justify">
-                  <small>Publicado <u>10.01.2022</u> by
+                  <small>Publicado <u>13-08-2023</u> Autor:
                     <a href="#!">Joe Svan</a></small>
                 </p>
                 <p class="text-neutral-500 text-black text-justify text-justify">
@@ -207,7 +205,7 @@
                 Travels
               </div>
               <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
-                <small>Publicado <u>13.01.2022</u> by
+                <small>Publicado <u>13-08-2023</u> Autor:
                   <a href="#!">Anna Maria Doe</a></small>
               </p>
               <p class="text-neutral-500 text-black text-justify text-justify">
@@ -238,7 +236,7 @@
                 Art
               </div>
               <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
-                <small>Publicado <u>12.01.2022</u> by
+                <small>Publicado <u>13-08-2023</u> Autor:
                   <a href="#!">Halley Frank</a></small>
               </p>
               <p class="text-neutral-500 text-black text-justify text-justify">
@@ -270,7 +268,7 @@
                   Business
                 </div>
                 <p class="mb- text-neutral-500 text-black text-justify text-justify">
-                  <small>Publicado <u>10.01.2022</u> by
+                  <small>Publicado <u>13-08-2023</u> Autor:
                     <a href="#!">Joe Svan</a></small>
                 </p>
                 <p class="text-neutral-500 text-black text-justify text-justify">

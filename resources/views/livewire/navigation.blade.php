@@ -120,46 +120,15 @@
                             class="block py-2 pl-2 pr-2 text-white
                                  rounded md:hover:bg-transparent hover:text-light_green md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-light_green' : '' }}">Inicio</a>
                     </li>
-                    <li class="relative">
-                        <div id="mega-menu-icons-dropdown-button" data-dropdown-toggle="mega-menu-icons-dropdown"
-                            class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium   text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">
-                            ¿Quienes somos?
-
-                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <div x-show="openDesple" id="mega-menu-icons-dropdown"
-                            class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
-                            <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button">
-
-                                <li>
-                                    <a href= {{route('pages.mision')}} class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Misión </a>
-                                </li>
-                                <li>
-                                    <a href="{{route('pages.vision')}}"
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
-                                        Visión
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="{{route('pages.objetivo')}}"
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
-                                        Objetivos
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </div>
+                    <li>
+                        <a href="{{route('pages.mision')}}"
+                            class="{{request()->routeIs('pages.mision') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
                     </li>
-
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
                             class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
                     </li>
-                    
+
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
                             class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">Servicios
@@ -232,7 +201,7 @@
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Contactanos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Contactenos</a>
                     </li>
                 </ul>
             </div>

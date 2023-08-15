@@ -36,7 +36,154 @@
         <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
         </strong></h1>
 
-        <section class=" grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
+        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://siatac.co/" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                           <a href="http://www.siac.gov.co//" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="" target="_blank" >
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="flex flex-col bg-white">
+        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
+        </strong></h1>
+
+        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://siatac.co/" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                           <a href="http://www.siac.gov.co//" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="" target="_blank" >
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="flex flex-col bg-white">
+        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
+        </strong></h1>
+
+        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://siatac.co/" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                           <a href="http://www.siac.gov.co//" target="_blank" >
+                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="team-member">
+                            <a href="" target="_blank" >
+                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="flex flex-col bg-white">
+        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
+        </strong></h1>
+
+        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">

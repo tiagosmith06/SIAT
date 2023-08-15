@@ -4,6 +4,7 @@ use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FrontController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DocumentoController;
 
 
 
@@ -48,6 +49,15 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/comunicacion/{post}', 'show_comunicacion')->name('pages.show-comunicacion');
     Route::get('/comment/{post}', 'storeComment')->name('comments.show');
     Route::get('/contador', 'counter')->name('contador');
+
+    Route::get('/documentos', [DocumentoController::class, 'documentos'])->name('pages.documentos');
+    Route::get('/documentos/create', [DocumentoController::class, 'create'])->name('pages.create');
+    Route::post('/documentos', [DocumentoController::class, 'store'])->name('pages.store');
+    Route::get('/documentos/{documento}', [DocumentoController::class, 'show'])->name('pages.show');
+    Route::get('/documentos/{documento}/edit', [DocumentoController::class, 'edit'])->name('pages.edit');
+    Route::put('/documentos/{documento}', [DocumentoController::class, 'update'])->name('pages.update');
+    Route::delete('/documentos/{documento}', [DocumentoController::class, 'destroy'])->name('pages.destroy');
+
 });
 
 
