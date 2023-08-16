@@ -86,12 +86,9 @@
             </div>
 
             <div
-              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-              data-te-ripple-init
-              data-te-ripple-color="light">
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/047.jpg"
-                class="w-full align-middle transition duration-300 ease-linear" />
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/047.jpg" class="w-full align-middle transition duration-300 ease-linear" />
               <a href="comunicacion">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
@@ -108,28 +105,25 @@
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
               </a>
             </div>
-
-
-
           </div>
         </section>
         <!-- Section: Design Block -->
       </div>
     <div class="flex container bg-white w-full my-14 mx-auto md:px-5">
         <style>
-            .hover-scale {
-            transform: scale(1);
-            transition: transform 0.2s ease-in-out;
+            .hover-scale
+            {
+                transform: scale(1);
+                transition: transform 0.2s ease-in-out;
             }
             .hover-scale:hover
             {
             transform: scale(1.6);
             }
         </style>
+
     <section class="mb-32 text-center">
-          <h1 class="mb-12 text-green-500 text-3xl font-bold">
-            SISTEMA NACIONAL AMBIENTAL
-          </h1>
+          <h1 class="mb-12 text-green-500 text-3xl font-bold"> SISTEMA NACIONAL AMBIENTAL</h1>
 
         <div class="lg:gap-xl-12 grid gap-x-3 md:grid-cols-2 lg:grid-cols-3">
             <div class="mb-12 lg:mb-0">
@@ -166,12 +160,10 @@
 
                 </div>
                 <div class="mb-12 md:mb-0">
-                    <a href="https://siatac.co/">
-                <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/siatac.jpg') }}" alt="avatar" />
+                    <a href="https://siatac.co/"> <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/siatac.jpg') }}" alt="avatar" />
                 <h2 class="mb-4 text-lg font-bold">SIAT-AC</h2>
                 <p class="mb-6">Sistema de Información Ambiental Territorial de la Amazonia Colombiana</p>
                     </a>
-
                 </div>
                 <div class="mb-12 md:mb-0">
                     <a href="http://www.humboldt.org.co/es/">

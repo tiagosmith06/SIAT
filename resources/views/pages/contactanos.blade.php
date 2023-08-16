@@ -1,58 +1,9 @@
 <x-app-layout>
     <div class="min-h-screen">
-        <div class="imagen-title2 "
-            style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
-            <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">      </h1>
-
-  <br>
-                <nav class="flex my-4" aria-label="Breadcrumb">
-                    <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                        <li class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-house"></i> <a href="#"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
-
-
-                            </a>
-                        </li>
-
-                        <li class="inline-flex items-center">
-
-                            <a href="/"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
-                                Inicio /
-                            </a>
-                        </li>
-
-                        <li class="inline-flex items-center">
-
-                            <a href="/contactanos"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-blue-600">
-
-                                Contactanos
-                            </a>
-                        </li>
-
-
-
-
-                    </ol>
-
-
-                </nav>
-            </div>
-
-
-        </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">Contactanos</h1>
 
-
-
-            <div>
-                <div id="map" style="height: 500px;"></div>
+            <div class="w-full">
 
             </div>
 
@@ -113,7 +64,7 @@
                         @enderror
                     </div>
                     <button type="submit"
-                        class="text-white my-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
+                        class="text-white text-center  justify-center items-center my-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-green-500 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
                 </form>
                 @endif
 
@@ -125,15 +76,4 @@
 
 
 
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaGVubmVyMSIsImEiOiJjbGZzN2h0ZnQwM2IwM21vMWRxMXc0cWU2In0.Oo3ELBQSEoJTmhOkNWuYew'
 
-// Crear un nuevo mapa
-var map = new mapboxgl.Map({
-  container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
-  center: [-76.6275, 5.5711],
-
-  zoom: 16 // Nivel de zoom
-});
-</script>

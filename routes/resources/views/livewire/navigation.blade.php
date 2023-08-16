@@ -153,7 +153,7 @@
                             <ul class="py-1 text-sm text-gray-700  " aria-labelledby="mega-menu-icons-dropdown-button">
 
                                 <li>
-                                    <a href={{route('pages.mision')}}
+                                    <a href={{route('pages.quienes_somos')}}
                                         class="block px-4 py-2 hover:bg-light_green hover:text-white rounded-md">Misión
                                     </a>
                                 </li>
