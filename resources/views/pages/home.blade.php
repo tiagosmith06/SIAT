@@ -4,24 +4,21 @@
     <div class="container my-24 mx-auto md:px-6">
 
 
-        <!-- Section: Design Block -->
         <section class="mb-32">
           <style>
-            .zoom:hover img {
+          .zoom:hover img
+            {
               transform: scale(1.1);
             }
           </style>
-          <h2 class="mb-12 text-center text-3xl font-bold">NOVEDADES</h2>
-
+          <a href="comunicacion">
+          <h2 class="mb-12 text-center hover:text-blue-500 t-text-green-500 text-green-500 rounded-full text-3xl font-bold">NOVEDADES</h2>
+        </a>
           <div class="grid gap-6 lg:grid-cols-2">
             <div
-              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-              data-te-ripple-init
-              data-te-ripple-color="light">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/051.jpg"
-                class="w-full align-middle transition duration-300 ease-linear" />
-              <a href="#!">
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
+              <img src="{{ asset('images/Hidrografia.webp')}}" class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="comunicacion">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                   <div class="flex h-full items-end justify-start">
@@ -43,8 +40,8 @@
             <div
               class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/044.jpg" class="w-full align-middle transition duration-300 ease-linear" />
-              <a href="#!">
+                src="{{ asset('images/leon.jpg') }}" class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="comunicacion">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                   <div class="flex h-full items-end justify-start">
@@ -67,9 +64,9 @@
               class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"  data-te-ripple-init
               data-te-ripple-color="light">
               <img
-                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/045.jpg"
+                src="{{ asset('images/drom.JPG') }}"
                 class="w-full align-middle transition duration-300 ease-linear" />
-              <a href="#!">
+              <a href="comunicacion">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                   <div class="flex h-full items-end justify-start">
@@ -95,7 +92,7 @@
               <img
                 src="https://mdbcdn.b-cdn.net/img/new/standard/nature/047.jpg"
                 class="w-full align-middle transition duration-300 ease-linear" />
-              <a href="#!">
+              <a href="comunicacion">
                 <div
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                   <div class="flex h-full items-end justify-start">
