@@ -1,234 +1,314 @@
 <x-app-layout>
-
     @include('components/slider-home')
 
-    <div class="flex flex-col bg-white p-2 m-6">
+    <div class="container my-24 mx-auto md:px-6">
 
-    </div>
+        
+        <!-- Section: Design Block -->
+        <section class="mb-32">
+          <style>
+            .zoom:hover img {
+              transform: scale(1.1);
+            }
+          </style>
+          <h2 class="mb-12 text-center text-3xl font-bold">NOVEDADES</h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-2  justify-between max-w-5xl my-0 mx-auto ">
-
-            <div class="flex  flex-col items-center">
-
-                <p class="text-4xl p-2 text-white rounded-r-full bg-orange-400 text-justify">
-                    <strong>BIENVENIDOS A SIAT-PC </strong>
-                </p>
-
-                <p class="bg-green-500 text-2xl text-white m-4 rounded-br-md  text-justify p-10">El Sistema de Información Ambiental Territorial del Pacífico Colombiano (SIAT-PC)
-                    es el conjunto integrado de actores, políticas, procesos y tecnologías involucradas en la
-                    gestión de información ambiental para facilitar la generación de conocimiento, la toma de decisiones, la educación y la participación social, en el pacifico colombiano.
-                </p>
-            </div>
-
-            <div class="flex text-right">
-                <div class="container mx-auto my-8">
-                    <div class="aspect-w-10 aspect-h-9" style="overflow: hidden;">
-                        <iframe src="https://www.youtube.com/embed/jdhUpvM9gVo" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+          <div class="grid gap-6 lg:grid-cols-3">
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/051.jpg"
+                class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">I miss the sun</h5>
+                      <p>
+                        <small
+                          >Published <u>13.01.2022</u> by Anna Maria Doe</small
+                        >
+                      </p>
                     </div>
+                  </div>
                 </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
             </div>
 
-    </div>
-
-
-
-    <div class="flex flex-col bg-white">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
-        </strong></h1>
-
-        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://siatac.co/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
-
-                        </div>
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/044.jpg" class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">
+                        Adventure in the desert
+                      </h5>
+                      <p>
+                        <small>Published <u>12.01.2022</u> by Mark Equel</small>
+                      </p>
                     </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                           <a href="http://www.siac.gov.co//" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="" target="_blank" >
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
             </div>
+
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"  data-te-ripple-init
+              data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/045.jpg"
+                class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">Lonely mountain</h5>
+                      <p>
+                        <small
+                          >Published <u>10.01.2022</u> by Bilbo baggins</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
+            </div>
+
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/047.jpg"
+                class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">Let's go!</h5>
+                      <p>
+                        <small>Published <u>09.01.2022</u> by Halley Frank</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
+            </div>
+
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/028.jpg"
+                class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">
+                        A hut in the mountains
+                      </h5>
+                      <p>
+                        <small>Published <u>07.01.2022</u> by David Beak</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
+            </div>
+
+            <div
+              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+              data-te-ripple-init
+              data-te-ripple-color="light">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/new/standard/nature/049.jpg"
+                class="w-full align-middle transition duration-300 ease-linear" />
+              <a href="#!">
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                  <div class="flex h-full items-end justify-start">
+                    <div class="m-6 text-white">
+                      <h5 class="mb-3 text-lg font-bold">Beautiful waterfall</h5>
+                      <p>
+                        <small>Published <u>04.01.2022</u> by Joe Svan</small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+              </a>
+            </div>
+          </div>
         </section>
-    </div>
-    <div class="flex flex-col bg-white">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
-        </strong></h1>
+        <!-- Section: Design Block -->
+      </div>
+    <div class="flex container bg-white w-full my-14 mx-auto md:px-5">
+        <style>
+            .hover-scale {
+            transform: scale(1);
+            transition: transform 0.2s ease-in-out;
+            }
+            .hover-scale:hover
+            {
+            transform: scale(1.6);
+            }
+        </style>
+    <section class="mb-32 text-center">
+          <h1 class="mb-12 text-green-500 text-3xl font-bold">
+            SISTEMA NACIONAL AMBIENTAL
+          </h1>
 
-        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://siatac.co/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                           <a href="http://www.siac.gov.co//" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="" target="_blank" >
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                </div>
+        <div class="lg:gap-xl-12 grid gap-x-3 md:grid-cols-2 lg:grid-cols-3">
+            <div class="mb-12 lg:mb-0">
+                <a href="https://www.minambiente.gov.co/">
+                    <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[200px]" src="{{ asset('images/minambiente.png') }}" alt="avatar" />
+                </a>
+              <h2 class="mb-4 text-lg font-bold">MIN. AMBIENTE</h2>
+              <p class="mb-6">Ministerio de Ambiente y Desarrollo Sostenible</p>
             </div>
-        </section>
-    </div>
-    <div class="flex flex-col bg-white">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
-        </strong></h1>
 
-        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://siatac.co/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
+            <div class="mb-12 lg:mb-0">
+                <a href="http://www.siac.gov.co//">
+                <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[200px]" src="{{ asset('images/SIAC.png') }}" alt="avatar" />
 
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                           <a href="http://www.siac.gov.co//" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
+                <h2 class="mb-4 text-lg font-bold">SIAC</h2>
+                <p class="mb-6">Sistema de Información Ambiental de Colombia</p>
+                </a>
 
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="" target="_blank" >
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
-    </div>
-    <div class="flex flex-col bg-white">
-        <h1 class="t text-center  text-gray-700 text-3xl my-3"><strong>ALIADOS INSTITUCIONALES
-        </strong></h1>
+                <div class="mb-12 md:mb-0">
+                <a href="https://iiap.org.co/">
+                <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/IIAP.png')}}" alt="avatar" />
+                <h2 class="mb-4 text-lg font-bold">IIAP</h2>
+                <p class="mb-6">Instituto de Investigación Ambiental del Pacífico</p>
+                </a>
 
-        <section class=" border grid-cols-1 md:grid-cols-2  max-w-5xl my-0 mx-auto " id="team">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://siatac.co/" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/siataclogo.png') }}" alt="SIAC" /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                           <a href="http://www.siac.gov.co//" target="_blank" >
-                            <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-[100px]" src="{{ asset('images/siacgov.png') }}" alt="..." /></a>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://iiap.org.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/IIAP.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="http://humboldt.org.co/es/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-29" src="{{ asset('images/descarga.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="https://biodiversidad.co/" target="_blank" rel="noopener noreferrer">
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-full w-auto" src="{{ asset('images/sib.png') }}" alt="..." /></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2">
-                        <div class="team-member">
-                            <a href="" target="_blank" >
-                                <img class="mx-auto transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0  w-28" src="{{ asset('images/invemar.jpeg') }}" alt="..." /></a>
-                        </div>
-                    </div>
                 </div>
+                <div class="mb-12 md:mb-0">
+                    <a href="http://www.ideam.gov.co/">
+                <img class="mx-auto hover-scale mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/ideam.jpg') }}" alt="avatar" />
+                <h2 class="mb-4 text-lg font-bold">IDEAM</h2>
+                <p class="mb-6">Instituto de Hidrología, Meteorología y Estudios Ambientales</p>
+                    </a>
+
+                </div>
+                <div class="mb-12 md:mb-0">
+                    <a href="https://siatac.co/">
+                <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/siatac.jpg') }}" alt="avatar" />
+                <h2 class="mb-4 text-lg font-bold">SIAT-AC</h2>
+                <p class="mb-6">Sistema de Información Ambiental Territorial de la Amazonia Colombiana</p>
+                    </a>
+
+                </div>
+                <div class="mb-12 md:mb-0">
+                    <a href="http://www.humboldt.org.co/es/">
+                <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/humboldtLogo.png') }}" alt="avatar" />
+                <h2 class="mb-4 text-lg font-bold">IDEAM</h2>
+                <p class="mb-6">Instituto de Investigación de Recursos Biológicos Alexander von Humboldt</p>
+                    </a>
+                </div>
+          </div>
+        </section>      <!-- Section: Design Block -->
+</div>
+<div class="flex container bg-white w-full my-14 mx-auto md:px-5">
+    <style>
+        .hover-scale {
+        transform: scale(1);
+        transition: transform 0.3s ease-in-out;
+        }
+        .hover-scale:hover
+        {
+        transform: scale(1.2);
+        }
+    </style>
+<section class="mb-32 text-center">
+      <h1 class="mb-12 text-green-500 text-3xl font-bold">
+        GOBERNACIONES
+      </h1>
+
+    <div class="lg:gap-xl-12 grid gap-x-3 md:grid-cols-3 lg:grid-cols-4">
+        <div class="mb-12 lg:mb-0">
+            <a href="https://www.choco.gov.co/">
+                <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[200px]" src="{{ asset('images/gobierno_choco.jpeg') }}" alt="avatar" />
+            </a>
+          <h2 class="mb-4 text-lg font-bold">GOBERNACION DEL CHOCÓ</h2>
+          <p class="mb-6"></p>
+        </div>
+
+        <div class="mb-12 lg:mb-0">
+            <a href="https://antioquia.gov.co/">
+            <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[220px]" src="{{ asset('images/Quia.webp') }}" alt="avatar" />
+
+            <h2 class="mb-4 text-lg font-bold">GOBERNACIÓN DE ANTIOQUIA</h2>
+            <p class="mb-6"></p>
+            </a>
+
+        </div>
+            <div class="mb-12 md:mb-0">
+            <a href="https://www.risaralda.gov.co/">
+            <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/risaralda.png')}}" alt="avatar" />
+            <h2 class="mb-4 text-lg font-bold">GOBERNACIÓN DE RISARALDA</h2>
+            <p class="mb-6"></p>
+            </a>
+
             </div>
-        </section>
-    </div>
+            <div class="mb-12 md:mb-0">
+                <a href="https://www.valledelcauca.gov.co/">
+            <img class="mx-auto hover-scale mb-6 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/cali.jpg') }}" alt="avatar" />
+            <h2 class="mb-4 text-lg font-bold">GOBERNACIÓN DE VALLE DEL CAUCA</h2>
+            <p class="mb-6"></p>
+                </a>
 
+            </div>
+            <div class="mb-12 md:mb-0">
+                <a href="http://www.cordoba.gov.co/">
+            <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/cordoba.jpg') }}" alt="avatar" />
+            <h3 class="mb-4 text-lg font-bold">GOBERNACIÓN DE CÓRDOBA</h2>
+            <p class="mb-6"></p>
+                </a>
 
+            </div>
+            <div class="mb-12 md:mb-0">
+                <a href="http://www.nariño.gov.co/">
+            <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/nariño.png') }}" alt="avatar" />
+            <h2 class="mb-4 text-lg font-bold">GOBERNACIÓN DE NARIÑO</h2>
+            <p class="mb-6"></p>
+                </a>
+            </div>
+            <div class="mb-12 md:mb-0">
+                <a href="http://www.cauca.gov.co/">
+            <img class="mx-auto mb-6 hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[190px]" src="{{ asset('images/cauca.jpg') }}" alt="avatar" />
+            <h2 class="mb-4 text-lg font-bold">GOBERNACIÓN DE CAUCA</h2>
+            <p class="mb-6"></p>
+                </a>
+
+            </div>
+
+      </div>
+    </section>
+</div>
 
 </x-app-layout>

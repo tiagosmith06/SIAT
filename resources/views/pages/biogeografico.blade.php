@@ -25,15 +25,15 @@
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
-                        <dd class="font-light text-white-500 text-white"><a href="#departamentos" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">DEPARTAMENTOS</a></dd>
+                        <dd class="font-light text-white-500 text-white">DEPARTAMENTOS</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7M</dt>
                         <dd class="font-light text-white-500 text-white">POBLACIÓN</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-2xl md:text-2xl font-extrabold">178</dt>
-                        <dd class="font-light text-white-500 text-white"><a href="#municipios" target="_parent" class="cursor-pointer hover:text-green-500" rel="noopener noreferrer">MUNICIPIOS</a></dd>
+                        <dt class="mb-2 text-2xl md:text-2xl font-extrabold">92</dt>
+                        <dd class="font-light text-white-500 text-white">MUNICIPIOS</dd>
                     </div>
 
                 </dl>

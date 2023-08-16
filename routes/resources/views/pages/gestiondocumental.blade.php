@@ -33,7 +33,7 @@
                 <td>{{ $gestion->autor }}</td>
                 <td>{{ $gestion->fecha }}</td>
                 <td>
-                    <a href="{{ route('pages.show_gestion', $gestion) }}" class="btn btn-info btn-sm">Consultar</a>
+                    <a href="{{ route('pages.show', $gestion) }}" class="btn btn-info btn-sm">Consultar</a>
                     <a href="{{ $gestion->enlace_descarga }}" class="btn btn-success btn-sm" target="_blank">Descargar</a>
                 </td>
             </tr>

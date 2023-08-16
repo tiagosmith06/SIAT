@@ -197,7 +197,7 @@
 
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Noticias</a>
+                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Novedades</a>
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
