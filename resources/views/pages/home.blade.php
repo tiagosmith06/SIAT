@@ -13,29 +13,82 @@
           </style>
           <a href="comunicacion">
           <h2 class="mb-12 text-center hover:text-blue-500 t-text-green-500 text-green-500 rounded-full text-3xl font-bold">NOVEDADES</h2>
-        </a>
-          <div class="grid gap-6 lg:grid-cols-2">
-            <div
-              class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
-              <img src="{{ asset('images/Hidrografia.webp')}}" class="w-full align-middle transition duration-300 ease-linear" />
-              <a href="comunicacion">
+             </a>
+
+        <div class="container py-8 my-0 mx-auto max-w-6xl  ">
+            <h1 class="text-2xl font-medium mb-4">ÚLTIMAS NOTICIAS</h1>
+
+
+            <div class="grid gap-6 lg:grid-cols-2">
+
+                @foreach ($posts as $post)
+
+  {{--               <div class="mb-6 lg:mb-0">
+                    <div class="relative mb-6 overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
+                    data-te-ripple-init data-te-ripple-color="light">
+                    <img class="w-full"
+                    src="@if($post->image){{Storage::url($post->image->url)}} @endif">
+
+                    <a href="#!">
+                      <div
+                        class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
+                      </div>
+                    </a>
+                  </div>
+
+
+                    <a href="{{route('pages.show-comunicacion',$post)}}">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight  ">
+                        </h5>
+                        <h5 class="mb-3 text-lg font-bold">{{$post->name}}</h5>
+
+                    </a>
+
+                    <p class="mb-6 text-neutral-500 text-black text-justify text-justify">
+                        <small>Publicado <u>{{$post->created_at}}</u> Autor:
+                            <a href="{{route('pages.show-comunicacion',$post)}}">{{$post->user->name}}</a></small>
+                        </p>
+
+                    <a href="{{route('pages.show-comunicacion',$post)}}" class="text-neutral-500 text-black text-justify text-justify">
+                        {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
+                    </a>
+
+                </div> --}}
+
                 <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
-                  <div class="flex h-full items-end justify-start">
-                    <div class="m-6 text-white">
-                      <h5 class="mb-3 text-lg font-bold">I miss the sun</h5>
-                      <p>
-                        <small
-                          >Published <u>13.01.2022</u> by Anna Maria Doe</small
-                        >
-                      </p>
+                class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
+                <img src="@if($post->image){{Storage::url($post->image->url)}} @endif" class="w-full align-middle transition duration-300 ease-linear" />
+                <a href="comunicacion">
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
+                    <div class="flex h-full items-end justify-start">
+                      <div class="m-6 text-white">
+                        <h5 class="mb-3 text-lg font-bold">{{$post->name}}</h5>
+                        <p>
+                          <small
+                            >Publicado <u>{{$post->created_at}}</u> Por {{$post->user->name}}</small
+                          >
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
-              </a>
+                  <div
+                    class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
+                </a>
+              </div>
+                @endforeach
+
             </div>
+            <div>
+                {{$posts->links()}}
+            </div>
+            </section>
+        </div>
+
+
+{{--
+          <div class="grid gap-6 lg:grid-cols-2">
+
 
             <div
               class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
@@ -111,7 +164,7 @@
 
 
 
-          </div>
+          </div> --}}
         </section>
         <!-- Section: Design Block -->
       </div>
