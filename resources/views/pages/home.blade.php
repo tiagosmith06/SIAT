@@ -58,7 +58,7 @@
                 <div
                 class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">
                 <img src="@if($post->image){{Storage::url($post->image->url)}} @endif" class="w-full align-middle transition duration-300 ease-linear" />
-                <a href="comunicacion">
+                <a href="{{route('pages.show-comunicacion',$post)}}">
                   <div
                     class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsla(0,0%,0%,0.4)] bg-fixed">
                     <div class="flex h-full items-end justify-start">
