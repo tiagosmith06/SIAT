@@ -73,7 +73,7 @@
     @livewireStyles
     <style>
         hr {
-            border: 1px solid #666;
+            border: 1px solid #000000;
             border-radius: 300px/10px;
             height: 0px;
             text-align: center;
@@ -151,10 +151,10 @@
     </script>
 </head>
 
-<body class="font-sans antialiased">
+<body class="font-mono font-family-georgia antialiased">
     <x-jet-banner />
 
-    <div class="min-h-screen bg-gray-100 w-full">
+    <div class="min-h-screen bg-white  ">
 
         @livewire('navigation')
         <!-- Page Content -->

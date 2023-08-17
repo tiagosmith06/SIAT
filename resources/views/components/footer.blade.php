@@ -5,20 +5,12 @@
         <div>
             <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">INSTITUCIÓN </h1>
             <ul class="text-white text-white font-medium">
+
                 <li class="mb-4">
-                    <a href="#" class=" hover:text-gray">Nit: 901675220-9</a>
+                    <a href="" target="_blank" class="hover:text-gray">Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" target="_blank" class="hover:text-gray">Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Teléfono:(54) (4) 6709126</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Ext: 4123</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Código Postal - 111321 </a>
+                    <a href="" class="hover:text-gray">Teléfono:(54) (4) 6709126</a>
                 </li>
             </ul>
         </div>
@@ -27,7 +19,7 @@
             <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">ENLACES DE INTERES</h1>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
-                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-gray hover:red-500">Contactanos</a>
+                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-gray hover:red-500">Contactenos</a>
                 </li>
                 <li class="mb-4">
                     <a href="{{route('pages.comunicacion')}}" target="_parent" class="hover:text-gray">Noticias</a>
@@ -64,12 +56,7 @@
                 <li class="mb-4">
                     <a href="#" class="hover:text-gray">Android</a>
                 </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Windows</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-gray">MacOS</a>
-                </li>
+               
             </ul>
         </div>
     </div>
