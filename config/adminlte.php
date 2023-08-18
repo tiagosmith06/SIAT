@@ -371,16 +371,11 @@ return [
         ],
 
         [
-            'text'    => 'Documentos',
+            'text'    => 'Gestión Documental',
             'icon'    => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'Planes',
-                    'url'  => 'admin/planes',
-                ],
-
-                [
-                    'text' => 'Programas',
+                    'text' => 'Atención Integral',
                     'url'  => 'admin/programas',
                 ],
                 [
@@ -405,7 +400,7 @@ return [
 
         ],
         [
-            'text'       => 'Lista de noticias',
+            'text'       => 'Lista de novedades',
             'url'        => 'admin/posts',
             'icon'        => 'fa fa-paperclip',
             'can' =>  'admin.posts.index'

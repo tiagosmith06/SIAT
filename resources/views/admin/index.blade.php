@@ -22,12 +22,12 @@
         </a>
     </div>
 
-    <div class="small-box bg-info">
+    <div class="small-box bg-info" style="background:blue">
         <div class="inner">
             <h3>{{$posts}}</h3>
-            <p>Numero de articulos</p>
+            <p>Número de articulos</p>
         </div>
-        <div class="icon">
+        <div class="icon" style="background:blue">
             <i class="fas fa-regular fa-newspaper"></i>
         </div>
         <a href="{{route('admin.posts.index')}}" class="small-box-footer">
@@ -36,7 +36,7 @@
     </div>
 
 
-    <div class="small-box " style="background: #A6123A">
+    <div class="small-box " style="background:blue">
         <div class="inner">
             <h3 class="text-white">{{$tags}}</h3>
             <p class="text-white">Numero de etiquetas</p>
@@ -50,7 +50,7 @@
     </div>
 
 
-    <div class="small-box " style="background: #71A63C">
+    <div class="small-box " style="background:orangered">
         <div class="inner">
             <h3 class="text-white">{{$categories}}</h3>
             <p class="text-white">Numero de categorias</p>
@@ -62,8 +62,8 @@
             Ver categorias <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
-
-    <div class="small-box " style="background: #71A63C">
+<!--
+    <div class="small-box " style="background:green">
         <div class="inner">
             <h3 class="text-white">{{$comments}}</h3>
             <p class="text-white">Numero de comentarios</p>
@@ -76,7 +76,7 @@
         </a>
     </div>
 
-    <div class="small-box " style="background: #A6123A">
+    <div class="small-box " style="background:red">
         <div class="inner">
             <h3 class="text-white">{{$documents}}</h3>
             <p class="text-white">Numero de archivos</p>
@@ -88,7 +88,7 @@
             Ver archivos <i class="fas fa-arrow-circle-right"></i>
         </a>
     </div>
-</div>
+</div>-->
 @stop
 
 @section('css')

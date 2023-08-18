@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1>Crear artitulo para el Geovisor</h1>
+<h1>Geovisor</h1>
 @stop
 
 @section('content')

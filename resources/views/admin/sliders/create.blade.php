@@ -80,7 +80,7 @@
             </div>
             <div class="col">
                 <div class="form-group">
-                    {!! Form::label('file', 'imagen que se mostrara en el artitulo') !!}
+                    {!! Form::label('file', 'ingrese una imagen para visualizar en el carrusel') !!}
                     {!! Form::file('file', ['class'=> 'form-control-file','accept'=> 'image/*']) !!}
                 </div>
 
@@ -89,7 +89,7 @@
                 @enderror
             </div>
         </div>
-        
+
         {!! Form::hidden('body', "d") !!}
         {!! Form::hidden('extract', "d") !!}
 
