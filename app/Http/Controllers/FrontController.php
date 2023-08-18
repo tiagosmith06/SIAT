@@ -18,7 +18,7 @@ class FrontController extends Controller
     public function index(Request $request)
     {
 
-        $sliders = Post::where('status', 2)->where('category_id', '=', 2)->latest()->paginate(6);
+        $sliders = Post::where('status', 2)->where('category_id', '=', 2)->latest()->paginate(4);
 
         $posts = Post::where('status', 2)->where('category_id', '=', 1)->latest()->paginate(8);
         return view('pages.home', ['posts' => $posts, 'postsSlider' => $sliders]);
