@@ -1,9 +1,13 @@
 <x-app-layout>
     @include('components/slider-home')
 
+    <!--
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+-->
+
     <div class="container my-24 mx-auto md:px-6">
-
-
         <section class="mb-32">
           <style>
           .zoom:hover img
@@ -16,7 +20,7 @@
              </a>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">ÚLTIMAS NOTICIAS</h1>
+            <h1 class="text-2xl font-medium mb-4">ÚLTIMAS NOVEDADES</h1>
 
 
             <div class="grid gap-6 lg:grid-cols-2">
@@ -158,17 +162,18 @@
                   class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed transition duration-300 ease-in-out hover:bg-[hsla(0,0%,99%,0.15)]"></div>
               </a>
             </div>
-<<<<<<< HEAD
+
           </div>
-=======
+
 
 
 
           </div> --}}
->>>>>>> f375379766c94e2c59b1367eb37f1bdb71349dc3
+
         </section>
         <!-- Section: Design Block -->
       </div>
+
     <div class="flex container bg-white w-full my-14 mx-auto md:px-5">
         <style>
             .hover-scale

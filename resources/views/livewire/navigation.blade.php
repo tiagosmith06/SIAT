@@ -121,8 +121,8 @@
                                  rounded md:hover:bg-transparent hover:text-light_green md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-light_green' : '' }}">Inicio</a>
                     </li>
                     <li>
-                        <a href="{{route('pages.mision')}}"
-                            class="{{request()->routeIs('pages.mision') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
+                        <a href="{{route('pages.quienes_somos')}}"
+                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
                     </li>
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
@@ -155,7 +155,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={{route('pages.catalogo')}}
+                                    <a href={{route('pages.dashboard')}}
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Tableros de Control
                                     </a>
                                 </li>

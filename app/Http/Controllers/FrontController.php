@@ -145,13 +145,13 @@ class FrontController extends Controller
     {
         return view('pages.contactanos');
     }
-    public function objetivo()
+    public function dashboard()
     {
-        return view('pages.objetivo');
+        return view('pages.dashboard');
     }
-    public function mision()
+    public function quienes_somos()
     {
-        return view('pages.mision');
+        return view('pages.quienes_somos');
     }
     public function prensa()
     {

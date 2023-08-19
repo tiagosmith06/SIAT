@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Correo de contacto</title>
+    <title>Contacto</title>
 </head>
 
 <body>

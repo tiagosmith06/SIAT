@@ -33,8 +33,9 @@ Route::controller(FrontController::class)->group(function () {
     Route::get('/geovisor', 'geovisor')->name('pages.geovisor');
     Route::get('/catalogo', 'catalogo')->name('pages.catalogo');
     Route::get('/vision', 'vision')->name('pages.vision');
-    Route::get('/mision', 'mision')->name('pages.mision');
-    Route::get('/objetivo', 'objetivo')->name('pages.objetivo');
+
+    Route::get('/quienes_somos', 'quienes_somos')->name('pages.quienes_somos');
+    Route::get('/dashboard', 'dashboard')->name('pages.dashboard');
     Route::get('/comunicacion', 'comunicacion')->name('pages.comunicacion');
     Route::get('/atencionintegral', 'atencionintegral')->name('pages.atencionintegral');
     Route::get('/proyectosambientales', 'proyectosambientales')->name('pages.proyectosambientales');
