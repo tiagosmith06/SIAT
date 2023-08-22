@@ -1,17 +1,17 @@
 
-<footer class="bg-green-500">
+<footer class="bg-orange-600">
     <div class="mx-auto w-full max-w-screen-xl">
       <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">INSTITUCIÓN </h1>
+            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">INFORMACIÓN</h1>
             <ul class="text-white text-white font-medium">
 
                 <li class="mb-4">
-                    <a href="" target="_blank" class="hover:text-gray">Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </a>
+                   <h2>Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </h2>
                 </li>
                 <li class="mb-4">
-                    <a href="" class="hover:text-gray">Teléfono:(54) (4) 6709126</a>
-                </li>
+                    <h2>Teléfono: (54)-(4) - 6709126</h2>
+                 </li>
             </ul>
         </div>
 
@@ -56,11 +56,11 @@
                 <li class="mb-4">
                     <a href="#" class="hover:text-gray">Android</a>
                 </li>
-               
+
             </ul>
         </div>
     </div>
-    <div class="px-4 py-6 bg-green-500  md:flex md:items-center md:justify-between">
+    <div class="px-4 py-6 bg-orange-600  md:flex md:items-center md:justify-between">
         <span class="text-sm  text-white sm:text-center">© <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
             class="ml-2 font-bold">Santiago Perea Murillo </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
         </span>

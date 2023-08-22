@@ -33,5 +33,5 @@
         @enderror
     </div>
 
-    <button type="submit">Enviar</button>
+    <button class="bg-text-green" type="submit">Enviar</button>
 </form>

@@ -14,14 +14,14 @@
                             <i class="fa-solid fa-house text-my_green"></i>
 
                             <a href="#"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
 
                             </a>
                         </li>
                         <li class="inline-flex items-center">
 
                             <a href="/"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
 
                                 Inicio /
                             </a>
@@ -30,7 +30,7 @@
                         <li class="inline-flex items-center">
 
                             <a href="/catalogo"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-600">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
                                 Catálogo
                             </a>
                         </li>

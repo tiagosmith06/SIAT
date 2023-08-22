@@ -16,7 +16,7 @@
             }
           </style>
           <a href="comunicacion">
-          <h2 class="mb-12 text-center hover:text-blue-500 t-text-green-500 text-green-500 rounded-full text-3xl font-bold">NOVEDADES</h2>
+          <h2 class="mb-12 text-center hover:text-blue-500 t-text-amber-300 text-amber-300 rounded-full text-3xl font-bold">NOVEDADES</h2>
              </a>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
@@ -187,16 +187,16 @@
             }
         </style>
 
-    <section class="mb-32 text-center">
-          <h1 class="mb-12 text-green-500 text-3xl font-bold"> SISTEMA NACIONAL AMBIENTAL</h1>
+    <section class="mb-32  text-center">
+          <h1 class="mb-12 text-amber-300 text-3xl font-bold"> SISTEMA NACIONAL AMBIENTAL</h1>
 
         <div class="lg:gap-xl-12 grid gap-x-3 md:grid-cols-2 lg:grid-cols-3">
             <div class="mb-12 lg:mb-0">
                 <a href="https://www.minambiente.gov.co/">
                     <img class="mx-auto hover-scale transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 mb-6 rounded-lg shadow-lg dark:shadow-black/20 h-[150px] w-[200px]" src="{{ asset('images/minambiente.png') }}" alt="avatar" />
-                </a>
+                
               <h2 class="mb-4 text-lg font-bold">MIN. AMBIENTE</h2>
-              <p class="mb-6">Ministerio de Ambiente y Desarrollo Sostenible</p>
+              <p class="mb-6">Ministerio de Ambiente y Desarrollo Sostenible</p></a>
             </div>
 
             <div class="mb-12 lg:mb-0">
@@ -252,7 +252,7 @@
         }
     </style>
 <section class="mb-32 text-center">
-      <h1 class="mb-12 text-green-500 text-3xl font-bold">
+      <h1 class="mb-12 text-amber-300 text-3xl font-bold">
         GOBERNACIONES
       </h1>
 

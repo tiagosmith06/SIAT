@@ -81,15 +81,7 @@ class FrontController extends Controller
         $comentario->role = $request->role;
         $comentario->parent_id = $request->parent_id;
         $comentario->post_id = $request->post_id;
-        /*         dd($comentario);
- */
-        /*         $parent_id = \Auth()->id();
-        if ($parent_id) {
-            $parent_id = \Auth()->id();
-        } else {
-            $parent_id = null;
-
- */
+  
 
         $user_id = \Auth()->id();
         if ($user_id) {

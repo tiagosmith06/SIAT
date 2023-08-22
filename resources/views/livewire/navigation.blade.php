@@ -1,13 +1,13 @@
 
 <header  class=" borde border-b-[1px] border-gray-200 w-full">
-    <nav  class="bg-green-500 fixed top-0 left-0 right-0 z-50 shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-green-500 w-full">
+    <nav  class="bg-orange-600 fixed top-0 left-0 right-0 z-50 shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-amber-300 w-full">
 
         <div class="flex flex-wrap m-2 items-center justify-between w-full  p-1">
             <div
                 class="container flex flex-wrap items-center justify-between md:justify-center xl:justify-between  ">
                 <div class="flex items-center  gap-2">
                     <a href="/" target="_parent" rel="noopener noreferrer" class="flex">
-                        <img src=" {{ asset('images/logotipo.jpg') }} " class=" rounded-full  t-left w-[70px]">
+                        <img src=" {{ asset('images/logotipo.jpg') }} " class=" rounded-full  t-left w-[50px]">
                         <div class="flex flex-col text-black">
                     </a>
                 </div>
@@ -54,7 +54,7 @@
                         <span class="sr-only">Menú de Usuario</span>
                         <img class="w-8 h-8 rounded-full" src="{{auth()->user()->profile_photo_url}}" alt="user photo">
                     </button>
-                    <!-- Dropdown menu -->
+
                     <div {{-- x-show="open" x-on:click.away="open=false" x-on:click="openDesple=true" --}}
                         id="mega-menu-icons-dropdown3" class="z-50 absolute hidden ">
                         <div aria-labelledby="mega-menu-icons-dropdown-button3"
@@ -71,13 +71,13 @@
                                 <li>
 
                                     <a href="{{route('admin.index')}}"
-                                        class="block px-4 py-2 text-sm text-green-500 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium">Dashboard</a>
+                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium">Dashboard</a>
                                 </li>
                                 @endcan
 
                                 <li>
                                     <a href="{{route('profile.show')}}"
-                                        class="block px-4 py-2 text-sm text-green-500 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
+                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
                                 </li>
 
                                 <li>
@@ -87,7 +87,7 @@
                                         @csrf
 
                                         <a href="{{ route('logout') }}"
-                                            class="block px-4 py-2 text-sm text-green-500 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium "
+                                            class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
                                     </form>
 
@@ -98,16 +98,15 @@
                 </div>
                 @else
 
-                <div class="flex gap-2  order-3 items-center cursor-pointer text-white text-[14px] flex-col ">
-                    <a href="{{route('login')}}" class="text-white">Iniciar Sesión</a>
-
-
-
-                    <a href="{{route('register')}}" class="text-white">
-                        Registrarse
-                    </a>
-
+                <div class="flex gap-2 order-3 items-center cursor-pointer text-white text-[14px] flex-col">
+                    <div>
+                        <a href="{{ route('login') }}" class="text-white">Iniciar Sesión</a>
+                    </div>
+                    <div>
+                        <a href="{{ route('register') }}" class="text-white">Registrarse</a>
+                    </div>
                 </div>
+
 
                 @endauth
             </div>
@@ -142,7 +141,7 @@
 
                         <div id="mega-menu-icons-dropdown2"
                             class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
-                            <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button2">
+                            <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
                                 <li>
                                     <a href="{{route('pages.geovisor')}}"
                                         class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
@@ -177,11 +176,11 @@
 
                      <div id="mega-menu-icons-dropdown4"
                         class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
-                        <ul class="py-1 text-sm text-green-500  " aria-labelledby="mega-menu-icons-dropdown-button2">
+                        <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
                             <li>
                                 <a href="{{route('pages.gestiondocumental')}}"
                                     class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
-                                    Gestion documental
+                                    Gestión documental
                                 </a>
                             </li>
                             <li>

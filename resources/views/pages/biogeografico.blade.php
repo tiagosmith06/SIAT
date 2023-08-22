@@ -9,19 +9,16 @@
             </div>
             <div class="flex-1 m-3 p-4">
                 <br><br><br><br>
-                <h1 class="text-5xl mb-8 text-green-500  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
+                <h1 class="text-5xl mb-8 text-amber-300  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
 
-            <p class="mb-4 text-base text-black text-justify text-neutral-200">
+            <p class="mb-4 text-base text-black text-center text-neutral-200">
                 La región del Pacífico​ es una de las seis regiones naturales de Colombia. Comprende casi la totalidad del departamento del Chocó, y las zonas costeras de los departamentos del Valle del Cauca, Cauca y Nariño.
                 Está ubicada en la franja oeste del país, limitando al norte con Panamá, al noreste con la región Caribe, al este con la cordillera Occidental que la separa de la región andina, al sur con Ecuador y al oeste con el océano Pacífico, de donde toma su nombre.
-                Hace parte del Chocó biogeográfico y está dividida en dos grandes zonas marcadas por el cabo Corrientes. Las principales ciudades son Buenaventura, Tumaco, Quibdó, Istmina, Barbacoas y Nuquí. En ella se desarrolló la cultura Tumaco-La Tolita.
-                Es una región con una inmensa riqueza ecológica, hidrográfica, minera y forestal en la cual se encuentran parques nacionales naturales. Es además considerada una de las regiones de mayor biodiversidad y pluviosidad del planeta con precipitaciones del orden de los 4 000 mm/anuales según el Ministerio de Minas y Energía de Colombia.
-                ​ Es también la tierra principal de la cultura afrocolombiana y de numerosas tribus indoamericanas que fueron denominados "chocoes" por los españoles al momento de la Conquista, aunque el término incluye familias lingüísticas de diferente origen. El litoral pone a Colombia de frente al Océano más grande del mundo y con ello un campo de encuentro internacional vital para su desarrollo.
             </p>
 
 
-            <div  class="bg-green-500   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
+            <div  class="bg-orange-600   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
@@ -91,7 +88,7 @@
     </div>
     <div id="accordion-collapse" class="m-10 pb-4"  data-accordion="collapse">
         <h2 id="accordion-collapse-heading-1">
-          <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500 rounded-t-xl  focus:ring-green-500 focus:ring-green-500 dark:border-white-700 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+          <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500 rounded-t-xl  focus:ring-green-500 focus:ring-green-500 dark:border-white-700 dark:text-white-400 hover:bg-orange-600 dark:hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
             <span>MUNICIPIOS</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -130,9 +127,9 @@
                     </div>
                     <div id="paginationInfo" class="text-black"></div>
                     <div class="flex items-center">
-                    <button id="prevPageBtn" class="bg-blue-500  hover:bg-green-500 text-white mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
+                    <button id="prevPageBtn" class="bg-blue-500  hover:bg-orange-600 text-white mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
                     <div id="paginationInfo" class="text-black"></div>
-                    <button id="nextPageBtn" class="bg-blue-500 hover:bg-green-500 text-white ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
+                    <button id="nextPageBtn" class="bg-blue-500 hover:bg-orange-600 text-white ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
                 </div>
                 </div>
 
@@ -353,7 +350,7 @@
 
 
         <h2 id="accordion-collapse-heading-2">
-          <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+          <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-orange-600 dark:hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
             <span>COMUNIDADES NEGRAS</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -394,9 +391,9 @@
                 </select>
             </div>
             <div class="flex items-center">
-                <button id="customPrevPageBtn2" class="mr-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                <button id="customPrevPageBtn2" class="mr-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-orange-600 text-white rounded-md">Anterior</button>
                 <div id="customPaginationInfo2" class="text-black"></div>
-                <button id="customNextPageBtn2" class="ml-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
+                <button id="customNextPageBtn2" class="ml-2 mb-3 px-4 py-2 bg-blue-500 hover:bg-orange-600 text-white rounded-md">Siguiente</button>
             </div>
         </div>
         <table id="customDataTable2" class="w-full bg-white rounded-lg shadow-lg">
@@ -702,7 +699,7 @@
         </div>
 
         <h2 id="accordion-collapse-heading-3">
-            <button type="button" class="flex bg-green-500 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-green-500 dark:hover:bg-green-500" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+            <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 dark:focus:ring-green-500 dark:border-green-500 dark:text-white-400 hover:bg-orange-600 dark:hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
                 <span>RESGUARDO INDIGENAS</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -741,9 +738,9 @@
                                     </select>
                                 </div>
                                 <div class="flex items-center">
-                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-green-500 text-white rounded-md">Anterior</button>
+                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-orange-600 text-white rounded-md">Anterior</button>
                                     <div id="customPaginationInfo" class="text-black"></div>
-                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-green-500 text-white rounded-md">Siguiente</button>
+                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 mb-4 bg-blue-500 hover:bg-orange-600 text-white rounded-md">Siguiente</button>
                                 </div>
                             </div>
                             <table id="customDataTable" class="w-full bg-white shadow-md rounded-lg">

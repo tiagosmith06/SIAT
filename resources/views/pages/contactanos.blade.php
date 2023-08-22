@@ -46,7 +46,7 @@
 
             <div class="flex justify-center w-full flex-col gap-3 items-center my-6">
 
-                <h1 class="text-2xl font-extrabold text-green-500">
+                <h1 class="text-2xl font-extrabold text-amber-300">
                     ¿TIENES UNA PREGUNTA?
                 </h1>
 
@@ -101,7 +101,7 @@
                         @enderror
                     </div>
                     <button type="submit"
-                        class="text-white text-center  justify-center items-center my-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-green-500 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
+                        class="text-white text-center  justify-center items-center my-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-orange-600 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
                 </form>
                 @endif
 
