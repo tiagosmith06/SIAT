@@ -1,10 +1,9 @@
 <x-app-layout>
     <style>
         .hover-scale {
-            transform: scale(1);
+            transform: scale(1); 
             transition: transform 0.2s ease-in-out;
         }
-
         .hover-scale:hover {
             transform: scale(1.2);
         }
@@ -17,8 +16,7 @@
                     <div class="mb-6 w-full hover-scale shrink-0 grow-0 basis-auto lg:mb-0 lg:w-5/12">
                         <div class="flex lg:py-12">
                             <img src="{{ asset('images/LABORATORIO .jpeg') }}"
-                                class=" z-[10] w-full hover-scale rounded-lg shadow-lg dark:shadow-black/20 lg:ml-[50px]"
-                                alt="image" />
+                                class=" z-[10] w-[460px] rounded-circle hover-scale rounded-lg shadow-lg dark:shadow-black/20 lg:ml-[20px]" alt="image" />
                         </div>
                     </div>
 
@@ -26,14 +24,12 @@
                         <div
                             class="flex h-full items-center rounded-lg bg-white p-6 text-center text-white lg:pl-12 lg:text-left">
                             <div class="lg:pl-12">
-                                <h2 class="mb-4 text-3xl font-bold">DESCRIPCIÓN GENERAL</h2>
-                                <p class="mb-4 text-2xl text-center pb-2 lg:pb-0">
+                                <h2 class="mb-4 text-3xl text-amber-400 font-bold">DESCRIPCIÓN GENERAL</h2>
+                                <p class="mb-4 text-2xl text-black text-center pb-2 lg:pb-0">
                                     El Sistema de Información Ambiental Territorial del Pacífico Colombiano (SIAT-PC) es
                                     el conjunto integrado de actores, políticas, procesos y tecnologías involucradas en
-                                    la
-                                    gestión de información ambiental para facilitar la generación de conocimiento, la
-                                    toma de decisiones,
-                                    la educación y la participación social, en el pacifico colombiano.
+                                    la gestión de información ambiental para facilitar la generación de conocimiento, la
+                                    toma de decisiones, la educación y la participación social, en el pacifico colombiano.
                                 </p>
                             </div>
                         </div>
@@ -43,15 +39,13 @@
             <div class="bg-white container my-2 mx-auto md:px-3">
 
                 <section class="mb-32">
-                    <h2 class="mb-16 text-center text-amber-300 text-4xl font-bold">SISTEMA DE INFORMACIÓN AMBIENTAL
-                        TERRITORIAL DEL PACÍFICO COLOMBIANO</h2>
+                    <h2 class="mb-16 text-center text-amber-300 text-4xl font-bold">SISTEMA DE INFORMACIÓN AMBIENTAL TERRITORIAL DEL PACÍFICO COLOMBIANO</h2>
 
                     <div class="mb-16 flex flex-wrap">
                         <div class="mb-6  w-full shrink-0 grow-0 basis-auto lg:mb-0 lg:w-6/12 lg:pr-6">
                             <div class="ripple hover-scale relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
                                 data-te-ripple-init data-te-ripple-color="light">
-                                <img src="{{ asset('images/salidas.jpg') }}" class="w-full hover-scale"
-                                    alt="Louvre" />
+                                <img src="{{ asset('images/salidas.jpg') }}" class="w-full hover-scale" alt="Louvre" />
                                 <a href="#!">
                                     <div
                                         class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
