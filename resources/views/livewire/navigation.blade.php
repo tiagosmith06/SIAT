@@ -70,14 +70,13 @@
                                 @can('admin.index')
                                 <li>
 
-                                    <a href="{{route('admin.index')}}"
-                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium">Dashboard</a>
+                                    <a href="{{route('admin.index')}}"  class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium">Dashboard</a>
                                 </li>
                                 @endcan
 
                                 <li>
                                     <a href="{{route('profile.show')}}"
-                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
+                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
                                 </li>
 
                                 <li>
@@ -87,7 +86,7 @@
                                         @csrf
 
                                         <a href="{{ route('logout') }}"
-                                            class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-500  hover:text-blue-500 font-medium "
+                                            class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
                                     </form>
 
@@ -117,20 +116,20 @@
                     <li>
                         <a href="/"
                             class="block py-2 pl-2 pr-2 text-white
-                                 rounded md:hover:bg-transparent hover:text-light_green md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-light_green' : '' }}">Inicio</a>
+                                 rounded  hover:text-blue-500 md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-light_green' : '' }}">Inicio</a>
                     </li>
                     <li>
                         <a href="{{route('pages.quienes_somos')}}"
-                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
+                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
                     </li>
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
-                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
+                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
                     </li>
 
                     <li class="relative">
                         <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown2"
-                            class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">Servicios
+                            class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium  text-white rounded   hover:text-blue-500 md:p-0  ">Servicios
                             <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd"
@@ -144,18 +143,18 @@
                             <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
                                 <li>
                                     <a href="{{route('pages.geovisor')}}"
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
+                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">
                                         Geovisor
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.catalogo')}}
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Catálogo
+                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">Catálogo
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.dashboard')}}
-                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Tableros de Control
+                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">Tableros de Control
                                     </a>
                                 </li>
                             </ul>
@@ -165,7 +164,7 @@
 
                 <li class="relative">
                     <div id="mega-menu-icons-dropdown-button2" data-dropdown-toggle="mega-menu-icons-dropdown4"
-                        class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium  text-white rounded  md:hover:bg-transparent hover:text-light_green md:p-0  ">Atencion integral
+                        class=" py-2 pl-2 pr-2 flex cursor-pointer items-center hover:font-medium  text-white rounded   hover:text-blue-500 md:p-0  ">Atencion integral
                         <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -179,13 +178,13 @@
                         <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
                             <li>
                                 <a href="{{route('pages.gestiondocumental')}}"
-                                    class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
-                                    Gestión documental
+                                    class="block px-4 text-center py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">
+                                    Avances 
                                 </a>
                             </li>
                             <li>
                                 <a href={{route('pages.proyectosambientales')}}
-                                    class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Proyectos ambientales
+                                    class="block px-4 py-2 text-center hover:bg-orange-600hover:text-blue-500 rounded-md">Proyectos ambientales
                                 </a>
                             </li>
 
@@ -196,11 +195,11 @@
 
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Novedades</a>
+                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Novedades</a>
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded  md:hover:bg-transparent hover:text-light_green md:p-0 hover:font-medium text-white">Contactenos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Contactenos</a>
                     </li>
                 </ul>
             </div>
