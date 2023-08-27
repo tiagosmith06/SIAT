@@ -35,7 +35,7 @@
             {{-- @foreach ($post->tags as $tag)
             <span>
                 <a href="{{route('posts.tag',$tag)}}"
-                    class="bg-red-200 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">
+                    class="bg-red-200 text-red-700 text-xs font-medium mr-2 px-2.5 py-0.5 rounded ">
                     {{$tag->name}}</a>
             </span>
 

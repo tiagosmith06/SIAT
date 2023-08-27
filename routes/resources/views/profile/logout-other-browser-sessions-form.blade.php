@@ -39,7 +39,7 @@
                                     {{ $session->ip_address }},
 
                                     @if ($session->is_current_device)
-                                        <span class="text-red-300 font-semibold">{{ __('This device') }}</span>
+                                        <span class="text-red-700 font-semibold">{{ __('This device') }}</span>
                                     @else
                                         {{ __('Last active') }} {{ $session->last_active }}
                                     @endif

@@ -4,7 +4,7 @@
 <div class="container my-24 mx-auto md:px-6">
     <!-- Section: Design Block -->
     <section class="mb-32  text-center lg:text-left">
-      <h1 class="mb-12  text-red-300 mt-40 text-center text-3xl font-bold">
+      <h1 class="mb-12  text-red-700 mt-40 text-center text-3xl font-bold">
         PROYECTOS AMBIENTALES
       </h1>
 
@@ -21,7 +21,7 @@
             </svg>
           </div>
           <div class="p-6">
-            <h2 class="mb-2 text-red-300 text-lg font-bold">SENTENCIAS RIO ATRATO</h2>
+            <h2 class="mb-2 text-red-700 text-lg font-bold">SENTENCIAS RIO ATRATO</h2>
 
             <a href="https://sentenciasrioatrato.siatpc.co/" target="_blank" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
@@ -39,7 +39,7 @@
             </svg>
           </div>
           <div class="p-6">
-            <h2 class="mb-2 text-red-300 text-lg font-bold">FRONTERAS PARA LA PAZ</h2>
+            <h2 class="mb-2 text-red-700 text-lg font-bold">FRONTERAS PARA LA PAZ</h2>
 
             <a href="#!" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-primary hover:bg-orange-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-orange-600  focus:bg-orange-600 focus:outline-none focus:ring-0 active:bg-orange-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
@@ -58,7 +58,7 @@
           </div>
 
           <div class=" p-6">
-            <h2 class="mb-2 text-red-300 text-lg font-bold">MESA FORESTAL DEL CHOCÓ</h2>
+            <h2 class="mb-2 text-red-700 text-lg font-bold">MESA FORESTAL DEL CHOCÓ</h2>
 
             <a href="https://mesaforestal.siatpc.co/" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
@@ -75,7 +75,7 @@
               </svg>
             </div>
             <div class="p-6">
-              <h2 class="mb-2 text-red-300 text-lg font-bold">VISIÓN DEL DESARROLLO</h2>
+              <h2 class="mb-2 text-red-700 text-lg font-bold">VISIÓN DEL DESARROLLO</h2>
 
               <a href="https://siatpc.co/vision-de-desarrollo/" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
             </div>

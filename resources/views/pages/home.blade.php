@@ -16,7 +16,7 @@
             }
           </style>
           <a href="comunicacion">
-          <h2 class="mb-12 text-center hover:text-blue-500 t-text-red-300 text-red-300 rounded-full text-3xl font-bold">NOVEDADES</h2>
+          <h2 class="mb-12 text-center hover:text-blue-500 t-text-red-700 text-red-700 rounded-full text-3xl font-bold">NOVEDADES</h2>
              </a>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
@@ -188,7 +188,7 @@
         </style>
 
     <section class="mb-32  text-center">
-          <h1 class="mb-12 text-red-300 text-3xl font-bold"> SISTEMA NACIONAL AMBIENTAL</h1>
+          <h1 class="mb-12 text-red-700 text-3xl font-bold"> SISTEMA NACIONAL AMBIENTAL</h1>
 
         <div class="lg:gap-xl-12 grid gap-x-3 md:grid-cols-2 lg:grid-cols-3">
             <div class="mb-12 lg:mb-0">
@@ -252,7 +252,7 @@
         }
     </style>
 <section class="mb-32 text-center">
-      <h1 class="mb-12 text-red-300 text-3xl font-bold">
+      <h1 class="mb-12 text-red-700 text-3xl font-bold">
         GOBERNACIONES
       </h1>
 
