@@ -43,7 +43,7 @@
             <div class="bg-white container my-2 mx-auto md:px-3">
 
                 <section class="mb-32">
-                    <h2 class="mb-16 text-center text-amber-300 text-4xl font-bold">SISTEMA DE INFORMACIÓN AMBIENTAL
+                    <h2 class="mb-16 text-center text-red-300 text-4xl font-bold">SISTEMA DE INFORMACIÓN AMBIENTAL
                         TERRITORIAL DEL PACÍFICO COLOMBIANO</h2>
 
                     <div class="mb-16 flex flex-wrap">
@@ -61,7 +61,7 @@
                         </div>
 
                         <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pl-6">
-                            <h2 class=" mt-12 mb-6 text-amber-300 text-center text-4xl font-bold">MISIÓN</h2>
+                            <h2 class=" mt-12 mb-6 text-red-300 text-center text-4xl font-bold">MISIÓN</h2>
 
                             <p class="mb-12 text-justify text-2xl p-2 text-black">
                                 La misión del SIAT-PC es integrar y fortalecer saberes, capacidades de entidades,
@@ -89,7 +89,7 @@
                             </div>
 
                             <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 lg:pr-6">
-                                <h2 class=" mt-12 mb-6 text-amber-300 text-center text-4xl font-bold">VISIÓN</h2>
+                                <h2 class=" mt-12 mb-6 text-red-300 text-center text-4xl font-bold">VISIÓN</h2>
 
                                 <p class="mb-12 text-justify text-2xl p-2 text-black">
                                     El SIAT-PC será una red de gestión de información ambiental posicionada y reconocida nacional e
@@ -103,19 +103,19 @@
                         <div class="flex flex-wrap">
 
                             <div class="w-full b "">
-                                <h2 class=" mt-2 mb-2 text-amber-300 text-center text-5xl font-bold">OBJETIVOS</h2>
+                                <h2 class=" mt-2 mb-2 text-red-300 text-center text-5xl font-bold">OBJETIVOS</h2>
                                 <p class="mb-2 text-justify text-2xl p-2 text-black">
-                                    <h1 class="font-bold text-4xl text-amber-300 p-3">OBJETIVO GENERAL</h1>
-                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Integrar la información ambiental del Pacífico colombiano y facilitar su uso y acceso, con el fin de apoyar
+                                    <h1 class="font-bold text-4xl text-red-300 p-3">OBJETIVO GENERAL</h1>
+                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Integrar la información ambiental del Pacífico colombiano y facilitar su uso y acceso, con el fin de apoyar
                                         los diferentes procesos regionales y nacionales que conduzcan al desarrollo sostenible, en beneficio de la región y de la población que la habita.</p>
                                 </p>
 
-                                <h1 class="font-bold text-4xl text-amber-300 p-4">OBJETIVO ESPECÍFICOS</h1>
-                                <p class="text-justify text-2xl p-2 p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Conformar una red de entidades y personas que hagan posible, y de manera eficaz y eficiente, la gestión de la información ambiental de la región del pacífico colombiano.</p>
-                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Definir, establecer y difundir políticas internas del SIAT-PC en torno a la gestión de información ambiental. <br> Responsable: Comité Directivo | Plazo: 6 meses.</p>
-                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Contribuir al acceso y uso apropiado de Tecnologías de la Información y Comunicaciones (TIC) que permitan y faciliten la gestión de información ambiental de la región. <br>Responsable: Nodo principal y subregionales | Plazo: 6 meses</p>
-                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Generar alternativas de difusión y capacitación para ampliar el acceso a la información ambiental de la región <br>  Responsable: Comité Técnico, Nodo principal y subregionales | Plazo: 6 meses</p>
-                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-amber-300 font-extrabold">•</strong> Concretar los recursos económicos e institucionales para darle alcance al objetivo general. <br>  Responsable: Comité Directivo | Plazo: 6 meses</p>
+                                <h1 class="font-bold text-4xl text-red-300 p-4">OBJETIVO ESPECÍFICOS</h1>
+                                <p class="text-justify text-2xl p-2 p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Conformar una red de entidades y personas que hagan posible, y de manera eficaz y eficiente, la gestión de la información ambiental de la región del pacífico colombiano.</p>
+                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Definir, establecer y difundir políticas internas del SIAT-PC en torno a la gestión de información ambiental. <br> Responsable: Comité Directivo | Plazo: 6 meses.</p>
+                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Contribuir al acceso y uso apropiado de Tecnologías de la Información y Comunicaciones (TIC) que permitan y faciliten la gestión de información ambiental de la región. <br>Responsable: Nodo principal y subregionales | Plazo: 6 meses</p>
+                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Generar alternativas de difusión y capacitación para ampliar el acceso a la información ambiental de la región <br>  Responsable: Comité Técnico, Nodo principal y subregionales | Plazo: 6 meses</p>
+                                <p class="text-justify text-2xl p-2"><strong class="text-4xl  text-red-300 font-extrabold">•</strong> Concretar los recursos económicos e institucionales para darle alcance al objetivo general. <br>  Responsable: Comité Directivo | Plazo: 6 meses</p>
 
                             </p>
                             </div>

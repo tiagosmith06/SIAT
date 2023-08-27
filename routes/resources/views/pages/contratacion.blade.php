@@ -14,14 +14,14 @@
                             <i class="fa-solid fa-house text-my_green"></i>
 
                             <a href="#"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-300">
 
                             </a>
                         </li>
                         <li class="inline-flex items-center">
 
                             <a href=""
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-300">
 
                                 fedeurema /
                             </a>
@@ -30,7 +30,7 @@
                         <li class="inline-flex items-center">
 
                             <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-300">
 
                                 institucional /
                             </a>
@@ -38,7 +38,7 @@
                         <li class="inline-flex items-center">
 
                             <a href="/nuestros-planes"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-300">
 
                                 Contratación
                             </a>

@@ -46,7 +46,7 @@
 
             <div class="flex justify-center w-full flex-col gap-3 items-center my-6">
 
-                <h1 class="text-2xl font-extrabold text-amber-300">
+                <h1 class="text-2xl font-extrabold text-red-300">
                     ¿TIENES UNA PREGUNTA?
                 </h1>
 

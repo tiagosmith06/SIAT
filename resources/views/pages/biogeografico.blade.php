@@ -9,7 +9,7 @@
             </div>
             <div class="flex-1 m-3 p-4">
                 <br><br><br><br>
-                <h1 class="text-5xl mb-8 text-amber-300  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
+                <h1 class="text-5xl mb-8 text-red-300  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
 
             <p class="mb-4 text-base text-black text-center text-neutral-200">

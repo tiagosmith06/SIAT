@@ -1,6 +1,6 @@
 
 <header  class=" borde border-b-[1px] border-gray-200 w-full">
-    <nav  class="bg-orange-600 fixed top-0 left-0 right-0 z-50 shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-amber-300 w-full">
+    <nav  class="bg-orange-600 fixed top-0 left-0 right-0 z-50 shadow-lg" border-gray-200 px-2 sm:px-2 py-1 rounded text-white w-full">
 
         <div class="flex flex-wrap m-2 items-center justify-between w-full  p-1">
             <div
@@ -27,8 +27,7 @@
 
                     <form action="{{route('posts.search')}}" method="GET" class="d-flex">
                         <input type="text" id="search-navbar" autocomplete="on" name="search"
-                            class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-light_green focus:border-light_green   dark:placeholder-gray-400 "
-                            placeholder="Buscar" value="{{request('search')}}">
+                            class="block w-full p-2 pl-10 text-lg text-black border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-light_green   dark:placeholder-black " placeholder="Buscar" value="{{request('search')}}">
                     </form>
                 </div>
 
@@ -41,7 +40,7 @@
                         <path fill-rule="evenodd"
                             d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                             clip-rule="evenodd"></path>
-                            <i class="fas fa-tablet    "></i>
+
                     </svg>
                 </button>
             </div>
@@ -55,14 +54,14 @@
                         <img class="w-8 h-8 rounded-full" src="{{auth()->user()->profile_photo_url}}" alt="user photo">
                     </button>
 
-                    <div {{-- x-show="open" x-on:click.away="open=false" x-on:click="openDesple=true" --}}
+                    <div
                         id="mega-menu-icons-dropdown3" class="z-50 absolute hidden ">
                         <div aria-labelledby="mega-menu-icons-dropdown-button3"
                             class="z-50 absolute  my-4 text-base list-none bg-orange-600 divide-y divide-gray-100 rounded shadow  top-[-30px] right-[0px]">
                             <div class="px-4 py-3 ">
-                                <span class="block text-sm text-gray-900 "> {{auth()->user()->name}}</span>
+                                <span class="block text-sm text-white"> {{auth()->user()->name}}</span>
                                 <span
-                                    class="block text-sm font-medium text-black truncate dark:text-gray-400">{{auth()->user()->email}}</span>
+                                    class="block text-sm font-medium font-bold text-black truncate text-white">{{auth()->user()->email}}</span>
                             </div>
 
                             <ul class="py-1">
@@ -70,13 +69,13 @@
                                 @can('admin.index')
                                 <li>
 
-                                    <a href="{{route('admin.index')}}"  class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium">Dashboard</a>
+                                    <a href="{{route('admin.index')}}"  class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-500 hover:text-blue-500 font-medium">Dashboard</a>
                                 </li>
                                 @endcan
 
                                 <li>
                                     <a href="{{route('profile.show')}}"
-                                        class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
+                                        class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-500 hover:text-blue-500 font-medium ">Ajuste de cuenta</a>
                                 </li>
 
                                 <li>
@@ -86,7 +85,7 @@
                                         @csrf
 
                                         <a href="{{ route('logout') }}"
-                                            class="block px-4 py-2 text-sm text-amber-300 rounded-md hover:bg-orange-600 hover:text-blue-500 font-medium "
+                                            class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-500 hover:text-blue-500 font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
                                     </form>
 
@@ -116,15 +115,15 @@
                     <li>
                         <a href="/"
                             class="block py-2 pl-2 pr-2 text-white
-                                 rounded  hover:text-blue-500 md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-light_green' : '' }}">Inicio</a>
+                                 rounded  hover:text-blue-500 md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-white' : '' }}">Inicio</a>
                     </li>
                     <li>
                         <a href="{{route('pages.quienes_somos')}}"
-                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
+                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
                     </li>
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
-                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
+                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-li' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
                     </li>
 
                     <li class="relative">
@@ -139,22 +138,22 @@
                         </div>
 
                         <div id="mega-menu-icons-dropdown2"
-                            class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
-                            <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
+                            class="z-40  font-normal hidden bg-orange-600 divide-y absolute divide-gray-100 rounded shadow w-44 ">
+                            <ul class="py-1 text-sm text-white  " aria-labelledby="mega-menu-icons-dropdown-button2">
                                 <li>
                                     <a href="{{route('pages.geovisor')}}"
-                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">
+                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
                                         Geovisor
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.catalogo')}}
-                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">Catálogo
+                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Catálogo
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.dashboard')}}
-                                        class="block px-4 py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">Tableros de Control
+                                        class="block px-4 py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">Tableros de Control
                                     </a>
                                 </li>
                             </ul>
@@ -174,17 +173,17 @@
                     </div>
 
                      <div id="mega-menu-icons-dropdown4"
-                        class="z-40  font-normal hidden bg-white divide-y absolute divide-gray-100 rounded shadow w-44 ">
-                        <ul class="py-1 text-sm text-amber-300  " aria-labelledby="mega-menu-icons-dropdown-button2">
+                        class="z-40  font-normal hidden bg-orange-600 divide-y absolute divide-gray-100 rounded shadow w-44 ">
+                        <ul class="py-1 text-sm text-white  " aria-labelledby="mega-menu-icons-dropdown-button2">
                             <li>
                                 <a href="{{route('pages.gestiondocumental')}}"
-                                    class="block px-4 text-center py-2 hover:bg-orange-600hover:text-blue-500 rounded-md">
-                                    Avances 
+                                    class="block px-4 text-center py-2 hover:bg-orange-500 hover:text-blue-500 rounded-md">
+                                    Avances
                                 </a>
                             </li>
                             <li>
                                 <a href={{route('pages.proyectosambientales')}}
-                                    class="block px-4 py-2 text-center hover:bg-orange-600hover:text-blue-500 rounded-md">Proyectos ambientales
+                                    class="block px-4 py-2 text-center hover:bg-orange-500 hover:text-blue-500 rounded-md">Proyectos ambientales
                                 </a>
                             </li>
 
@@ -195,11 +194,11 @@
 
                     <li>
                         <a href="{{route('pages.comunicacion')}}"
-                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Novedades</a>
+                            class="{{request()->routeIs('pages.comunicacion') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Novedades</a>
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-light_green' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Contactenos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-blue-500 md:p-0 hover:font-medium text-white">Contactenos</a>
                     </li>
                 </ul>
             </div>

@@ -8,7 +8,7 @@
                     <ol class="inline-flex items-center space-x-1 md:space-x-3">
                         <li class="inline-flex items-center gap-2">
                             <i class="fa-solid fa-house"></i> <a href="#"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-300">
 
 
                             </a>
@@ -16,7 +16,7 @@
                         <li class="inline-flex items-center">
 
                             <a href="/"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-white hover:text-red-300">
 
                                 Inicio /
                             </a>
@@ -25,7 +25,7 @@
                         <li class="inline-flex items-center">
 
                             <a href="/biogeografico"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-amber-300">
+                                class="inline-flex items-center text-sm font-medium text-white hover:text-red-300">
 
                                 Chocó Biogegrafico /
                             </a>

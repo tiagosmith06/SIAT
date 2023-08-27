@@ -2,7 +2,7 @@
     <div class="min-h-screen">
 
         <div class="container mt-40 py-4   max-w-6xl  ">
-            <h1 class="text-3xl text-center text-amber-300 font-medium mb-4">ÚLTIMAS NOTICIAS</h1>
+            <h1 class="text-3xl text-center text-red-300 font-medium mb-4">ÚLTIMAS NOTICIAS</h1>
                 <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
 
                 @foreach ($posts as $post)
@@ -50,7 +50,7 @@
     <div class="container my-24 mx-auto md:px-6">
 
         <section class="mb-32 text-center">
-          <h2 class="mb-12 text-center text-amber-300 text-3xl font-bold">NOTICIAS ANTIGUAS</h2>
+          <h2 class="mb-12 text-center text-red-300 text-3xl font-bold">NOTICIAS ANTIGUAS</h2>
           <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
 
             <div class="mb-6 lg:mb-0">
