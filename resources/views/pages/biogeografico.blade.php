@@ -51,20 +51,20 @@
                 </dl>
             </div>
 
-            <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-                <h1 class="text-center text-2xl mb-3  font-bold"> OTROS DATOS ESTADISTICOS</h1>
+            <div class="max-w-screen-xl   px2 py-2 mx-auto text-center lg:py-16 lg:px-6">
+                <h1 class="text-center text-red-700 text-2xl mb-3  font-bold"> OTROS DATOS ESTADISTICOS</h1>
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
-                        <dd class="font-light text-white-500 text-white">developers</dd>
+                        <dd class="font-light text-white-500 text-white">****</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
-                        <dd class="font-light text-white-500 text-white">contributors</dd>
+                        <dd class="font-light text-white-500 text-white">*****</dd>
                     </div>
                     <div class="flex flex-col items-center justify-center">
-                        <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
-                        <dd class="font-light text-white-500 text-white">organizations</dd>
+                        <dt class="mb-2 text-3xl md:text-4xl font-extrabold">257</dt>
+                        <dd class="font-light text-white-500 text-white">*****</dd>
                     </div>
                 </dl>
 

@@ -1,50 +1,6 @@
 <x-app-layout>
     <div class="min-h-screen">
-        <div class="imagen-title2 "
-            style="background-image:url(https://iiap.org.co/images/85ecc723b087d352bbf4a5a2f32aaf57)">
-            <div class="cover pl-[50px]">
-                <h1 class="font-extrabold text-my_blue text-3xl">CATÁLOGO
-                </h1>
 
-                <h1 class="text-my_blue text-bold text-1xl font-medium">Catálogo</h1>
-
-
-                <nav class="flex my-4" aria-label="Breadcrumb">
-                    <ol class="inline-flex items-center space-x-1 md:space-x-3">
-                        <li class="inline-flex items-center gap-2">
-                            <i class="fa-solid fa-house"></i> <a href="#"
-                                class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-red-700">
-
-
-                            </a>
-                        </li>
-                        <li class="inline-flex items-center">
-
-                            <a href="/"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-red-700">
-
-                                Inicio /
-                            </a>
-                        </li>
-
-                        <li class="inline-flex items-center">
-
-                            <a href="/educacion"
-                                class="inline-flex items-center text-sm font-medium text-white hover:text-red-700">
-
-                                Catálogo /
-                            </a>
-                        </li>
-
-
-                    </ol>
-
-
-                </nav>
-
-
-            </div>
-        </div>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
             <h1 class="text-2xl font-medium mb-4">Catálogo</h1>
