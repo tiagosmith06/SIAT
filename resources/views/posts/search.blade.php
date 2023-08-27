@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="container my-0 mx-auto md:px-8 py-5 max-w-5xl">
 
-        <div>
+        <div class="mt-20">
             @if ($posts->count() >= 1)
 
             <h1 class="uppercase text-2xl py-3 text center font-bold">Contenido  relacionados con tu búsqueda...
