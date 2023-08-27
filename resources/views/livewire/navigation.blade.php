@@ -58,7 +58,7 @@
                     <div {{-- x-show="open" x-on:click.away="open=false" x-on:click="openDesple=true" --}}
                         id="mega-menu-icons-dropdown3" class="z-50 absolute hidden ">
                         <div aria-labelledby="mega-menu-icons-dropdown-button3"
-                            class="z-50 absolute  my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow  top-[-30px] right-[0px]">
+                            class="z-50 absolute  my-4 text-base list-none bg-orange-600 divide-y divide-gray-100 rounded shadow  top-[-30px] right-[0px]">
                             <div class="px-4 py-3 ">
                                 <span class="block text-sm text-gray-900 "> {{auth()->user()->name}}</span>
                                 <span
