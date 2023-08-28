@@ -3,7 +3,7 @@
     <div class="w-full">
 
 
-
+<h1 class="text-center text-blue-950 mt-40 font-extrabold text-4xl "> GEOVISOR</h1>
 
 
     <div class="flex items-center justify-center h-screen">
@@ -30,7 +30,7 @@
         marker.on('click', onMarkerClick);
     </script>
 
-        <div class=" py-8  mx-7 max max-w-8xl ">
+        <div class=" py-4  mx-4 max max-w-8xl ">
             <div class=" max-w-3xl">
 
             </div>
@@ -38,7 +38,7 @@
 
                 <div>
                 </div>
-                <div class="flex flex-col w-full  md:w-[30%] justify-center">
+                <div class="flex flex-col w-[830px]  md:w-[430px] justify-center">
 
 
                         <div class="w-full  flex   flex-col justify-center items-center">

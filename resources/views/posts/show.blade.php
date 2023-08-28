@@ -15,7 +15,6 @@
         </div>
         <div class="grid grid-cols-3 gap-6 my-8 ">
 
-            {{-- contenido pricipal --}}
             <div class="col-span-3 md:col-span-2 ">
                 <img class="w-full h-[400px] bg-cover bg-center object-cover"
                     src="@if($post->image){{Storage::url($post->image->url)}} @endif">

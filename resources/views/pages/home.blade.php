@@ -1,13 +1,55 @@
 <x-app-layout>
     @include('components/slider-home')
 
-    <!--
-  Heads up! 👋
+    <!-- <div class="container my-24 mx-auto md:px-6">
+        <section class="">
+            <div class="flex flex-wrap mx-auto md:flex-nowrap p-12">
 
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
--->
+              <a href="">
+                <div class="flex w-full">
+                  <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/images/placeholders/neon-1.jpg" alt="Blog">
+                    <div class="px-6 py-8">
+                      <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
+                        <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrada</font></font></span>
+                      </h4>
+                      <p class="mt-4 text-base font-normal text-gray-500 leading-relax"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instale Tailwind CSS sin ningún Javascript Framewrok localmente con purgeCSS, habilite la opción de modo oscuro, las preferencias o la clase dependen de usted.</font></font></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
 
-    <div class="container my-24 mx-auto md:px-6">
+              <a href="">
+                <div class="flex w-full">
+                  <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/images/placeholders/neon-4.jpg" alt="Blog">
+                    <div class="px-6 py-8">
+                      <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
+                        <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrada</font></font></span>
+                      </h4>
+                      <p class="mt-4 text-base font-normal text-gray-500 leading-relax"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instale Tailwind CSS sin ningún Javascript Framewrok localmente con purgeCSS, habilite la opción de modo oscuro, las preferencias o la clase dependen de usted.</font></font></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="">
+                <div class="flex w-full">
+                  <div class="relative flex flex-col items-start m-1 transition duration-300 ease-in-out delay-150 transform bg-white shadow-2xl rounded-xl md:w-80 md:-ml-16 md:hover:-translate-x-16 md:hover:-translate-y-8">
+                    <img class="object-cover object-center w-full rounded-t-xl lg:h-48 md:h-36" src="/assets/images/placeholders/neon-2.jpg" alt="Blog">
+                    <div class="px-6 py-8">
+                      <h4 class="mt-4 text-2xl font-semibold text-neutral-600">
+                        <span class=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Entrada</font></font></span>
+                      </h4>
+                      <p class="mt-4 text-base font-normal text-gray-500 leading-relax"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Instale Tailwind CSS sin ningún Javascript Framewrok localmente con purgeCSS, habilite la opción de modo oscuro, las preferencias o la clase dependen de usted.</font></font></p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+          </section>
+        -->
         <section class="mb-32">
           <style>
           .zoom:hover img
@@ -20,44 +62,13 @@
              </a>
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
-            <h1 class="text-2xl font-medium mb-4">ÚLTIMAS NOVEDADES</h1>
+            <h1 class="text-2xl text-blue-950 font-extrabold font-medium mb-4">ÚLTIMAS NOVEDADES</h1>
 
 
             <div class="grid gap-6 lg:grid-cols-2">
 
                 @foreach ($posts as $post)
 
-  {{--               <div class="mb-6 text-2xl lg:mb-0">
-                    <div class="relative mb-6 text-2xl overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20"
-                    data-te-ripple-init data-te-ripple-color="light">
-                    <img class="w-full"
-                    src="@if($post->image){{Storage::url($post->image->url)}} @endif">
-
-                    <a href="#!">
-                      <div
-                        class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100 bg-[hsla(0,0%,98.4%,.15)]">
-                      </div>
-                    </a>
-                  </div>
-
-
-                    <a href="{{route('pages.show-comunicacion',$post)}}">
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight  ">
-                        </h5>
-                        <h5 class="mb-3 text-lg font-bold">{{$post->name}}</h5>
-
-                    </a>
-
-                    <p class="mb-6 text-2xl text-neutral-500 text-black text-justify text-justify">
-                        <small>Publicado <u>{{$post->created_at}}</u> Autor:
-                            <a href="{{route('pages.show-comunicacion',$post)}}">{{$post->user->name}}</a></small>
-                        </p>
-
-                    <a href="{{route('pages.show-comunicacion',$post)}}" class="text-neutral-500 text-black text-justify text-justify">
-                        {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
-                    </a>
-
-                </div> --}}
 
                 <div
                 class="zoom relative overflow-hidden rounded-lg bg-cover bg-no-repeat shadow-lg dark:shadow-black/20" data-te-ripple-init data-te-ripple-color="light">

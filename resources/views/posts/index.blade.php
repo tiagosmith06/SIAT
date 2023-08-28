@@ -3,8 +3,6 @@
 
 <div class="flex flex-col hover:scale-105 shadow p-2 w-[300px] gap-2">
     <a href={{route('posts.show',$post)}} class="flex flex-col">
-
-
         <div>
             <h1 class="font-bold  text-[16px]"> {{$post->name}}  </h1>
         </div>
@@ -12,7 +10,6 @@
             <img src="@if($post->image){{Storage::url($post->image->url)}} @else
             https://www.wradio.com.co/resizer/kzjQ_Rdxlv-4I0sVQarXw9uYDoM=/650x488/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/prisaradioco/ZFF6URDHXBHB5F2N2I7T3JMJJQ.jpeg
             @endif" alt="{{$post->name}}" class="rounded h-[10rem] object-cover w-full">
-           
         </div>
 
     </a>
@@ -26,7 +23,7 @@
             </span>
 
             @endforeach
-           
+
         </div>
 
 

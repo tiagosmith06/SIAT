@@ -20,10 +20,7 @@
                             d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
                             clip-rule="evenodd"></path>
                     </svg>
-                    <span class="inline-flex items-center text-sm font-medium text-black hover:text-blue-950">
-
-                        Etiquetas
-                    </span>
+                    <span class="inline-flex items-center text-sm font-medium text-black hover:text-blue-950">Etiquetas</span>
                 </li>
                 <li>
                     <div class="flex items-center">

@@ -1,10 +1,8 @@
 <x-app-layout>
     <div class="min-h-screen">
 
-        <div class="container p-20 py-8 my-0 mx-auto max-w-6xl  ">
-
+        <div class="container p-20 py-8 my-0 mx-auto max-w-6xl">
             <div class="w-full">
-
     <div id="gallery" class="relative p-20 w-full" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -41,21 +39,21 @@
         </span>
     </button>
 </div>
-
             </div>
 
             <div class="flex justify-center w-full flex-col gap-3 items-center my-6">
 
-                <h1 class="text-2xl font-extrabold text-blue-950">
+                <h1 class="text-3xl font-extrabold text-blue-950">
                     ¿TIENES UNA PREGUNTA?
                 </h1>
 
-                <p>Simplemente comunícate a través de un email o déjanos tu mensaje, cuando tengas una petición, quejas
-                    o reclamo.</p>
+                <p class="text-2xl">Simplemente comunícate a través de un email o déjanos tu mensaje, cuando tengas una petición, quejas
+                    o reclamo.
+                </p>
 
 
                 @if (session('mensaje'))
-                <div class=" text-white rounded-sm p-3 bg-green-600"><strong>{{session('mensaje')}}</strong> </div>
+                <div class=" text-white rounded-sm p-3 bg-orange-600"><strong>{{session('mensaje')}}</strong> </div>
                 @else
 
                 <form method="POST" class="shadow-md rounded-md max-w-3xl p-3 bg-blue-950  w-full"
