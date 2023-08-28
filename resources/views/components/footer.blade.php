@@ -1,9 +1,9 @@
 
-<footer class="bg-orange-600">
+<footer class="bg-blue-950 ">
     <div class="mx-auto w-full max-w-screen-xl">
-      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div class="grid grid-cols-4 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
         <div>
-            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">INFORMACIÓN</h1>
+            <h1 class="mb-6 text-xl font-bold uppercase text-orange-600">INFORMACIÓN</h1>
             <ul class="text-white text-white font-medium">
 
                 <li class="mb-4">
@@ -16,60 +16,63 @@
         </div>
 
         <div>
-            <h1 class="mb-6 text-xl font-bold text-white uppercase text-white">ENLACES DE INTERES</h1>
+            <h1 class="mb-6 text-xl font-bold uppercase text-orange-600">ENLACES DE INTERES</h1>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
-                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-gray hover:red-500">Contactenos</a>
+                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-orange-500">Contactenos</a>
                 </li>
                 <li class="mb-4">
-                    <a href="{{route('pages.comunicacion')}}" target="_parent" class="hover:text-gray">Noticias</a>
+                    <a href="{{route('pages.comunicacion')}}" target="_parent" class="hover:text-orange-500">Noticias</a>
                 </li>
                 <li class="mb-4">
-                    <a href="{{route('pages.atencionintegral')}}" target="_parent" class="hover:text-gray">Atención Integral</a>
+                    <a href="{{route('pages.proyectosambientales')}}" target="_parent" class="hover:text-orange-500">Proyectos Ambientales</a>
                 </li>
                 <li class="mb-4">
-                    <a href="{{route('pages.biogeografico')}}" target="_parent" class="hover:text-gray">Chocó Biogeográfico</a>
+                    <a href="{{route('pages.gestiondocumental')}}" target="_parent" class="hover:text-orange-500">Avances</a>
+                </li>
+                <li class="mb-4">
+                    <a href="{{route('pages.biogeografico')}}" target="_parent" class="hover:text-orange-500">Chocó Biogeográfico</a>
                 </li>
             </ul>
         </div>
 
         <div>
-            <h2 class="mb-6  font-bold text-white uppercase text-white">POLITICAS Y PRIVACIDAD</h2>
+            <h2 class="mb-6  font-bold text-orange-500 uppercase">POLITICAS Y PRIVACIDAD</h2>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Normatividad</a>
+                    <a href="#" class="hover:text-orange-500">Normatividad</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Terminos y Condiciones</a>
+                    <a href="#" class="hover:text-orange-500">Terminos y Condiciones</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Políticas y Privacidad</a>
+                    <a href="#" class="hover:text-orange-500">Políticas y Privacidad</a>
                 </li>
             </ul>
         </div>
         <div>
-            <h2 class="mb-6 text-xl font-bold text-white uppercase text-white">SERVICIOS</h2>
+            <h2 class="mb-6 text-xl font-bold uppercase text-orange-600">SERVICIOS</h2>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:text-gray">iOS</a>
+                    <a href="#" class="hover:text-orange-500">iOS</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:text-gray">Android</a>
+                    <a href="#" class="hover:text-orange-500">Android</a>
                 </li>
 
             </ul>
         </div>
     </div>
-    <div class="px-4 py-6 bg-orange-600  md:flex md:items-center md:justify-between">
+    <div class="px-4 rounded-[20px] py-6 bg-orange-600  md:flex md:items-center md:justify-between">
         <span class="text-sm  text-white sm:text-center">© <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
-            class="ml-2 font-bold">Santiago Perea Murillo </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
+            class="ml-2 font-bold hover:text-blue-950">Santiago Perea Murillo </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
         </span>
         <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
-            <a href="https://web.facebook.com/IIAPCO" class="text-white hover:text-white hover:text-white">
+            <a href="https://web.facebook.com/IIAPCO" class="text-white hover:text-blue-950 ">
                   <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                     </svg>
-                  <span class="sr-only">Facebook</span>
+                  <span class="sr-only ">Facebook</span>
               </a>
               <a href="https://twitter.com/IIAP_CO" target="_blank" class="text-white hover:text-blue-950 ">
                   <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
@@ -77,7 +80,7 @@
                 </svg>
                   <span class="sr-only">Twitter </span>
               </a>
-              <a href="https://github.com/tiagosmith06" class="text-white hover:text-white hover:text-gray">
+              <a href="https://github.com/tiagosmith06" class="text-white hover:text-blue-950 hover:text-orange-500">
                   <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                         <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
                   </svg>

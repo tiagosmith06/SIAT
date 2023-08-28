@@ -4,10 +4,7 @@
 <div class="container my-24 mx-auto md:px-6">
     <!-- Section: Design Block -->
     <section class="mb-32  text-center lg:text-left">
-      <h1 class="mb-12  text-red-700 mt-40 text-center text-3xl font-bold">
-        PROYECTOS AMBIENTALES
-      </h1>
-
+      <h1 class="mb-12  text-blue-950 mt-40 text-center text-3xl font-bold">PROYECTOS AMBIENTALES</h1>
       <div class="grid gap-x-2 lg:grid-cols-4 lg:gap-x-8">
         <div class="mb-6 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:mb-0" data-te-ripple-init data-te-ripple-color="light">
           <div class="relative overflow-hidden bg-cover bg-no-repeat">
@@ -21,7 +18,7 @@
             </svg>
           </div>
           <div class="p-6">
-            <h2 class="mb-2 text-red-700 text-lg font-bold">SENTENCIAS RIO ATRATO</h2>
+            <h2 class="mb-2 text-blue-950 text-lg font-bold">SENTENCIAS RIO ATRATO</h2>
 
             <a href="https://sentenciasrioatrato.siatpc.co/" target="_blank" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-orange-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-950 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-600-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
@@ -39,9 +36,9 @@
             </svg>
           </div>
           <div class="p-6">
-            <h2 class="mb-2 text-red-700 text-lg font-bold">FRONTERAS PARA LA PAZ</h2>
+            <h2 class="mb-2 text-blue-950 text-lg font-bold">FRONTERAS PARA LA PAZ</h2>
 
-            <a href="#!" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-orange-600 hover:bg-orange-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-orange-600  focus:bg-orange-600 focus:outline-none focus:ring-0 active:bg-orange-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
+            <a href="#!" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-orange-600 hover:bg-blue-950 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out  focus:bg-orange-600 focus:outline-none focus:ring-0 active:bg-orange-600 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
         </div>
 
@@ -58,7 +55,7 @@
           </div>
 
           <div class=" p-6">
-            <h2 class="mb-2 text-red-700 text-lg font-bold">MESA FORESTAL DEL CHOCÓ</h2>
+            <h2 class="mb-2 text-blue-950 text-lg font-bold">MESA FORESTAL DEL CHOCÓ</h2>
 
             <a href="https://mesaforestal.siatpc.co/" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-orange-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-950 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-600-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
           </div>
@@ -75,8 +72,7 @@
               </svg>
             </div>
             <div class="p-6">
-              <h2 class="mb-2 text-red-700 text-lg font-bold">VISIÓN DEL DESARROLLO</h2>
-
+              <h2 class="mb-2 text-blue-950 text-lg font-bold">VISIÓN DEL DESARROLLO</h2>
               <a href="https://siatpc.co/vision-de-desarrollo/" data-te-ripple-init data-te-ripple-color="light" class="inline-block rounded bg-orange-600 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-blue-950 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-orange-600-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-orange-600-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">Ver más</a>
             </div>
           </div>

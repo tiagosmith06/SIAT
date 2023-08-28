@@ -9,7 +9,7 @@
             </div>
             <div class="flex-1 m-3 p-4">
                 <br><br><br><br>
-                <h1 class="text-5xl mb-8 text-red-700  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
+                <h1 class="text-5xl mb-8 text-blue-950  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
 
             <p class="mb-4 text-base text-black text-center text-neutral-200">
@@ -18,7 +18,7 @@
             </p>
 
 
-            <div  class="bg-orange-600   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
+            <div  class="bg-blue-950   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
@@ -52,7 +52,7 @@
             </div>
 
             <div class="max-w-screen-xl   px2 py-2 mx-auto text-center lg:py-16 lg:px-6">
-                <h1 class="text-center text-red-700 text-2xl mb-3  font-bold"> OTROS DATOS ESTADISTICOS</h1>
+                <h1 class="text-center text-blue-950 text-2xl mb-3  font-bold"> OTROS DATOS ESTADISTICOS</h1>
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 dark:text-black">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>

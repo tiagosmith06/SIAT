@@ -46,7 +46,7 @@
 
             <div class="flex justify-center w-full flex-col gap-3 items-center my-6">
 
-                <h1 class="text-2xl font-extrabold text-red-700">
+                <h1 class="text-2xl font-extrabold text-blue-950">
                     ¿TIENES UNA PREGUNTA?
                 </h1>
 
@@ -58,12 +58,12 @@
                 <div class=" text-white rounded-sm p-3 bg-green-600"><strong>{{session('mensaje')}}</strong> </div>
                 @else
 
-                <form method="POST" class="shadow-md rounded-md max-w-3xl p-3 bg-white w-full"
+                <form method="POST" class="shadow-md rounded-md max-w-3xl p-3 bg-blue-950  w-full"
                     action="{{ route('contact.submit') }}">
                     @csrf
 
                     <div>
-                        <label for="name">Nombre:</label>
+                        <label class="text-white text-2xl" for="name">Nombre:</label>
                         <input type="text" id="name"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                             name="name" value="{{ old('name') }}" required>
@@ -73,7 +73,7 @@
                     </div>
 
                     <div>
-                        <label for="email">Correo electrónico:</label>
+                        <label class="text-white text-2xl" for="email">Correo electrónico:</label>
                         <input type="email"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                             id="email" name="email" value="{{ old('email') }}" required>
@@ -82,7 +82,7 @@
                         @enderror
                     </div>
                     <div>
-                        <label for="subject">Asunto:</label>
+                        <label class="text-white text-2xl"  for="subject">Asunto:</label>
                         <input type="text"
                             class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 "
                             id="subject" name="subject" value="{{ old('subject') }}" required>
@@ -92,7 +92,7 @@
                     </div>
 
                     <div>
-                        <label for="message">Mensaje:</label>
+                        <label class="text-white text-2xl" for="message">Mensaje:</label>
                         <textarea id="message" name="message"
                             class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                             required>{{ old('message') }}</textarea>
@@ -101,7 +101,7 @@
                         @enderror
                     </div>
                     <button type="submit"
-                        class="text-white text-center  justify-center items-center my-3 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-orange-600 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
+                        class="text-white text-center justify-center items-center my-3 bg-orange-600  focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:hover:bg-orange-500 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
                 </form>
                 @endif
 
