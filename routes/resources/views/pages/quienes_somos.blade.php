@@ -24,7 +24,7 @@
 
                     <div class="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                         <div
-                            class="flex h-full items-center rounded-lg bg-orange-600 p-6 text-center text-white lg:pl-12 lg:text-left">
+                            class="flex h-full items-center rounded-lg bg-orange-900 p-6 text-center text-white lg:pl-12 lg:text-left">
                             <div class="lg:pl-12">
                                 <h2 class="mb-4 text-3xl font-bold">DESCRIPCIÓN GENERAL</h2>
                                 <p class="mb-4 text-2xl text-center pb-2 lg:pb-0">

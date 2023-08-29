@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
-<h1 class="text-2xl">Crear un artículo</h1>
+<h1 class="text-2xl text-center font-extrabold">Crear artículo</h1>
 @stop
 
 @section('content')
@@ -13,7 +13,7 @@
         {!! Form::hidden('user_id', auth()->user()->id) !!}
 
         <div class="mb-4">
-            {!! Form::label('name', 'Nombre', ['class' => 'block text-sm font-medium text-black']) !!}
+            {!! Form::label('name', 'Nombre', ['class' => 'block  text-sm font-medium text-black']) !!}
             {!! Form::text('name', null, ['placeholder' => 'Ingrese nombre', 'class' => 'mt-1 p-2 w-full border rounded-md']) !!}
             @error('name')
             <span class="text-red-500 text-sm">{{ $message }}</span>
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        {!! Form::submit('Crear artículo', ['class' => 'btn btn-primary']) !!}
+        {!! Form::submit('Crear artículo', ['class' => 'btn btn-success']) !!}
         {!! Form::close() !!}
     </div>
 </div>

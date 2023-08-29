@@ -4,9 +4,9 @@
 
 @section('content_header')
 <div class="flex justify-between items-center">
-    <h1 class="text-2xl">Lista de artículos</h1>
+    <h1 class="text-2xl text-center font-extrabold text-uppercase">Lista de artículos</h1>
     @can('admin.posts.create')
-    <a class="btn btn-secondary" href="{{ route('admin.posts.create') }}">Crear un artículo</a>
+    <a class="btn btn-success" href="{{ route('admin.posts.create') }}">Crear un artículo</a>
     @endcan
 </div>
 @stop

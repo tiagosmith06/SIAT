@@ -1,22 +1,22 @@
 
-<footer class="bg-blue-950 ">
+<footer class="bg-orange-900 ">
     <div class="mx-auto w-full max-w-screen-xl">
-      <div class="grid grid-cols-4 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div class="grid grid-cols-4 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
         <div>
-            <h1 class="mb-6 text-xl font-bold uppercase text-orange-600">INFORMACIÓN</h1>
+            <h1 class="mb-6 text-xl font-bold uppercase text-white">INFORMACIÓN</h1>
             <ul class="text-white text-white font-medium">
 
                 <li class="mb-4">
-                   <h2>Dirección: Sede Técnica Km 13 vía Quibdó - Yuto (Entrada a Doña Josefa) </h2>
+                   <h2>Dirección: Sede Técnica Km 18 vía Quibdó - Yuto (Entrada a Doña Josefa) </h2>
                 </li>
                 <li class="mb-4">
-                    <h2>Teléfono: (54)-(4) - 6709126</h2>
+                    <h2>Teléfono: (+57)-(604) - 6709126</h2>
                  </li>
             </ul>
         </div>
 
         <div>
-            <h1 class="mb-6 text-xl font-bold uppercase text-orange-600">ENLACES DE INTERES</h1>
+            <h1 class="mb-6 text-xl font-bold uppercase text-white">ENLACES DE INTERES</h1>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
                     <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-orange-500">Contactenos</a>
@@ -37,7 +37,7 @@
         </div>
 
         <div>
-            <h2 class="mb-6  font-bold text-orange-500 uppercase">POLITICAS Y PRIVACIDAD</h2>
+            <h2 class="mb-6  font-bold text-white uppercase">POLITICAS Y PRIVACIDAD</h2>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:text-orange-500">Normatividad</a>
@@ -50,22 +50,11 @@
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 class="mb-6 text-xl font-bold uppercase text-orange-600">SERVICIOS</h2>
-            <ul class="text-white text-white font-medium">
-                <li class="mb-4">
-                    <a href="#" class="hover:text-orange-500">iOS</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:text-orange-500">Android</a>
-                </li>
 
-            </ul>
-        </div>
     </div>
-    <div class="px-4 rounded-[20px] py-6 bg-orange-600  md:flex md:items-center md:justify-between">
+    <div class="px-4 rounded-[20px] py-6 bg-orange-900  md:flex md:items-center md:justify-between">
         <span class="text-sm  text-white sm:text-center">© <a href="https://github.com/tiagosmith06" target="_blank" rel="noopener noreferrer"
-            class="ml-2 font-bold hover:text-blue-950">Santiago Perea Murillo </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
+            class="ml-2 font-bold hover:text-blue-950">Copyrihth IIAP </a> 2023 <a href="https://flowbite.com/">™</a>.  Todos los derechos son reservados
         </span>
         <div class="flex mt-4 space-x-5 sm:justify-center md:mt-0">
             <a href="https://web.facebook.com/IIAPCO" class="text-white hover:text-blue-950 ">

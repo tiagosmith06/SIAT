@@ -53,10 +53,10 @@
 
 
                 @if (session('mensaje'))
-                <div class=" text-white rounded-sm p-3 bg-orange-600"><strong>{{session('mensaje')}}</strong> </div>
+                <div class=" text-white rounded-sm p-3 bg-orange-900"><strong>{{session('mensaje')}}</strong> </div>
                 @else
 
-                <form method="POST" class="shadow-md rounded-md max-w-3xl p-3 bg-blue-950  w-full"
+                <form method="POST" class="shadow-md rounded-md max-w-3xl p-3 bg-orange-900  w-full"
                     action="{{ route('contact.submit') }}">
                     @csrf
 
@@ -99,7 +99,7 @@
                         @enderror
                     </div>
                     <button type="submit"
-                        class="text-white text-center justify-center items-center my-3 bg-orange-600  focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:hover:bg-orange-500 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
+                        class="text-white text-center justify-center items-center my-3 bg-orange-900  focus:ring-4  font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2  dark:hover:bg-orange-500 focus:outline-none dark:focus:ring-blue-800">Enviar</button>
                 </form>
                 @endif
 

@@ -5,7 +5,7 @@
                 <img src="{{asset('images/Tenencia_ChBio.jpg')}}" alt="Imagen Vertical" class="w-full h-full object-cover">
             </div>
             <div class="flex-1 m-3 p-4">
-                <h1 class="text-5xl mb-2 text-blue-950  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
+                <h1 class="text-5xl mb-2 text-blue-950 text-center  font-extrabold mb-4">CHOCÓ BIOGEOGRÁFICO</h1>
 
 
             <p class="mb-2 text-base text-black text-center ">
@@ -15,7 +15,7 @@
             </p>
 
 
-            <div  class="bg-blue-950   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
+            <div  class="bg-orange-900   text-white max-w-screen-xl px-0 py-2 mx-2 text-center lg:py-16 lg:px-6">
                 <dl class="grid max-w-screen-md gap-8 mx-auto text-white-900 sm:grid-cols-3 text-white">
                     <div class="flex flex-col items-center justify-center">
                         <dt class="mb-2 text-2xl md:text-2xl font-extrabold">7</dt>
@@ -85,7 +85,7 @@
     </div>
     <div id="accordion-collapse" class="m-10 pb-4"  data-accordion="collapse">
         <h2 id="accordion-collapse-heading-1">
-          <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500 rounded-t-xl  focus:ring-green-500 focus:ring-green-500 border-white-700 text-white-400 hover:bg-orange-600 hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+          <button type="button" class="flex bg-orange-900 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500 rounded-t-xl  focus:ring-green-500 focus:ring-green-500 border-white-700 text-white-400 hover:bg-orange-700 hover:bg-orange-700" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
             <span>MUNICIPIOS</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -124,16 +124,16 @@
                     </div>
                     <div id="paginationInfo" class="text-black"></div>
                     <div class="flex items-center">
-                    <button id="prevPageBtn" class="bg-blue-950 hover:bg-orange-600 text-white mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
+                    <button id="prevPageBtn" class="bg-orange-900 hover:bg-orange-700 text-white mr-2 px-3 py-1 border border-gray-400 rounded-md text-white">Anterior</button>
                     <div id="paginationInfo" class="text-black"></div>
-                    <button id="nextPageBtn" class="bg-blue-950 hover:bg-orange-600 text-white ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
+                    <button id="nextPageBtn" class="bg-orange-900 hover:bg-orange-700 text-white ml-2 px-3 py-1 border border-gray-400 rounded-md text-white">Siguiente</button>
                 </div>
                 </div>
 
             </div>
                 <table id="dataTable" class="w-full">
                     <thead>
-                        <tr class="bg-blue-950 text-white" >
+                        <tr class="bg-orange-900 text-white" >
                             <th class="border px-4 py-2 text-center">CODIGÓ DE DEPARTAMENTOS</th>
                             <th class="border px-4 py-2 text-center">DEPARTAMENTOS</th>
                             <th class="border px-4 py-2 text-center">CÓDIGO DE MUNICIPIOS</th>
@@ -347,7 +347,7 @@
 
 
         <h2 id="accordion-collapse-heading-2">
-          <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 focus:ring-green-500 border-green-500 text-white-400 hover:bg-orange-600 hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
+          <button type="button" class="flex bg-orange-900 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 focus:ring-green-500 border-green-500 text-white-400 hover:bg-orange-700 hover:bg-orange-700" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
             <span>COMUNIDADES NEGRAS</span>
             <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -388,13 +388,13 @@
                 </select>
             </div>
             <div class="flex items-center">
-                <button id="customPrevPageBtn2" class="mr-2 mb-3 px-4 py-2 bg-blue-950 hover:bg-orange-600 text-white rounded-md">Anterior</button>
+                <button id="customPrevPageBtn2" class="mr-2 mb-3 px-4 py-2 bg-orange-900 hover:bg-orange-700 text-white rounded-md">Anterior</button>
                 <div id="customPaginationInfo2" class="text-black"></div>
-                <button id="customNextPageBtn2" class="ml-2 mb-3 px-4 py-2 bg-blue-950 hover:bg-orange-600 text-white rounded-md">Siguiente</button>
+                <button id="customNextPageBtn2" class="ml-2 mb-3 px-4 py-2 bg-orange-900 hover:bg-orange-700 text-white rounded-md">Siguiente</button>
             </div>
         </div>
         <table id="customDataTable2" class="w-full bg-white rounded-lg shadow-lg">
-            <thead class="bg-blue-950 text-white">
+            <thead class="bg-orange-900 text-white">
                 <tr>
                     <th class="border px-4 py-2 cursor-pointer" data-sort="0">NOMBRE DE COMUNIDAD</th>
                     <th class="border px-4 py-2 cursor-pointer" data-sort="1">RESOLUCIÓN</th>
@@ -696,7 +696,7 @@
         </div>
 
         <h2 id="accordion-collapse-heading-3">
-            <button type="button" class="flex bg-orange-600 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 focus:ring-green-500 border-green-500 text-white-400 hover:bg-orange-600 hover:bg-orange-600" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
+            <button type="button" class="flex bg-orange-900 items-center justify-between w-full p-4 font-medium text-left text-white border border-b-0 border-green-500  focus:ring-green-500 focus:ring-green-500 border-green-500 text-white-400 hover:bg-orange-700 hover:bg-orange-700" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
                 <span>RESGUARDO INDIGENAS</span>
                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
@@ -735,13 +735,13 @@
                                     </select>
                                 </div>
                                 <div class="flex items-center">
-                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 mb-4 bg-blue-950 hover:bg-orange-600 text-white rounded-md">Anterior</button>
+                                    <button id="customPrevPageBtn" class="mr-2 px-4 py-2 mb-4 bg-orange-900 hover:bg-orange-700 text-white rounded-md">Anterior</button>
                                     <div id="customPaginationInfo" class="text-black"></div>
-                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 mb-4 bg-blue-950 hover:bg-orange-600 text-white rounded-md">Siguiente</button>
+                                    <button id="customNextPageBtn" class="ml-2 px-4 py-2 mb-4 bg-orange-900 hover:bg-orange-700 text-white rounded-md">Siguiente</button>
                                 </div>
                             </div>
                             <table id="customDataTable" class="w-full bg-white shadow-md rounded-lg">
-                                <thead class="bg-blue-950 text-white">
+                                <thead class="bg-orange-900 text-white">
                                     <tr>
                                         <th class="px-4 py-2 cursor-pointer" data-sort="0">NOMBRE DE RESGUARDO</th>
                                         <th class="px-4 py-2 cursor-pointer" data-sort="1">CÓDIGO TERRITORIAL</th>
