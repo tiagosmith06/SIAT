@@ -4,12 +4,8 @@
 
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
             <h1 class="text-2xl font-medium mb-4">Catálogo</h1>
-
-
             <div class="flex  flex-col gap-4">
-
                 @foreach ($posts as $post)
-
                 <div
                     class="p-6 text-white border relative border-gray-200 rounded-lg shadow  w-full h-[15rem] flex justify-center items-center flex-col bg-slate-500">
                     <div class=" absolute top-0 left-0  bg-white p-2 rounded-l-md">

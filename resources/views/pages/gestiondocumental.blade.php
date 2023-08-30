@@ -3,12 +3,12 @@
         <div class="flex overflow-hidden bg-white rounded-lg">
             <div class="hidden  md:flex md:flex-shrink-0">
                 <div class="flex flex-col w-64">
-                    <div class="flex flex-col flex-grow pt-32  overflow-y-auto bg-orange-900 border-r border-gray-50">
+                    <div class="flex flex-col flex-grow pt-32  overflow-y-auto bg-orange-900 ">
                         <div class="flex flex-col flex-grow px-4 mt-5">
                             <nav class="flex-1  space-y-1 bg-orange-900">
                                 <ul>
                                     <li>
-                                       <input type="search"  placeholder="Buscar"  class="text-white inline-flex items-center w-full px-4 py-2 mt-1  text-white transition duration-600 ease-in-out transform rounded-lg bg-orange-900 focus:shadow-outline" white="" 70="">
+                                       <input type="search"  placeholder="Buscar"  class="text-white inline-flex items-center w-full px-4 py-2 mt-1  text-white transition duration-600 ease-in-out transform rounded-lg bg-white focus:shadow-outline" white="" 70="">
                                     </li>
                                     <li>
                                         <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base text-white transition duration-600 ease-in-out transform rounded-lg bg-orange-900 focus:shadow-outline" white="" 70="" href="#">

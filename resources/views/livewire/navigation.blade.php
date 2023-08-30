@@ -200,7 +200,7 @@
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">Contactenos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">contáctenos</a>
                     </li>
                 </ul>
             </div>

@@ -19,7 +19,7 @@
             <h1 class="mb-6 text-xl font-bold uppercase text-white">ENLACES DE INTERES</h1>
             <ul class="text-white text-white font-medium">
                 <li class="mb-4">
-                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-orange-500">Contactenos</a>
+                    <a href="{{route('pages.contactanos')}}" target="_parent" class="hover:text-orange-500">contáctenos</a>
                 </li>
                 <li class="mb-4">
                     <a href="{{route('pages.comunicacion')}}" target="_parent" class="hover:text-orange-500">Noticias</a>
