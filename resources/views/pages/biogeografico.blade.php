@@ -116,9 +116,9 @@
                     <div>
                         <label for="showEntries">Mostrar entradas:</label>
                         <select id="showEntries" class="px-2 py-1 border border-gray-300 rounded-md">
+                            <option value="5">5</option>
+                            <option value="10">10</option>
                             <option value="15">15</option>
-                            <option value="25" selected>25</option>
-                            <option value="50">50</option>
 
                         </select>
                     </div>
@@ -382,8 +382,8 @@
             <div>
                 <label for="customShowEntries2" class="text-black mb-4">Mostrar registros:</label>
                 <select id="customShowEntries2" class="px-2 py-1 mb-4 border border-blue-500 rounded-md">
-                    <option value="15">15</option>
-                    <option value="25" selected>25</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
                     <option value="50">15</option>
                 </select>
             </div>
@@ -729,9 +729,9 @@
                                 <div>
                                     <label for="customShowEntries" class="text-black mb-4">Mostrar entradas:</label>
                                     <select id="customShowEntries" class="px-2 py-1 mb-4 border border-blue-500-500 rounded-md">
-                                        <option value="10">10</option>
-                                        <option value="15" selected>15</option>
-                                        <option value="25">25</option>
+                                        <option value="5">5</option>
+                                        <option value="10" selected>10</option>
+                                        <option value="15">15</option>
                                     </select>
                                 </div>
                                 <div class="flex items-center">

@@ -22,7 +22,7 @@
                             <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
                                 clip-rule="evenodd"></path>
                         </svg>
-                        <span class="sr-only">Search icon</span>
+                        <span class="sr-only"></span>
                     </div>
 
                     <form action="{{route('posts.search')}}" method="GET" class="d-flex">
@@ -69,20 +69,20 @@
                                 @can('admin.index')
                                 <li>
 
-                                    <a href="{{route('admin.index')}}"  class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium">Dashboard</a>
+                                    <a href="{{route('admin.index')}}"  class="block text-center px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium">Dashboard</a>
                                 </li>
                                 @endcan
 
                                 <li>
 
-                                    <a href="{{ route('register') }}" class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium">Registrar</a>
+                                    <a href="{{ route('register') }}" class="block text-center px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium">Registrar</a>
                                 </li>
 
 
 
                                 <li>
                                     <a href="{{route('profile.show')}}"
-                                        class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium ">Ajuste de cuenta</a>
+                                        class="block text-center px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium ">Ajuste de cuenta</a>
                                 </li>
 
                                 <li>
@@ -92,7 +92,7 @@
                                         @csrf
 
                                         <a href="{{ route('logout') }}"
-                                            class="block px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium "
+                                            class="block text-center px-4 py-2 text-sm text-white rounded-md hover:bg-orange-700 hover:text-white font-medium "
                                             @click.prevent="$root.submit();">Cerrar sesión</a>
                                     </form>
 
@@ -103,7 +103,7 @@
                 </div>
                 @else
 
-                <div class="flex gap-2 order-3 right-2 items-center cursor-pointer text-white text-[14px] flex-col">
+                <div class="flex gap-2 order-3 right-2 items-center text-center cursor-pointer text-white text-[14px] flex-col">
                            <a href="{{ route('login') }}" class="text-white">Iniciar Sesión</a>
                 </div>
 
@@ -116,16 +116,16 @@
 
                     <li>
                         <a href="/"
-                            class="block py-2 pl-2 pr-2 text-white
+                            class="block text-center py-2 pl-2 pr-2 text-white
                                  rounded  hover:text-white md:p-0 {{request()->routeIs('pages.index') ? 'font-bold text-white' : '' }}">Inicio</a>
                     </li>
                     <li>
                         <a href="{{route('pages.quienes_somos')}}"
-                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
+                            class="{{request()->routeIs('pages.quienes_somos') ? 'font-bold text-white' : '' }} block text-center py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">¿Quienes somos?</a>
                     </li>
                     <li>
                         <a href="{{route('pages.biogeografico')}}"
-                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-li' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
+                            class="{{request()->routeIs('pages.biogeografico') ? 'font-bold text-li' : '' }} block text-center py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">Chocó Biogeográfico</a>
                     </li>
 
                     <li class="relative">
@@ -143,19 +143,17 @@
                             class="z-40  font-normal hidden bg-orange-900 divide-y absolute divide-gray-100 rounded shadow w-44 ">
                             <ul class="py-1 text-sm text-white  " aria-labelledby="mega-menu-icons-dropdown-button2">
                                 <li>
-                                    <a href="{{route('pages.geovisor')}}"
-                                        class="block px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">
+                                    <a href="{{route('pages.geovisor')}}" class="block text-center px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">
                                         Geovisor
                                     </a>
                                 </li>
                                 <li>
                                     <a href={{route('pages.catalogo')}}
-                                        class="block px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">Catálogo
+                                        class="block text-center px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">Catálogo
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={{route('pages.dashboard')}}
-                                        class="block px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">Tableros de Control
+                                    <a href={{route('pages.dashboard')}} class="block text-center px-4 py-2 hover:bg-orange-700 hover:text-white rounded-md">Tableros de Control
                                     </a>
                                 </li>
                             </ul>
@@ -200,7 +198,7 @@
                     </li>
                     <li>
                         <a href="{{route('pages.contactanos')}}"
-                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">contáctenos</a>
+                            class="{{request()->routeIs('pages.contactanos') ? 'font-bold text-white' : '' }} block py-2 pl-2 pr-2  rounded   hover:text-white md:p-0 hover:font-medium text-white">Contáctenos</a>
                     </li>
                 </ul>
             </div>

@@ -3,7 +3,7 @@
 
         <div class="container mt-40 py-4   max-w-6xl  ">
             <h1 class="text-3xl text-center text-blue-950 font-medium mb-4">ÚLTIMAS NOVEDADES</h1>
-                <div class="grid m-3 gap-6 lg:grid-cols-3 xl:gap-x-12">
+                <div class="grid m-3 gap-4 lg:grid-cols-2 xl:gap-x-12">
 
                 @foreach ($posts as $post)
 
