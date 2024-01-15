@@ -1,7 +1,6 @@
 <x-app-layout>
     <div class="min-h-screen">
 
-
         <div class="container py-8 my-0 mx-auto max-w-6xl  ">
             <h1 class="text-2xl font-medium mb-4">Catálogo</h1>
             <div class="flex  flex-col gap-4">
@@ -19,7 +18,6 @@
                     </a>
                     <a href="{{route('pages.show-biogeografico',$post)}}" class="mb-3 font-normal ">
                         {!! html_entity_decode(Str::limit($post->extract, 90, '...')) !!}
-
                     </a>
 
                 </div>
